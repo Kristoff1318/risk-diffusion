@@ -102,7 +102,7 @@ def run(n,sub):
  if (P/f'RUN_{n}_{sub}.json').exists():raise RuntimeError('Preserve outputs')
  for i in range(4):
   for regime,scale in [('base',1),('double',2)]:
-   draws=tuple(v[:n] for v in p0.noise(1024,spec['seeds'][i],scale));row,f,q,v,u=evaluate(arm,bank['q'][i],bank['target'][i],draws,sub,backend,4096 if backend else512);row.update(path=i,regime=regime);rows.append(row);key=f'p{i}_{regime}';flags[key]=f;demo[key+'_q']=q[:4];demo[key+'_v']=v[:4];demo[key+'_u']=u[:4];print(json.dumps(row),flush=True)
+   draws=tuple(v[:n] for v in p0.noise(1024,spec['seeds'][i],scale));row,f,q,v,u=evaluate(arm,bank['q'][i],bank['target'][i],draws,sub,backend,4096 if backend else 512);row.update(path=i,regime=regime);rows.append(row);key=f'p{i}_{regime}';flags[key]=f;demo[key+'_q']=q[:4];demo[key+'_v']=v[:4];demo[key+'_u']=u[:4];print(json.dumps(row),flush=True)
  report={'rows':rows,'process_seconds':time.perf_counter()-start,'peak_RSS_KiB':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}
  if backend:report['gpu_peak_allocated_bytes']=backend.t.cuda.max_memory_allocated()
  save(f'RUN_{n}_{sub}.json',report);np.savez_compressed(P/f'FLAGS_{n}_{sub}.npz',**flags);np.savez_compressed(P/f'DEMO_{n}_{sub}.npz',**demo)
