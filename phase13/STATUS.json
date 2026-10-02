@@ -1,0 +1,24 @@
+{
+  "phase": 13,
+  "complete": true,
+  "branch": "improve/nonlinear-risk-calibration",
+  "pre_integration_commit": "d214e492ac2de4f46c2178d1ff92e6b6acc2d567",
+  "source_commit": "e6798135abd6b811a9f1a3be036e6d8700d50020",
+  "minimal_cherry_pick": "67a1ee8a175b8a8d79a035b2dcf4fe3dbf17dea8",
+  "cpu_tests_passed": 14,
+  "gpu_requests_passed": 2,
+  "GPU_slot": "released; process exited",
+  "default": "fully batched fixed N",
+  "optional_mode": "decision-equivalent lazy fixed-N",
+  "B_C": "not integrated; no sequential early admission",
+  "new_planning": 0,
+  "new_optimization": 0,
+  "new_inference": 0,
+  "new_independent_research_audits": 0,
+  "phase12": "stopped; no replacement or covariance sweep",
+  "limitations": [
+    "two warm saved-request parity cases; no universal latency guarantee",
+    "caller declares immutable qualified physical model identity",
+    "no new safety or fresh risk-performance evidence"
+  ]
+}

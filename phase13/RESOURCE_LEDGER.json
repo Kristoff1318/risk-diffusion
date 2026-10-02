@@ -1,0 +1,15 @@
+{
+  "engineering_cap_seconds": 180,
+  "engineering_cap_bytes": 30000000,
+  "measured_test_commands_seconds": 13.31,
+  "measured_full_original_preservation_command_seconds": 5.124318325,
+  "conservative_ancillary_booking_seconds": 60,
+  "total_conservative_booking_seconds": 78.434318325,
+  "remaining_seconds": 101.565681675,
+  "scope": "separate engineering integration; phase12 scientific booking198.42/450 unchanged",
+  "accounting": "Ancillary reserve estimates remaining inspection/code/protocol/report/git commands. This is conservative booking, not a measured sum. No repeated GPU benchmark; import failure used zero GPU allocation/draws.",
+  "GPU_process_seconds": 9.875376904994482,
+  "peak_GPU_allocated_bytes": 684407296,
+  "peak_RSS_KiB": 1435576,
+  "output_bytes_phase13_and_adapter_before_final_manifest": 111179
+}

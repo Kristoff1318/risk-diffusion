@@ -34,3 +34,17 @@ comparison follows automatically. GPU slot released. See phase12/RESULTS.md,
 STATUS.json and raw MAIN_RESULTS.json. Cumulative conservative booking is
 198.42/450 s, with 251.58 s unspent; the variant is stopped, not scheduled to
 use that remainder.
+
+Phase13 integrated only the minimal decision-equivalent lazy validator commit
+(e679813 cherry-picked as67a1ee8) and a narrow opt-in bridge to the current
+unchanged physical validator. Pre-integration tag pinsd214e49; all1,128 original
+tracked files were verified unchanged before this append. Fully batched fixedN
+remains default. Lazy may deterministically reject at fixed-N futility or skip
+higher-cost candidates after full-N certification; sequential B/C is absent.
+All14 CPU tests and both prespecified real saved-request GPU parity cases passed,
+including the changedB/Ccase. Every acquired event row and selected slot matched.
+Healthy case2048→1024draws,2.775→1.488s; difficult case2048→1984draws,
+2.726→2.708s. Chunk16/sync overhead and full bank/hash setup are charged; no
+universal speed claim. No new planning/inference/optimization/independent audit,
+no phase12 replacement or covariance sweep. GPU slot released. See phase13/
+RESULTS.md, PROJECT_STATUS.md, GPU_SMOKE.json and engineering resource ledger.
