@@ -1,7 +1,11 @@
 # Risk planning study status
 
-Phase7 is a completed, preserved and confounded raw-prior comparison: classical includes IK plus nominal pose/collision refinement while MPD omits nominal refinement. Do not present it as a fair comparison of healthy planning pipelines. Admission/risk outcomes remain unchanged.
+Phase7 is preserved as a confounded comparison: classical included IK plus nominal refinement while MPD was raw. Its zero MPD admissions do not diagnose risk correction on a healthy nominal generator.
 
-The separately frozen phase8 saved-seed diagnosis restores 15/16 nominally feasible MPD proposals, covering 8/8 tasks, using exactly the same nominal optimizer without IK or projection. Missing nominal preparation was the principal phase7 failure mechanism; nominal restoration does not establish stochastic acceptance or diffusion superiority.
+Phase8 applied identical 80-step nominal refinement to the same16 MPD samples without IK/projection, restoring15/16 nominally valid slots over8/8 tasks. It did not evaluate stochastic acceptance.
 
-See phase8/RESULTS.md for complete failures, costs, timings and one proposed fair follow-on. No stochastic follow-on has run; phase7 remains byte-identical.
+Phase9 is a completed diagnostic replay of the same proposals after equal nominal preparation, comparing no correction, eight dense deterministic steps and eight sampled-CVaR steps. Classical admissions are3/5/5 at5% and4/5/6 at10%; MPD is7/7/7 at both. CVaR has mixed classical gains, and improves MPD cost/risk relative to dense correction without added coverage. No-extra prepared MPD already has zero observed selected audit failures. Correction steps match; sampled-gradient compute/runtime does not. Cached replay is not a cold or fresh held-out benchmark.
+
+Task42576 has a26.58% initial joint-violation floor under the fixed physical uncertainty, so5%/10% cannot be met by later commands. It remains in all arms. All96 requests completed; no more variants or follow-on experiments have run.
+
+See phase9/RESULTS.md and its raw/paired CSVs, confidence bounds, historical preparation times and resource ledger. Previous phases remain unchanged. No broad generalization or safety guarantee is established.

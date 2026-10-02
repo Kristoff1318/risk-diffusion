@@ -1,0 +1,48 @@
+{
+  "initial_error_standard_deviation_rad": 0.004,
+  "independent_joints": true,
+  "source": "frozen initial physical Gaussian offset; no new draws/evaluations",
+  "joint_limits_sha256": "55ff66d50ba65af4c7a29591a1a3af0c4cceea83244fd6b5fcbf3a9b94248686",
+  "rows": [
+    {
+      "task": 0,
+      "official_ID": 1959097,
+      "initial_joint_failure_probability": 0.0
+    },
+    {
+      "task": 1,
+      "official_ID": 572764,
+      "initial_joint_failure_probability": 0.00026300980592064427
+    },
+    {
+      "task": 2,
+      "official_ID": 1412961,
+      "initial_joint_failure_probability": 0.0
+    },
+    {
+      "task": 3,
+      "official_ID": 1930902,
+      "initial_joint_failure_probability": 0.0
+    },
+    {
+      "task": 4,
+      "official_ID": 1635282,
+      "initial_joint_failure_probability": 0.0
+    },
+    {
+      "task": 5,
+      "official_ID": 990634,
+      "initial_joint_failure_probability": 0.0
+    },
+    {
+      "task": 6,
+      "official_ID": 693071,
+      "initial_joint_failure_probability": 0.0
+    },
+    {
+      "task": 7,
+      "official_ID": 42576,
+      "initial_joint_failure_probability": 0.265825515495263
+    }
+  ]
+}

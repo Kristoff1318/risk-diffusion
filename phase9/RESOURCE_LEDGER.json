@@ -1,0 +1,22 @@
+{
+  "metered_main_wall": 737.94,
+  "unmetered_freeze_inspection_analysis_reporting_preservation_allowance_seconds": 80,
+  "booked_seconds": 818.1,
+  "allowance_is_estimate_not_measured_total": true,
+  "cap_seconds": 900,
+  "cap_bytes": 100000000,
+  "main_CPU_times": [
+    736.62,
+    1.04,
+    0.0,
+    0.0,
+    4406398.45
+  ],
+  "old_phases_unchanged": true,
+  "metered_saved_analysis_wall_seconds": 0.16,
+  "metered_saved_analysis_user_seconds": 0.91,
+  "metered_saved_analysis_system_seconds": 1.85,
+  "metered_command_wall_total_seconds": 738.1,
+  "unmetered_allowance_scope": "freeze, inspection, ancillary analytic calculation, report edits, verification and commits; conservative estimate, not measured",
+  "phase9_namespace_bytes_before_final_metadata": 5264146
+}
