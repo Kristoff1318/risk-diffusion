@@ -62,7 +62,7 @@ def nominal_check(core,nom,target):
   nd=nom.detach().cpu().numpy();zeros=(np.zeros((1,2001,7)),np.zeros((1,200,7)),np.zeros((1,200,7)));r,f=audit(core,nom,target,zeros);r['cost']=float(core.cost(nom));return r
 
 def refine(core,x,start,target,*,steps,lr,delta=None,err=None,wallcap=1000):
- x=x.detach().clone().requires_grad_(True);opt=torch.optim.Adam([x],lr=lr);trace=[];beg=time.perf_counter();timedout=False
+ x=x.detach().clone().requires_grad_(True);opt=torch.optim.Adam([x],lr=lr);trace=[];beg=time.perf_counter();timedout=False;best=None;bestscore=float('inf');best_iteration=None
  for i in range(steps):
   if time.perf_counter()-beg>=wallcap:timedout=True;break
   opt.zero_grad();nom=core.nom(x,start)
@@ -70,17 +70,18 @@ def refine(core,x,start,target,*,steps,lr,delta=None,err=None,wallcap=1000):
   else:
    lossvec=core.risk_losses(nom,target,err);tail=core.tail(lossvec,delta);loss=core.cost(nom)+500*torch.relu(tail+.05).square()
   if not torch.isfinite(loss):trace.append({'iteration':i,'nonfinite_loss':True});break
+  score=float(loss.detach()) if delta is None else (float(core.cost(nom).detach()) if float(tail.detach())<=-.05 else 100000+float(tail.detach()))
+  if score<bestscore:bestscore=score;best=x.detach().clone();best_iteration=i
   loss.backward();norm=float(x.grad.norm());torch.nn.utils.clip_grad_norm_([x],20.);opt.step();torch.cuda.synchronize();trace.append({'iteration':i,'objective':float(loss.detach()),'cost':float(core.cost(nom).detach()),'cvar':float(tail.detach()) if tail is not None else None,'grad_norm':norm,'seconds':time.perf_counter()-beg})
- return x.detach(),{'trace':trace,'seconds':time.perf_counter()-beg,'timeout':timedout,'iterations':len(trace),'gradient_calls':len(trace)}
+ return (best if best is not None else x.detach()),{'returned_iteration':best_iteration,'selection_rule':'lowest nominal objective; risk lowestJ with sampledCVaR<=-.05 else lowestsampledCVaR','trace':trace,'seconds':time.perf_counter()-beg,'timeout':timedout,'iterations':len(trace),'gradient_calls':len(trace)}
 
 def classical(core,start,target,seed,steps=80):
  beg=time.perf_counter();gen=torch.Generator(device='cuda').manual_seed(seed);seeds=torch.stack((start,core.cast([0,-1.3,0,-2.5,0,1,0])));ends=[];iktrace=[]
- for seedq in seeds:
-  q=seedq.detach().clone().requires_grad_(True);opt=torch.optim.Adam([q],lr=.04)
-  for k in range(80):
-   opt.zero_grad();pe,ang=core.pose_errors(q[None],target);loss=(pe/.01).square().sum()+(ang/math.radians(2)).square().sum();loss.backward();opt.step()
-   with torch.no_grad():q.clamp_(core.lo,core.hi)
-  ends.append(q.detach());iktrace.append({'position':float(pe.detach()),'orientation':float(ang.detach()),'steps':80})
+ q=seeds.clone()
+ for k in range(80):
+  q=q.detach().requires_grad_(True);R,pos=core.fk(q,0)['panda_hand'];res=torch.cat((pos-target[:,3],(R-target[:,:3]).flatten(1)),1);jac=torch.stack([torch.autograd.grad(res[:,j].sum(),q,retain_graph=True)[0] for j in range(12)],1);system=jac@jac.transpose(1,2)+1e-4*torch.eye(12,**core.kw);delta=(jac.transpose(1,2)@torch.linalg.solve(system,res.unsqueeze(-1))).squeeze(-1);delta=delta*(.1/delta.norm(dim=-1).clamp_min(.1))[:,None];q=(q-delta).maximum(core.lo).minimum(core.hi).detach()
+ for end in q:
+  pe,ang=core.pose_errors(end[None],target);ends.append(end);iktrace.append({'position':float(pe),'orientation':float(ang),'steps':80,'method':'fullpose12residual DLS regularization1e-4 maxstep.1rad'})
  candidates=[];logs=[];phase=torch.linspace(0,1,24,**core.kw)
  for i,end in enumerate(ends):
   x=start[None]+phase[:,None]*(end-start)[None]
