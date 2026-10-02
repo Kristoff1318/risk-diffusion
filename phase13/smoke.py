@@ -5,7 +5,7 @@ import torch
 from fractions import Fraction
 from scipy.stats import beta
 P=pathlib.Path(__file__).resolve().parent
-sys.path[:0]=[str(P.parent),str(P.parent/'phase7')]
+sys.path[:0]=[str(P.parent/'phase7'),str(P.parent)]
 import core
 from validation_adapter import Request
 from validation_adapter.physical_bridge import freeze_candidate, PhysicalBackend, validate_current
