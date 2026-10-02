@@ -14,7 +14,7 @@
   "remaining_seconds": 251.58,
   "artifact_total_cap_bytes": 50000000,
   "phase11_bytes": 232424,
-  "phase12_bytes_before_final_ledger": 516919,
+  "phase12_bytes_before_final_ledger": 518966,
   "sample_counts_reduced_after_outcomes": false,
   "stopped_on_prespecified_gate": true,
   "GPU_slot_released": true,

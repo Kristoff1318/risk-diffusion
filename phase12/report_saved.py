@@ -15,7 +15,7 @@ for p in r['prepared']:
             'self_curobo_margin_m': n['minimum_margins'][3], 'source_generation_and_nominal_seconds': p['seconds'],
             'admission_executions': 0, 'audit_executions': 0, 'stochastic_risk_measured': False})
 with (P/'PREPARED_PROPOSALS.csv').open('w') as stream:
-    w = csv.DictWriter(stream, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+    w = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator='\n'); w.writeheader(); w.writerows(rows)
 tasks = []
 for t in r['tasks']:
     item = {'task': t['task'], 'official_ID': t['official_ID'], 'position': t['position'],
@@ -28,7 +28,7 @@ for t in r['tasks']:
         'prepared_diagnostic_executions': 0, 'correction_steps': 0}
     tasks.append(item)
 with (P/'PER_TASK_STATUS.csv').open('w') as stream:
-    w = csv.DictWriter(stream, fieldnames=list(tasks[0])); w.writeheader(); w.writerows(tasks)
+    w = csv.DictWriter(stream, fieldnames=list(tasks[0]), lineterminator='\n'); w.writeheader(); w.writerows(tasks)
 assert r['stop_reason'].startswith('frozen nominal-health gate')
 assert not any(v['candidates'] for v in r['rows'])
 assert len(rows) == 12

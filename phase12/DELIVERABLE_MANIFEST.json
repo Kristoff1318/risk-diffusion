@@ -4,8 +4,8 @@
     "sha256": "77ae2da3b23d5b548eb998ec5013933eae831a1ca79a434d911757a100eda5bd"
   },
   "phase12/report_saved.py": {
-    "bytes": 10677,
-    "sha256": "9f4d73f176bc395b614fdd5b051a31f6ab6dafbba91f90a2a21865c9d4b527d9"
+    "bytes": 10719,
+    "sha256": "1b28789c1b2bc4287e3e2d06fee4a4359662bbf0429bf8c162e4448314e07557"
   },
   "phase12/RESULTS.md": {
     "bytes": 6090,
@@ -20,8 +20,8 @@
     "sha256": "baf89caa662c3bd439e992656e359ed7d1f67b2b3be3b4a2793c26faa502c8a3"
   },
   "phase12/PREPARED_PROPOSALS.csv": {
-    "bytes": 3066,
-    "sha256": "9eb7b6f0fc3764a6884c1d41c3e2ad42d586876fd14af1f8ac9dae499304ada0"
+    "bytes": 3053,
+    "sha256": "1cfd88a1b5622ec53e11e58bb512f605a66b83171eeb419145eb2b3c021ef87f"
   },
   "phase12/PROTOCOL.json": {
     "bytes": 7347,
@@ -45,7 +45,7 @@
   },
   "phase12/RESOURCE_LEDGER.json": {
     "bytes": 808,
-    "sha256": "be2bf592b275a2f3664833503ebd6813a480cbce8a7a016e0b33c6e637cd16fa"
+    "sha256": "52b85fce1507e04f9727d24a15286dd83e2eb569fb232b0c72591e6a5218c5fa"
   },
   "phase12/PROTOCOL.md": {
     "bytes": 5075,
@@ -56,7 +56,7 @@
     "sha256": "f8d1940c226639a5a78d42af77af4d4326994ca1fc527af566ddc7962ea8fa8d"
   },
   "phase12/PER_TASK_STATUS.csv": {
-    "bytes": 570,
-    "sha256": "ef6b7cffd5c4e92b0c2c440c352bf6c5c2368b50b542e5ef06cb28da91de5546"
+    "bytes": 565,
+    "sha256": "f82931b2d73983f88620c743138234a3df3d1feacbc755d3a3276eb0c1ffde9a"
   }
 }
