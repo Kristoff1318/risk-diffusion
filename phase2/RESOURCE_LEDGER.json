@@ -1,0 +1,50 @@
+{
+  "scope": "First no-training CPU frozen-control sine-moment experiment",
+  "pre_evaluation_commit": "e4ac7fc",
+  "baseline_commit": "4785062735660ef04a2e79b89e476057c197aed2",
+  "branch": "improve/nonlinear-risk-calibration",
+  "device": "cpu",
+  "threads": 2,
+  "freeze_command_wall_seconds": 0.463096302,
+  "experiment_process_wall_seconds": 8.21,
+  "experiment_body_wall_seconds": 7.668750782991992,
+  "experiment_user_cpu_seconds": 12.01,
+  "experiment_system_cpu_seconds": 6.28,
+  "max_rss_kb": 1117584,
+  "measured_freeze_plus_experiment_wall_seconds": 8.673096302,
+  "command_budget_seconds": 180,
+  "artifact_budget_bytes": 50000000,
+  "unique_reference_execution_paths": 1015808,
+  "unique_audit_execution_paths": 4063232,
+  "training_steps": 0,
+  "gpu_seconds": 0,
+  "installs": 0,
+  "downloads": 0,
+  "note": "Wall values are measured freeze-command and /usr/bin/time experiment process times. Small inspection/copy/Git/report commands add well under a second of execution each. Approval/tool latency is not command execution. User/system time is summed CPU time across threads, not wall time. Artifact totals below include both ignored raw outputs and tracked deliverables, with Git objects verified after commit.",
+  "raw_artifacts": {
+    "phase2_outputs/sine_moments_20261002/protocol.json": {
+      "bytes": 97664,
+      "sha256": "5610a6a1495d009557d03016163487f54159a7099612ca8c9d0d98a2da17e4a1"
+    },
+    "phase2_outputs/sine_moments_20261002/status.json": {
+      "bytes": 184,
+      "sha256": "8ae5087790575d18710e317c36d7c1d3378f7b1ded9f9d68cad6a15eb4701d39"
+    },
+    "phase2_outputs/sine_moments_20261002/results.json": {
+      "bytes": 2475175,
+      "sha256": "5fe5d573b70f840ae8f54de528fefecf17d74d121af1601642cd8bd9ba24e71d"
+    },
+    "phase2_outputs/sine_moments_20261002/frozen_controls.npz": {
+      "bytes": 50509,
+      "sha256": "f94af5adf434ee28403ed5d83e5a80be7d67bbecb91459c6854f4a1b19aa7e34"
+    },
+    "phase2_outputs/sine_moments_20261002/summary.json": {
+      "bytes": 12740,
+      "sha256": "59dbaa2473d3db6a49eed7a74a67473c49e02f1787ce9fa87f1b0dfb0932dc9b"
+    },
+    "phase2_outputs/sine_moments_20261002/run.log": {
+      "bytes": 1780,
+      "sha256": "a62ea432603a6d0ef2b8ed2f3b4b56dad6f922640c9781e668f937537632f2ff"
+    }
+  }
+}

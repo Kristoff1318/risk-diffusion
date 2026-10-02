@@ -1,0 +1,382 @@
+{
+  "tuning/moderate_noise": {
+    "cases": 24,
+    "methods": {
+      "jacobian": {
+        "mean_error_average": 0.0049347353153567225,
+        "terminal_mean_error": 0.012584511083243292,
+        "covariance_error_average": 0.00040393166253551474,
+        "terminal_covariance_error": 0.0010163153395001724,
+        "cross_covariance_mae": 0.00012813640187501148,
+        "exact_marginal_mae": 0.0014069669613083985,
+        "tangent_marginal_mae": 0.00043410622122739656,
+        "risk_underestimation": 0.00021391814888306994,
+        "risk_signed_error": 0.1751804397800536,
+        "cpu_seconds": 0.0005462222747155465,
+        "gaussian_error": -0.00020026700705578454,
+        "union_excess": 0.14701334635416666,
+        "geometry_excess": 0.0279998779296875,
+        "risk_mae": 0.17560827607781973,
+        "worst_risk_underestimation": 0.002478579879322037,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 17,
+          "0.1": 20,
+          "0.2": 20
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      },
+      "sine_gaussian_closure": {
+        "mean_error_average": 0.001748413616713575,
+        "terminal_mean_error": 0.0026426557956458576,
+        "covariance_error_average": 0.0003865652560563353,
+        "terminal_covariance_error": 0.0009232283727037338,
+        "cross_covariance_mae": 0.00012264424035602852,
+        "exact_marginal_mae": 0.0012974036166928666,
+        "tangent_marginal_mae": 0.0002846254864064909,
+        "risk_underestimation": 0.00012915002978766137,
+        "risk_signed_error": 0.17438137242967774,
+        "cpu_seconds": 0.0010451608667305361,
+        "gaussian_error": -0.0008620052558691386,
+        "union_excess": 0.14701334635416666,
+        "geometry_excess": 0.027862548828125,
+        "risk_mae": 0.17463967248925308,
+        "worst_risk_underestimation": 0.001305141283284024,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 17,
+          "0.1": 20,
+          "0.2": 20
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      }
+    },
+    "audit_confirmed_unsafe_count": {
+      "0.05": 4,
+      "0.1": 4,
+      "0.2": 3
+    }
+  },
+  "tuning/nonlinear": {
+    "cases": 24,
+    "methods": {
+      "jacobian": {
+        "mean_error_average": 0.016201453147223075,
+        "terminal_mean_error": 0.04392516694311104,
+        "covariance_error_average": 0.0009842707839362995,
+        "terminal_covariance_error": 0.004081322569001435,
+        "cross_covariance_mae": 0.00039559733956158824,
+        "exact_marginal_mae": 0.0012710238108268569,
+        "tangent_marginal_mae": 0.001271327139681626,
+        "risk_underestimation": 0.002066005006326145,
+        "risk_signed_error": 0.040274128492771906,
+        "cpu_seconds": 0.0005469727830738217,
+        "gaussian_error": -0.01662080965826976,
+        "union_excess": 0.041508992513020836,
+        "geometry_excess": 0.014734903971354166,
+        "risk_mae": 0.04440613850542419,
+        "worst_risk_underestimation": 0.011509807698242747,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 19,
+          "0.1": 21,
+          "0.2": 23
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      },
+      "sine_gaussian_closure": {
+        "mean_error_average": 0.0016905062840734599,
+        "terminal_mean_error": 0.003138496346671756,
+        "covariance_error_average": 0.0008334172480907857,
+        "terminal_covariance_error": 0.0029949295623746736,
+        "cross_covariance_mae": 0.0002756253913815769,
+        "exact_marginal_mae": 0.0008989836294624326,
+        "tangent_marginal_mae": 0.0008639014505368384,
+        "risk_underestimation": 0.0015844083905202056,
+        "risk_signed_error": 0.04085251129453434,
+        "cpu_seconds": 0.0010448562163219322,
+        "gaussian_error": -0.015549059343486488,
+        "union_excess": 0.041508992513020836,
+        "geometry_excess": 0.014241536458333334,
+        "risk_mae": 0.04402132807557476,
+        "worst_risk_underestimation": 0.006188335290268177,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 19,
+          "0.1": 21,
+          "0.2": 22
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      }
+    },
+    "audit_confirmed_unsafe_count": {
+      "0.05": 2,
+      "0.1": 2,
+      "0.2": 1
+    }
+  },
+  "evaluation/moderate_noise": {
+    "cases": 32,
+    "methods": {
+      "jacobian": {
+        "mean_error_average": 0.005052809099275939,
+        "terminal_mean_error": 0.012040186232787761,
+        "covariance_error_average": 0.00038010350003127996,
+        "terminal_covariance_error": 0.0007928183148381035,
+        "cross_covariance_mae": 0.00013607980126897738,
+        "exact_marginal_mae": 0.0004166124461095714,
+        "tangent_marginal_mae": 0.0003014761350660882,
+        "risk_underestimation": 0.00039875715199899034,
+        "risk_signed_error": 0.013445266166233785,
+        "cpu_seconds": 0.0005446832808956969,
+        "gaussian_error": -0.0008951345295669948,
+        "union_excess": 0.008922576904296875,
+        "geometry_excess": 0.00572967529296875,
+        "risk_mae": 0.014242780470231768,
+        "worst_risk_underestimation": 0.002568928147786153,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 25,
+          "0.1": 28,
+          "0.2": 31
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      },
+      "sine_gaussian_closure": {
+        "mean_error_average": 0.0014422798547969122,
+        "terminal_mean_error": 0.0024066296560833478,
+        "covariance_error_average": 0.00037668405145816234,
+        "terminal_covariance_error": 0.0007489762488053794,
+        "cross_covariance_mae": 0.00013343146504363524,
+        "exact_marginal_mae": 0.00034255685745794947,
+        "tangent_marginal_mae": 0.0002028601975588506,
+        "risk_underestimation": 0.0002972260369186163,
+        "risk_signed_error": 0.01338331226794305,
+        "cpu_seconds": 0.0010442456504279108,
+        "gaussian_error": -0.0008922385743421068,
+        "union_excess": 0.008922576904296875,
+        "geometry_excess": 0.005664825439453125,
+        "risk_mae": 0.013977764341780285,
+        "worst_risk_underestimation": 0.0016286250619527987,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 25,
+          "0.1": 28,
+          "0.2": 31
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      }
+    },
+    "audit_confirmed_unsafe_count": {
+      "0.05": 5,
+      "0.1": 1,
+      "0.2": 0
+    }
+  },
+  "evaluation/nonlinear": {
+    "cases": 32,
+    "methods": {
+      "jacobian": {
+        "mean_error_average": 0.015017652948669186,
+        "terminal_mean_error": 0.04034821242995934,
+        "covariance_error_average": 0.0009445824541350707,
+        "terminal_covariance_error": 0.0035842714446280175,
+        "cross_covariance_mae": 0.00037506031427292895,
+        "exact_marginal_mae": 0.0012479038310569787,
+        "tangent_marginal_mae": 0.001236551397606312,
+        "risk_underestimation": 0.002408341052347468,
+        "risk_signed_error": 0.03661323705179098,
+        "cpu_seconds": 0.0005474233747918333,
+        "gaussian_error": -0.01289962610738871,
+        "union_excess": 0.035552978515625,
+        "geometry_excess": 0.01375579833984375,
+        "risk_mae": 0.04142991915648591,
+        "worst_risk_underestimation": 0.010826171046932287,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 27,
+          "0.1": 27,
+          "0.2": 28
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      },
+      "sine_gaussian_closure": {
+        "mean_error_average": 0.0016962587985308334,
+        "terminal_mean_error": 0.0025465269601673327,
+        "covariance_error_average": 0.0007968077404563762,
+        "terminal_covariance_error": 0.002682996905566451,
+        "cross_covariance_mae": 0.00025490106300419326,
+        "exact_marginal_mae": 0.00082978903733139,
+        "tangent_marginal_mae": 0.0007656435370929089,
+        "risk_underestimation": 0.0016661306193809452,
+        "risk_signed_error": 0.03645135501847284,
+        "cpu_seconds": 0.0010456016064381401,
+        "gaussian_error": -0.012588485679769352,
+        "union_excess": 0.035552978515625,
+        "geometry_excess": 0.01328277587890625,
+        "risk_mae": 0.03978361625723473,
+        "worst_risk_underestimation": 0.0055770000249851966,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 27,
+          "0.1": 27,
+          "0.2": 28
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      }
+    },
+    "audit_confirmed_unsafe_count": {
+      "0.05": 5,
+      "0.1": 2,
+      "0.2": 1
+    }
+  },
+  "diagnostic/nonlinear": {
+    "cases": 12,
+    "methods": {
+      "jacobian": {
+        "mean_error_average": 0.013551009052302174,
+        "terminal_mean_error": 0.0389544174251105,
+        "covariance_error_average": 0.001125195955183924,
+        "terminal_covariance_error": 0.004304430440326415,
+        "cross_covariance_mae": 0.0005844610654560522,
+        "exact_marginal_mae": 0.001437823709653142,
+        "tangent_marginal_mae": 0.00139332012195981,
+        "risk_underestimation": 0.013352026480093149,
+        "risk_signed_error": -0.013352026480093149,
+        "cpu_seconds": 0.0005437885335898803,
+        "gaussian_error": -0.026332169709259817,
+        "union_excess": 0.007171630859375,
+        "geometry_excess": 0.006022135416666667,
+        "risk_mae": 0.013352026480093149,
+        "worst_risk_underestimation": 0.019825328925151292,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 11,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 11,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 0,
+          "0.1": 11,
+          "0.2": 12
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      },
+      "sine_gaussian_closure": {
+        "mean_error_average": 0.0016909646976084637,
+        "terminal_mean_error": 0.0024617091886809,
+        "covariance_error_average": 0.0006900635092925712,
+        "terminal_covariance_error": 0.0022905643900090803,
+        "cross_covariance_mae": 0.00023385922406146732,
+        "exact_marginal_mae": 0.000698558422554725,
+        "tangent_marginal_mae": 0.0005996712129978493,
+        "risk_underestimation": 0.001044905185753105,
+        "risk_signed_error": 0.0006345901330332056,
+        "cpu_seconds": 0.001044155600296411,
+        "gaussian_error": -0.012223482783633463,
+        "union_excess": 0.007171630859375,
+        "geometry_excess": 0.005900065104166667,
+        "risk_mae": 0.0027244005045394155,
+        "worst_risk_underestimation": 0.004021213061303264,
+        "false_safe_confirmed": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "false_safe_point_estimate": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 0
+        },
+        "predicted_safe_count": {
+          "0.05": 0,
+          "0.1": 0,
+          "0.2": 12
+        },
+        "minimum_covariance_eigenvalue": 0.000225
+      }
+    },
+    "audit_confirmed_unsafe_count": {
+      "0.05": 12,
+      "0.1": 12,
+      "0.2": 0
+    }
+  }
+}
