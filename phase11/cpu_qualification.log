@@ -1,0 +1,14 @@
+test_augmented_covariance (__main__.Equations) ... ok
+test_coincident (__main__.Equations) ... ok
+test_cost_gradient (__main__.Equations) ... ok
+test_dense_interpolation (__main__.Equations) ... ok
+test_deterministic_and_tail (__main__.Equations) ... ok
+test_psd_and_nonfinite (__main__.Equations) ... ok
+test_fk_clearance_jacobians (__main__.OldFixture) ... ok
+test_frozen_energy (__main__.OldFixture) ... ok
+test_pose_jacobians_and_boxes (__main__.OldFixture) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.098s
+
+OK

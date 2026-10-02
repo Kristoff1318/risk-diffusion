@@ -1,0 +1,4 @@
+wall_seconds=0.40
+user_seconds=3.32
+system_seconds=1.46
+max_RSS_KiB=85240
