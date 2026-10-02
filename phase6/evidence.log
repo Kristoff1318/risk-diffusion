@@ -1,0 +1,113 @@
+{
+  "paired": [
+    {
+      "path": 0,
+      "regime": "base",
+      "open_arm": 0,
+      "open_pose": 106,
+      "open_union": 106,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 106,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 0,
+      "regime": "double",
+      "open_arm": 0,
+      "open_pose": 233,
+      "open_union": 233,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 233,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 1,
+      "regime": "base",
+      "open_arm": 0,
+      "open_pose": 152,
+      "open_union": 152,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 152,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 1,
+      "regime": "double",
+      "open_arm": 20,
+      "open_pose": 244,
+      "open_union": 244,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 244,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 2,
+      "regime": "base",
+      "open_arm": 1,
+      "open_pose": 147,
+      "open_union": 147,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 147,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 2,
+      "regime": "double",
+      "open_arm": 24,
+      "open_pose": 241,
+      "open_union": 241,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 241,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 3,
+      "regime": "base",
+      "open_arm": 0,
+      "open_pose": 91,
+      "open_union": 91,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 91,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 3,
+      "regime": "double",
+      "open_arm": 0,
+      "open_pose": 222,
+      "open_union": 222,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 222,
+      "paired_failures_introduced": 0
+    }
+  ],
+  "GPU_allocated": 120868864,
+  "P0_files_preserved": 51,
+  "seconds": 2.7415797709982144,
+  "phase6_bytes": 3437373,
+  "extra_checks": {
+    "GPU_self_fixture_margin": -0.0063338838316043256,
+    "GPU_elbow_margin": -0.060000000000000005,
+    "controller_command_overspeed_rejected": true,
+    "controller_executed_overspeed_rejected": true,
+    "paired64_256_noise_prefix_flags_equal": true,
+    "paired5ms_2_5ms_changed_executions": 0,
+    "pass": true
+  }
+}

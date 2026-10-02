@@ -1,0 +1,124 @@
+{
+  "cpu": {
+    "n": 64,
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.05600908938663656
+    ],
+    "runtime_seconds": 4.95440767800028,
+    "grid_seconds": 0.005,
+    "backend": "numpy_cpu",
+    "chunk": 512,
+    "prefix64": {
+      "n": 64,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      },
+      "union": 0,
+      "risk": 0.0,
+      "CI95": [
+        0.0,
+        0.05600908938663656
+      ]
+    },
+    "min_margins": {
+      "world_mpd": 0.035243851338751075,
+      "world_curobo": 0.02333887310581631,
+      "self_mpd": 0.14648743128469338,
+      "self_curobo": 0.07670331069498233,
+      "joint": 0.11453720417531787
+    },
+    "max_position_m": 0.0015485327737488953,
+    "max_orientation_rad": 0.004283987588190564,
+    "command_velocity_margin": 1.6776006191200912,
+    "execution_velocity_margin": 1.6650332374713481,
+    "saturation": "none; requested=applied, both hard-limit events counted",
+    "peak_RSS_KiB": 426164
+  },
+  "cuda_available": true,
+  "device_count": 1,
+  "gpu": {
+    "n": 64,
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.05600908938663656
+    ],
+    "runtime_seconds": 0.11121130199171603,
+    "grid_seconds": 0.005,
+    "backend": "torch_cuda_float64",
+    "chunk": 4096,
+    "prefix64": {
+      "n": 64,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      },
+      "union": 0,
+      "risk": 0.0,
+      "CI95": [
+        0.0,
+        0.05600908938663656
+      ]
+    },
+    "min_margins": {
+      "world_mpd": 0.03524385133875124,
+      "world_curobo": 0.023338873105816366,
+      "self_mpd": 0.14648743128469338,
+      "self_curobo": 0.07670331069498233,
+      "joint": 0.11453720417531787
+    },
+    "max_position_m": 0.0015485327737488953,
+    "max_orientation_rad": 0.004283987588190564,
+    "command_velocity_margin": 1.6776006191200912,
+    "execution_velocity_margin": 1.6650332374713481,
+    "saturation": "none; requested=applied, both hard-limit events counted",
+    "peak_RSS_KiB": 742892
+  },
+  "CPU_GPU_margin_max_abs": 2.7755575615628914e-16,
+  "event_flags_equal": true,
+  "gpu_peak_allocated_bytes": 120868864,
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "chosen_backend": "cuda",
+  "profile_seconds": 5.28275447699707
+}

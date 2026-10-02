@@ -1,0 +1,609 @@
+{
+  "primary": {
+    "rows": [
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.4660927009972511,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.03452292960599984,
+          "world_curobo": 0.02260419639667613,
+          "self_mpd": 0.14640030192224335,
+          "self_curobo": 0.07670331069498233,
+          "joint": 0.11420261040725288
+        },
+        "max_position_m": 0.0015485327737488953,
+        "max_orientation_rad": 0.004283987588190564,
+        "command_velocity_margin": 1.6776006191200912,
+        "execution_velocity_margin": 1.6650332374713481,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 754772,
+        "path": 0,
+        "regime": "base"
+      },
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.41218925900466274,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.03230183456109692,
+          "world_curobo": 0.020367087142578316,
+          "self_mpd": 0.14615446698427925,
+          "self_curobo": 0.07669274087866108,
+          "joint": 0.11204026987151261
+        },
+        "max_position_m": 0.0030980950394198575,
+        "max_orientation_rad": 0.008568030693259232,
+        "command_velocity_margin": 1.6728863244276235,
+        "execution_velocity_margin": 1.6477515611301372,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 813636,
+        "path": 0,
+        "regime": "double"
+      },
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.40617837400350254,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.015533833764405203,
+          "world_curobo": 0.016026327107574345,
+          "self_mpd": 0.12666810426752656,
+          "self_curobo": 0.07478903741052924,
+          "joint": 0.06275963826024955
+        },
+        "max_position_m": 0.0022153836589574364,
+        "max_orientation_rad": 0.004865616169256809,
+        "command_velocity_margin": 0.8222082097787848,
+        "execution_velocity_margin": 0.8145377098905615,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 824908,
+        "path": 1,
+        "regime": "base"
+      },
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.4060559820063645,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.014426933330275032,
+          "world_curobo": 0.015273182668426283,
+          "self_mpd": 0.1257536054818331,
+          "self_curobo": 0.07478377294353804,
+          "joint": 0.057767012688406894
+        },
+        "max_position_m": 0.004431311071556019,
+        "max_orientation_rad": 0.009732847479366445,
+        "command_velocity_margin": 0.8165072965958688,
+        "execution_velocity_margin": 0.8011662968194211,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 835924,
+        "path": 1,
+        "regime": "double"
+      },
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.4061143190047005,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.019252418668763926,
+          "world_curobo": 0.018782713399623147,
+          "self_mpd": 0.2189947780877763,
+          "self_curobo": 0.0746433957744446,
+          "joint": 0.09610593338758822
+        },
+        "max_position_m": 0.002410319834000617,
+        "max_orientation_rad": 0.004064790549853412,
+        "command_velocity_margin": 1.789864956914569,
+        "execution_velocity_margin": 1.7782959404120982,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 847196,
+        "path": 2,
+        "regime": "base"
+      },
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.4042418409953825,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.017658320329283272,
+          "world_curobo": 0.017084130049290075,
+          "self_mpd": 0.21888630360775713,
+          "self_curobo": 0.0746375466363778,
+          "joint": 0.09110439181021812
+        },
+        "max_position_m": 0.0048203578377696,
+        "max_orientation_rad": 0.008128962152742857,
+        "command_velocity_margin": 1.7844138631722468,
+        "execution_velocity_margin": 1.761483332486221,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 858460,
+        "path": 2,
+        "regime": "double"
+      },
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.40519860600761604,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.026966405370673463,
+          "world_curobo": 0.025265555371224407,
+          "self_mpd": 0.09362689975297295,
+          "self_curobo": 0.07399782571918485,
+          "joint": 0.06715756450475752
+        },
+        "max_position_m": 0.0014283315753665553,
+        "max_orientation_rad": 0.005204154252772728,
+        "command_velocity_margin": 1.2003842465205246,
+        "execution_velocity_margin": 1.1906515038097654,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 869732,
+        "path": 3,
+        "regime": "base"
+      },
+      {
+        "n": 256,
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 0,
+          "orientation": 0
+        },
+        "union": 0,
+        "risk": 0.0,
+        "CI95": [
+          0.0,
+          0.014306362729039375
+        ],
+        "runtime_seconds": 0.40574570499302354,
+        "grid_seconds": 0.005,
+        "backend": "torch_cuda_float64",
+        "chunk": 4096,
+        "prefix64": {
+          "n": 64,
+          "counts": {
+            "world_mpd": 0,
+            "world_curobo": 0,
+            "self_mpd": 0,
+            "self_curobo": 0,
+            "joint": 0,
+            "command_velocity": 0,
+            "executed_velocity": 0,
+            "position": 0,
+            "orientation": 0
+          },
+          "union": 0,
+          "risk": 0.0,
+          "CI95": [
+            0.0,
+            0.05600908938663656
+          ]
+        },
+        "min_margins": {
+          "world_mpd": 0.02521516051848155,
+          "world_curobo": 0.023525260696112715,
+          "self_mpd": 0.09325381491946982,
+          "self_curobo": 0.0739852687069374,
+          "joint": 0.06524050323131725
+        },
+        "max_position_m": 0.002857192780619549,
+        "max_orientation_rad": 0.0104082165777662,
+        "command_velocity_margin": 1.1956028208744023,
+        "execution_velocity_margin": 1.1761373354528808,
+        "saturation": "none; requested=applied, both hard-limit events counted",
+        "peak_RSS_KiB": 880740,
+        "path": 3,
+        "regime": "double"
+      }
+    ],
+    "process_seconds": 4.047735322994413,
+    "peak_RSS_KiB": 880740,
+    "gpu_peak_allocated_bytes": 120868864
+  },
+  "paired_decomposition": [
+    {
+      "path": 0,
+      "regime": "base",
+      "open_arm": 0,
+      "open_pose": 106,
+      "open_union": 106,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 106,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 0,
+      "regime": "double",
+      "open_arm": 0,
+      "open_pose": 233,
+      "open_union": 233,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 233,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 1,
+      "regime": "base",
+      "open_arm": 0,
+      "open_pose": 152,
+      "open_union": 152,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 152,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 1,
+      "regime": "double",
+      "open_arm": 20,
+      "open_pose": 244,
+      "open_union": 244,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 244,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 2,
+      "regime": "base",
+      "open_arm": 1,
+      "open_pose": 147,
+      "open_union": 147,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 147,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 2,
+      "regime": "double",
+      "open_arm": 24,
+      "open_pose": 241,
+      "open_union": 241,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 241,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 3,
+      "regime": "base",
+      "open_arm": 0,
+      "open_pose": 91,
+      "open_union": 91,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 91,
+      "paired_failures_introduced": 0
+    },
+    {
+      "path": 3,
+      "regime": "double",
+      "open_arm": 0,
+      "open_pose": 222,
+      "open_union": 222,
+      "closed_arm": 0,
+      "closed_pose": 0,
+      "closed_union": 0,
+      "paired_failures_removed": 222,
+      "paired_failures_introduced": 0
+    }
+  ],
+  "checks": {
+    "pass": true,
+    "seconds": 0.7062589909910457,
+    "exact_augmented_crosscov_max_abs": 3.1763735522036263e-22,
+    "empirical_terminal_variance": 5.777542786129055e-07,
+    "analytic_terminal_variance": 5.789473680682989e-07,
+    "empirical_relative_error": -0.002060790878753327,
+    "empirical_crosscov": 2.2031670355064938e-07,
+    "analytic_crosscov": 2.1960583842118002e-07,
+    "nominal_reconstruction_error": 2.7755575615628914e-17,
+    "gainzero_P0_parity": 3.1086244689504383e-15,
+    "same_dense_path_exact": true,
+    "unclipped_command_overspeed": true,
+    "a": 0.9,
+    "stability": "abs(a)=.9<1",
+    "terminal_base_std": 0.0007608859100208774
+  },
+  "additional_checks": {
+    "GPU_self_fixture_margin": -0.0063338838316043256,
+    "GPU_elbow_margin": -0.060000000000000005,
+    "controller_command_overspeed_rejected": true,
+    "controller_executed_overspeed_rejected": true,
+    "paired64_256_noise_prefix_flags_equal": true,
+    "paired5ms_2_5ms_changed_executions": 0,
+    "pass": true
+  },
+  "pointwise_two_sided95_upper_0_of256": 0.014306362729039375,
+  "one_sided95_upper_0_of256": 0.011633876163163248,
+  "fixed8case_Bonferroni_one_sided95_upper": 0.019629676638817095,
+  "interpretation": "Ordinary ideal-encoder tracking baseline qualification; not planning research advantage, hardware safety, or P0-estimation uncertainty calibration"
+}
