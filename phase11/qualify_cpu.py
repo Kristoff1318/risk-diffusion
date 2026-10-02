@@ -27,7 +27,7 @@ class Equations(unittest.TestCase):
             history.append(cov.copy())
         err = []
         for k, l in [(0, 0), (1, 0), (20, 70), (200, 200)]:
-            actual = (np.linalg.matrix_power(f, l-k)@history[k])[0, 0]
+            actual = (np.linalg.matrix_power(f, abs(l-k))@history[min(k, l)])[0, 0]
             err.append(abs(actual-e.cross_cov(k, l)))
         self.assertLess(max(err), 1e-18)
         cmd, exe = e.velocity_variances()
@@ -158,6 +158,20 @@ class OldFixture(unittest.TestCase):
         expected = len(INDICES)*production['geometry_joint_per_state']+5612
         self.assertEqual(base['events'], expected)
         self.assertTrue(base['valid']); self.assertFalse(base['production_grid'])
+        # Exercise ACTIVE risk penalty, not only cost when old anchor is safe.
+        moved = self.q.copy(); moved[-1, 0] += .03
+        active = model.evaluate(moved)
+        self.assertGreater(active['risk_sum'], .05)
+        ap = model.evaluate(moved+1e-6*d)
+        am = model.evaluate(moved-1e-6*d)
+        afd = (ap['energy']-am['energy'])/2e-6
+        agrad = float(np.sum(active['gradient']*d))
+        self.assertLessEqual(abs(afd-agrad), 1e-4+1e-5*abs(afd))
+        # Terminal displacement is a derivative probe, never an optimized plan.
+        DETAILS['active_penalty_probe'] = {'risk_sum': active['risk_sum'],
+            'fd_directional': afd, 'analytic_directional': agrad,
+            'derivative_abs_error': abs(afd-agrad),
+            'frozen_model_rebuilt': False, 'optimizer_runs': 0}
         DETAILS['bounded_frozen_energy'] = {k: v for k, v in base.items() if k not in ('gradient', 'risk_gradient')}
         DETAILS['bounded_frozen_energy'].update(build_seconds=built,
             total_check_seconds=time.perf_counter()-beg, fd_directional=fd,

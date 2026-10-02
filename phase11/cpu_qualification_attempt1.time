@@ -1,0 +1,5 @@
+Command exited with non-zero status 1
+wall_seconds=0.40
+user_seconds=3.38
+system_seconds=1.36
+max_RSS_KiB=85772

@@ -1,0 +1,22 @@
+test_augmented_covariance (__main__.Equations) ... FAIL
+test_coincident (__main__.Equations) ... ok
+test_cost_gradient (__main__.Equations) ... ok
+test_dense_interpolation (__main__.Equations) ... ok
+test_deterministic_and_tail (__main__.Equations) ... ok
+test_psd_and_nonfinite (__main__.Equations) ... ok
+test_fk_clearance_jacobians (__main__.OldFixture) ... ok
+test_frozen_energy (__main__.OldFixture) ... ok
+test_pose_jacobians_and_boxes (__main__.OldFixture) ... ok
+
+======================================================================
+FAIL: test_augmented_covariance (__main__.Equations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/kristoff/Documents/experiments/research/risk_diffusion/phase11/qualify_cpu.py", line 32, in test_augmented_covariance
+    self.assertLess(max(err), 1e-18)
+AssertionError: 2.7777777777777813e-07 not less than 1e-18
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.087s
+
+FAILED (failures=1)
