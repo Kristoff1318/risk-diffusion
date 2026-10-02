@@ -1,0 +1,1006 @@
+{
+  "moderate_noise/delta_0.05": {
+    "methods": {
+      "nominal": {
+        "proposals": 16,
+        "accepted": 14,
+        "rejected": 2,
+        "all_proposal_audit_failure": 0.0305328369140625,
+        "all_proposal_audit_collision": 0.0054473876953125,
+        "all_proposal_audit_goal_success": 0.9733352661132812,
+        "accepted_audit_failure": 0.026463099888392856,
+        "accepted_audit_collision": 0.0012730189732142857,
+        "accepted_audit_goal_success": 0.9741908482142857,
+        "accepted_nominal_J": 3.931220868329377,
+        "accepted_executed_length": 3.9372867003973298,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.005261764811621106,
+        "mean_planning_seconds": 0.00032736662433308084,
+        "mean_validation_seconds": 0.004934398187288025,
+        "mean_gradient_seconds": 0.0,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "chance": {
+        "proposals": 16,
+        "accepted": 15,
+        "rejected": 1,
+        "all_proposal_audit_failure": 0.0290069580078125,
+        "all_proposal_audit_collision": 0.00380706787109375,
+        "all_proposal_audit_goal_success": 0.9734420776367188,
+        "accepted_audit_failure": 0.027888997395833334,
+        "accepted_audit_collision": 0.0025716145833333333,
+        "accepted_audit_goal_success": 0.9737141927083334,
+        "accepted_nominal_J": 3.8979487792980625,
+        "accepted_executed_length": 3.9071218753571215,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.012822364561543509,
+        "mean_planning_seconds": 0.007939181499750703,
+        "mean_validation_seconds": 0.004883183061792806,
+        "mean_gradient_seconds": 0.007398881812150648,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "closure_chance": {
+        "proposals": 16,
+        "accepted": 15,
+        "rejected": 1,
+        "all_proposal_audit_failure": 0.029052734375,
+        "all_proposal_audit_collision": 0.00384521484375,
+        "all_proposal_audit_goal_success": 0.9734268188476562,
+        "accepted_audit_failure": 0.0279296875,
+        "accepted_audit_collision": 0.0026041666666666665,
+        "accepted_audit_goal_success": 0.9736979166666667,
+        "accepted_nominal_J": 3.8976609330107035,
+        "accepted_executed_length": 3.906861306812522,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.01758359625000594,
+        "mean_planning_seconds": 0.01269548143773136,
+        "mean_validation_seconds": 0.00488811481227458,
+        "mean_gradient_seconds": 0.01214766943576251,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "cvar": {
+        "proposals": 16,
+        "accepted": 14,
+        "rejected": 2,
+        "all_proposal_audit_failure": 0.02916717529296875,
+        "all_proposal_audit_collision": 0.0040130615234375,
+        "all_proposal_audit_goal_success": 0.9734954833984375,
+        "accepted_audit_failure": 0.026323590959821428,
+        "accepted_audit_collision": 0.0011422293526785715,
+        "accepted_audit_goal_success": 0.9742431640625,
+        "accepted_nominal_J": 3.9161047168874075,
+        "accepted_executed_length": 3.923586263254926,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.026805062188032025,
+        "mean_planning_seconds": 0.02192434293738188,
+        "mean_validation_seconds": 0.004880719250650145,
+        "mean_gradient_seconds": 0.02136280494141829,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "conventional": {
+        "proposals": 16,
+        "accepted": 16,
+        "rejected": 0,
+        "all_proposal_audit_failure": 0.0388031005859375,
+        "all_proposal_audit_collision": 0.00386810302734375,
+        "all_proposal_audit_goal_success": 0.96435546875,
+        "accepted_audit_failure": 0.0388031005859375,
+        "accepted_audit_collision": 0.00386810302734375,
+        "accepted_audit_goal_success": 0.96435546875,
+        "accepted_nominal_J": 3.3483122187199754,
+        "accepted_executed_length": 3.5388932814688037,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.3512107772485251,
+        "mean_planning_seconds": 0.3465594228118789,
+        "mean_validation_seconds": 0.004651354436646216,
+        "mean_gradient_seconds": 0.3212680010447002,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      }
+    },
+    "closure_vs_chance": {
+      "pairs": [
+        {
+          "task": 0,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -5.127439349195129e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 1,
+          "chance_accepted": false,
+          "closure_accepted": false,
+          "audit_failure_difference_closure_minus_chance": 0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.0016467251105938274,
+          "both_accepted": false
+        },
+        {
+          "task": 2,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -2.6041731965520398e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 3,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.0003756771168168527,
+          "both_accepted": true
+        },
+        {
+          "task": 4,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.00027596679048746964,
+          "both_accepted": true
+        },
+        {
+          "task": 5,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.0003057352046713646,
+          "both_accepted": true
+        },
+        {
+          "task": 6,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.00030383433785940994,
+          "both_accepted": true
+        },
+        {
+          "task": 7,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -1.8211165383252848e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 8,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -7.6354549658042e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 9,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -8.758765414107472e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 10,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.0006635183100329733,
+          "both_accepted": true
+        },
+        {
+          "task": 11,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -7.459526060493715e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 12,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.00023114845459559774,
+          "both_accepted": true
+        },
+        {
+          "task": 13,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.000244140625,
+          "nominal_J_difference_closure_minus_chance": -0.0016370305491011372,
+          "both_accepted": true
+        },
+        {
+          "task": 14,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.00021117396732872606,
+          "both_accepted": true
+        },
+        {
+          "task": 15,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": 2.0455175750555554e-05,
+          "both_accepted": true
+        }
+      ],
+      "acceptance_gained": 0,
+      "acceptance_lost": 0,
+      "mean_audit_failure_difference_all_tasks": 4.57763671875e-05,
+      "common_accepted_tasks": 15,
+      "mean_J_difference_common_accepted": -0.0002878462873591836
+    }
+  },
+  "moderate_noise/delta_0.1": {
+    "methods": {
+      "nominal": {
+        "proposals": 16,
+        "accepted": 16,
+        "rejected": 0,
+        "all_proposal_audit_failure": 0.0305328369140625,
+        "all_proposal_audit_collision": 0.0054473876953125,
+        "all_proposal_audit_goal_success": 0.9733352661132812,
+        "accepted_audit_failure": 0.0305328369140625,
+        "accepted_audit_collision": 0.0054473876953125,
+        "accepted_audit_goal_success": 0.9733352661132812,
+        "accepted_nominal_J": 3.893057811542692,
+        "accepted_executed_length": 3.902705520896614,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.0050225499380758265,
+        "mean_planning_seconds": 0.00035713181296159746,
+        "mean_validation_seconds": 0.004665418125114229,
+        "mean_gradient_seconds": 0.0,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "chance": {
+        "proposals": 16,
+        "accepted": 16,
+        "rejected": 0,
+        "all_proposal_audit_failure": 0.02997589111328125,
+        "all_proposal_audit_collision": 0.00478363037109375,
+        "all_proposal_audit_goal_success": 0.973297119140625,
+        "accepted_audit_failure": 0.02997589111328125,
+        "accepted_audit_collision": 0.00478363037109375,
+        "accepted_audit_goal_success": 0.973297119140625,
+        "accepted_nominal_J": 3.8785467497035073,
+        "accepted_executed_length": 3.889536027872571,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.013343589313080884,
+        "mean_planning_seconds": 0.008651074750559928,
+        "mean_validation_seconds": 0.004692514562520955,
+        "mean_gradient_seconds": 0.008084411311756412,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "closure_chance": {
+        "proposals": 16,
+        "accepted": 16,
+        "rejected": 0,
+        "all_proposal_audit_failure": 0.03000640869140625,
+        "all_proposal_audit_collision": 0.00481414794921875,
+        "all_proposal_audit_goal_success": 0.973297119140625,
+        "accepted_audit_failure": 0.03000640869140625,
+        "accepted_audit_collision": 0.00481414794921875,
+        "accepted_audit_goal_success": 0.973297119140625,
+        "accepted_nominal_J": 3.8782969751456284,
+        "accepted_executed_length": 3.8893104190785968,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.017772582250472624,
+        "mean_planning_seconds": 0.013128909500665031,
+        "mean_validation_seconds": 0.0046436727498075925,
+        "mean_gradient_seconds": 0.01258254487402155,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "cvar": {
+        "proposals": 16,
+        "accepted": 16,
+        "rejected": 0,
+        "all_proposal_audit_failure": 0.02927398681640625,
+        "all_proposal_audit_collision": 0.00409698486328125,
+        "all_proposal_audit_goal_success": 0.9734878540039062,
+        "accepted_audit_failure": 0.02927398681640625,
+        "accepted_audit_collision": 0.00409698486328125,
+        "accepted_audit_goal_success": 0.9734878540039062,
+        "accepted_nominal_J": 3.8853006570374076,
+        "accepted_executed_length": 3.895648943806566,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.025939125936929486,
+        "mean_planning_seconds": 0.021281231249304255,
+        "mean_validation_seconds": 0.00465789468762523,
+        "mean_gradient_seconds": 0.02071707524919475,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "conventional": {
+        "proposals": 16,
+        "accepted": 16,
+        "rejected": 0,
+        "all_proposal_audit_failure": 0.0764007568359375,
+        "all_proposal_audit_collision": 0.010345458984375,
+        "all_proposal_audit_goal_success": 0.931976318359375,
+        "accepted_audit_failure": 0.0764007568359375,
+        "accepted_audit_collision": 0.010345458984375,
+        "accepted_audit_goal_success": 0.931976318359375,
+        "accepted_nominal_J": 3.2368487194242226,
+        "accepted_executed_length": 3.4325388222008373,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.30692448599802447,
+        "mean_planning_seconds": 0.30227723087318736,
+        "mean_validation_seconds": 0.004647255124837102,
+        "mean_gradient_seconds": 0.27981297250425996,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      }
+    },
+    "closure_vs_chance": {
+      "pairs": [
+        {
+          "task": 0,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -1.40461106745704e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 1,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.0014534804833652437,
+          "both_accepted": true
+        },
+        {
+          "task": 2,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -8.456824072577973e-06,
+          "both_accepted": true
+        },
+        {
+          "task": 3,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.00011631402955103454,
+          "both_accepted": true
+        },
+        {
+          "task": 4,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.00010246240335920476,
+          "both_accepted": true
+        },
+        {
+          "task": 5,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -9.225704282389557e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 6,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.0001204778787360361,
+          "both_accepted": true
+        },
+        {
+          "task": 7,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -4.2545573504249035e-06,
+          "both_accepted": true
+        },
+        {
+          "task": 8,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -2.325814408354887e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 9,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -2.614809828793696e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 10,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.00034505751703051146,
+          "both_accepted": true
+        },
+        {
+          "task": 11,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -2.275394909201367e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 12,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -7.062388982159717e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 13,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.000244140625,
+          "nominal_J_difference_closure_minus_chance": -0.0015373075444515827,
+          "both_accepted": true
+        },
+        {
+          "task": 14,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -6.631060045592108e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 15,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": 6.81614709607814e-06,
+          "both_accepted": true
+        }
+      ],
+      "acceptance_gained": 0,
+      "acceptance_lost": 0,
+      "mean_audit_failure_difference_all_tasks": 3.0517578125e-05,
+      "common_accepted_tasks": 16,
+      "mean_J_difference_common_accepted": -0.00024977455787875136
+    }
+  },
+  "nonlinear/delta_0.05": {
+    "methods": {
+      "nominal": {
+        "proposals": 16,
+        "accepted": 13,
+        "rejected": 3,
+        "all_proposal_audit_failure": 0.0659027099609375,
+        "all_proposal_audit_collision": 0.04656219482421875,
+        "all_proposal_audit_goal_success": 0.958160400390625,
+        "accepted_audit_failure": 0.022798978365384616,
+        "accepted_audit_collision": 0.005220853365384615,
+        "accepted_audit_goal_success": 0.9803654597355769,
+        "accepted_nominal_J": 3.8785584883960498,
+        "accepted_executed_length": 3.881781670261908,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.005064512062745052,
+        "mean_planning_seconds": 0.0003245662501285551,
+        "mean_validation_seconds": 0.004739945812616497,
+        "mean_gradient_seconds": 0.0,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "chance": {
+        "proposals": 16,
+        "accepted": 14,
+        "rejected": 2,
+        "all_proposal_audit_failure": 0.0305023193359375,
+        "all_proposal_audit_collision": 0.01015472412109375,
+        "all_proposal_audit_goal_success": 0.9752578735351562,
+        "accepted_audit_failure": 0.022792271205357144,
+        "accepted_audit_collision": 0.005475725446428571,
+        "accepted_audit_goal_success": 0.9803728376116071,
+        "accepted_nominal_J": 3.8638427956173977,
+        "accepted_executed_length": 3.8678213108416943,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.012555428625091736,
+        "mean_planning_seconds": 0.00784481718801544,
+        "mean_validation_seconds": 0.004710611437076295,
+        "mean_gradient_seconds": 0.007309386063752754,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "closure_chance": {
+        "proposals": 16,
+        "accepted": 14,
+        "rejected": 2,
+        "all_proposal_audit_failure": 0.02941131591796875,
+        "all_proposal_audit_collision": 0.0093536376953125,
+        "all_proposal_audit_goal_success": 0.9758377075195312,
+        "accepted_audit_failure": 0.0224609375,
+        "accepted_audit_collision": 0.005318777901785714,
+        "accepted_audit_goal_success": 0.9805559430803571,
+        "accepted_nominal_J": 3.86420647789252,
+        "accepted_executed_length": 3.868130488547325,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.01728141768853675,
+        "mean_planning_seconds": 0.012568639125674963,
+        "mean_validation_seconds": 0.004712778562861786,
+        "mean_gradient_seconds": 0.012038256061714492,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "cvar": {
+        "proposals": 16,
+        "accepted": 15,
+        "rejected": 1,
+        "all_proposal_audit_failure": 0.034271240234375,
+        "all_proposal_audit_collision": 0.01682281494140625,
+        "all_proposal_audit_goal_success": 0.9749679565429688,
+        "accepted_audit_failure": 0.018782552083333334,
+        "accepted_audit_collision": 0.002994791666666667,
+        "accepted_audit_goal_success": 0.9827555338541667,
+        "accepted_nominal_J": 3.8771543275461013,
+        "accepted_executed_length": 3.8793797192480977,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.02633040212549531,
+        "mean_planning_seconds": 0.021604238438158063,
+        "mean_validation_seconds": 0.004726163687337248,
+        "mean_gradient_seconds": 0.0210486316236711,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "conventional": {
+        "proposals": 16,
+        "accepted": 3,
+        "rejected": 13,
+        "all_proposal_audit_failure": 0.1096954345703125,
+        "all_proposal_audit_collision": 0.004547119140625,
+        "all_proposal_audit_goal_success": 0.8939895629882812,
+        "accepted_audit_failure": 0.044514973958333336,
+        "accepted_audit_collision": 0.005330403645833333,
+        "accepted_audit_goal_success": 0.9589436848958334,
+        "accepted_nominal_J": 3.2844313769128086,
+        "accepted_executed_length": 3.6525801014260857,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.5397663683770588,
+        "mean_planning_seconds": 0.5350792310646284,
+        "mean_validation_seconds": 0.004687137312430423,
+        "mean_gradient_seconds": 0.4960403113545908,
+        "optimizer_failures": 7,
+        "optimizer_timeouts": 7,
+        "active_surrogate_false_safe_confirmed": 4
+      }
+    },
+    "closure_vs_chance": {
+      "pairs": [
+        {
+          "task": 0,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": 0.0003334717464436032,
+          "both_accepted": true
+        },
+        {
+          "task": 1,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.0003324873389409788,
+          "both_accepted": true
+        },
+        {
+          "task": 2,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0008544921875,
+          "nominal_J_difference_closure_minus_chance": 0.0015778688067835667,
+          "both_accepted": true
+        },
+        {
+          "task": 3,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": 0.0005477390895611833,
+          "both_accepted": true
+        },
+        {
+          "task": 4,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.0012800471163116889,
+          "both_accepted": true
+        },
+        {
+          "task": 5,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": 3.1457089715303255e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 6,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": -0.00017706757382018878,
+          "both_accepted": true
+        },
+        {
+          "task": 7,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.000732421875,
+          "nominal_J_difference_closure_minus_chance": 0.0012467313569888283,
+          "both_accepted": true
+        },
+        {
+          "task": 8,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.0008586867540500975,
+          "both_accepted": true
+        },
+        {
+          "task": 9,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": 0.0004870377767742795,
+          "both_accepted": true
+        },
+        {
+          "task": 10,
+          "chance_accepted": false,
+          "closure_accepted": false,
+          "audit_failure_difference_closure_minus_chance": -0.0037841796875,
+          "nominal_J_difference_closure_minus_chance": 0.004595722183250217,
+          "both_accepted": false
+        },
+        {
+          "task": 11,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.0005135795285848843,
+          "both_accepted": true
+        },
+        {
+          "task": 12,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0009765625,
+          "nominal_J_difference_closure_minus_chance": 0.0015813589358693037,
+          "both_accepted": true
+        },
+        {
+          "task": 13,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": 0.00019048941443200462,
+          "both_accepted": true
+        },
+        {
+          "task": 14,
+          "chance_accepted": false,
+          "closure_accepted": false,
+          "audit_failure_difference_closure_minus_chance": -0.009033203125,
+          "nominal_J_difference_closure_minus_chance": 0.004986871641354806,
+          "both_accepted": false
+        },
+        {
+          "task": 15,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0015869140625,
+          "nominal_J_difference_closure_minus_chance": 0.0022572659468571565,
+          "both_accepted": true
+        }
+      ],
+      "acceptance_gained": 0,
+      "acceptance_lost": 0,
+      "mean_audit_failure_difference_all_tasks": -0.00109100341796875,
+      "common_accepted_tasks": 14,
+      "mean_J_difference_common_accepted": 0.0003636822751226708
+    }
+  },
+  "nonlinear/delta_0.1": {
+    "methods": {
+      "nominal": {
+        "proposals": 16,
+        "accepted": 15,
+        "rejected": 1,
+        "all_proposal_audit_failure": 0.0659027099609375,
+        "all_proposal_audit_collision": 0.04656219482421875,
+        "all_proposal_audit_goal_success": 0.958160400390625,
+        "accepted_audit_failure": 0.028694661458333333,
+        "accepted_audit_collision": 0.009635416666666667,
+        "accepted_audit_goal_success": 0.9767903645833333,
+        "accepted_nominal_J": 3.8524809920297187,
+        "accepted_executed_length": 3.857962990531833,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.005048042374255601,
+        "mean_planning_seconds": 0.0003332671249154373,
+        "mean_validation_seconds": 0.004714775249340164,
+        "mean_gradient_seconds": 0.0,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "chance": {
+        "proposals": 16,
+        "accepted": 15,
+        "rejected": 1,
+        "all_proposal_audit_failure": 0.03289031982421875,
+        "all_proposal_audit_collision": 0.01218414306640625,
+        "all_proposal_audit_goal_success": 0.9739761352539062,
+        "accepted_audit_failure": 0.027376302083333335,
+        "accepted_audit_collision": 0.008382161458333334,
+        "accepted_audit_goal_success": 0.9774169921875,
+        "accepted_nominal_J": 3.8448827663971157,
+        "accepted_executed_length": 3.8510913406014824,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.012587303249347315,
+        "mean_planning_seconds": 0.007890938311902573,
+        "mean_validation_seconds": 0.004696364937444741,
+        "mean_gradient_seconds": 0.007354189879151818,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "closure_chance": {
+        "proposals": 16,
+        "accepted": 15,
+        "rejected": 1,
+        "all_proposal_audit_failure": 0.031768798828125,
+        "all_proposal_audit_collision": 0.0113067626953125,
+        "all_proposal_audit_goal_success": 0.974609375,
+        "accepted_audit_failure": 0.026912434895833334,
+        "accepted_audit_collision": 0.008056640625,
+        "accepted_audit_goal_success": 0.9776611328125,
+        "accepted_nominal_J": 3.845209212849626,
+        "accepted_executed_length": 3.851369749535643,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.01722142512426217,
+        "mean_planning_seconds": 0.012523700312158326,
+        "mean_validation_seconds": 0.004697724812103843,
+        "mean_gradient_seconds": 0.011995399003353668,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "cvar": {
+        "proposals": 16,
+        "accepted": 15,
+        "rejected": 1,
+        "all_proposal_audit_failure": 0.03681182861328125,
+        "all_proposal_audit_collision": 0.0190277099609375,
+        "all_proposal_audit_goal_success": 0.9735565185546875,
+        "accepted_audit_failure": 0.019645182291666667,
+        "accepted_audit_collision": 0.0035481770833333333,
+        "accepted_audit_goal_success": 0.982177734375,
+        "accepted_nominal_J": 3.8761503124287446,
+        "accepted_executed_length": 3.8784749480782983,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.025840066187811317,
+        "mean_planning_seconds": 0.02113590499993734,
+        "mean_validation_seconds": 0.004704161187873979,
+        "mean_gradient_seconds": 0.02059932831343758,
+        "optimizer_failures": 0,
+        "optimizer_timeouts": 0,
+        "active_surrogate_false_safe_confirmed": 0
+      },
+      "conventional": {
+        "proposals": 16,
+        "accepted": 7,
+        "rejected": 9,
+        "all_proposal_audit_failure": 0.2055206298828125,
+        "all_proposal_audit_collision": 0.009307861328125,
+        "all_proposal_audit_goal_success": 0.80157470703125,
+        "accepted_audit_failure": 0.08717564174107142,
+        "accepted_audit_collision": 0.010707310267857142,
+        "accepted_audit_goal_success": 0.9200788225446429,
+        "accepted_nominal_J": 3.1904325093645385,
+        "accepted_executed_length": 3.552846370108974,
+        "accepted_audit_above_budget_point": 0,
+        "accepted_audit_above_budget_confirmed": 0,
+        "mean_whole_query_seconds": 0.5422248110007786,
+        "mean_planning_seconds": 0.5375473768763186,
+        "mean_validation_seconds": 0.004677434124459978,
+        "mean_gradient_seconds": 0.4975920672868597,
+        "optimizer_failures": 10,
+        "optimizer_timeouts": 10,
+        "active_surrogate_false_safe_confirmed": 0
+      }
+    },
+    "closure_vs_chance": {
+      "pairs": [
+        {
+          "task": 0,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": 0.0001043966616198766,
+          "both_accepted": true
+        },
+        {
+          "task": 1,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -9.358045877760901e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 2,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0008544921875,
+          "nominal_J_difference_closure_minus_chance": 0.0007817030027346128,
+          "both_accepted": true
+        },
+        {
+          "task": 3,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": 0.00015796282410640572,
+          "both_accepted": true
+        },
+        {
+          "task": 4,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.00048828125,
+          "nominal_J_difference_closure_minus_chance": -0.0021058606682720082,
+          "both_accepted": true
+        },
+        {
+          "task": 5,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": 8.941027209274921e-06,
+          "both_accepted": true
+        },
+        {
+          "task": 6,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -4.880656204342415e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 7,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0003662109375,
+          "nominal_J_difference_closure_minus_chance": 0.0006002528567568,
+          "both_accepted": true
+        },
+        {
+          "task": 8,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.0002350989884893906,
+          "both_accepted": true
+        },
+        {
+          "task": 9,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.0001220703125,
+          "nominal_J_difference_closure_minus_chance": 0.00014853530433800444,
+          "both_accepted": true
+        },
+        {
+          "task": 10,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.00390625,
+          "nominal_J_difference_closure_minus_chance": 0.0038565112449555627,
+          "both_accepted": true
+        },
+        {
+          "task": 11,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": -0.00014088727323890993,
+          "both_accepted": true
+        },
+        {
+          "task": 12,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.001220703125,
+          "nominal_J_difference_closure_minus_chance": 0.0006251143367106415,
+          "both_accepted": true
+        },
+        {
+          "task": 13,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": 0.0,
+          "nominal_J_difference_closure_minus_chance": 5.108008852561241e-05,
+          "both_accepted": true
+        },
+        {
+          "task": 14,
+          "chance_accepted": false,
+          "closure_accepted": false,
+          "audit_failure_difference_closure_minus_chance": -0.010986328125,
+          "nominal_J_difference_closure_minus_chance": 0.00512282270707809,
+          "both_accepted": false
+        },
+        {
+          "task": 15,
+          "chance_accepted": true,
+          "closure_accepted": true,
+          "audit_failure_difference_closure_minus_chance": -0.000732421875,
+          "nominal_J_difference_closure_minus_chance": 0.001186433391517916,
+          "both_accepted": true
+        }
+      ],
+      "acceptance_gained": 0,
+      "acceptance_lost": 0,
+      "mean_audit_failure_difference_all_tasks": -0.00112152099609375,
+      "common_accepted_tasks": 15,
+      "mean_J_difference_common_accepted": 0.0003264464525102243
+    }
+  }
+}
