@@ -1,0 +1,13 @@
+{
+  "measured_run_wall_seconds": 18.52,
+  "measured_run_user_seconds": 17.44,
+  "measured_run_system_seconds": 1.06,
+  "unmetered_inspection_freeze_edit_review_commit_allowance_seconds": 60,
+  "allowance_is_estimate_not_total_measurement": true,
+  "booked_seconds": 78.52,
+  "phase_cap_seconds": 180,
+  "artifact_cap_bytes": 30000000,
+  "all16_raw_repaired_paths_preserved": true,
+  "no_new_generation_noise_or_risk": true,
+  "phase7_manifest_unchanged": true
+}
