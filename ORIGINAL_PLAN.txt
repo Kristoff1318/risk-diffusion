@@ -1,0 +1,344 @@
+Goal: Design and experimentally resolve a risk-bounded diffusion planner for stochastic trajectory planning
+
+Design, implement, and evaluate the smallest convincing version of the risk-bounded diffusion planning framework described in the supplied presentation.
+
+The high-level problem is:
+
+$$ x_{k+1}=f(x_k,u_k,w_k) $$
+
+Given an initial-state distribution, goal region, safe set/obstacles, horizon, and allowable trajectory risk \(\Delta\), generate controls \(u_{0:N-1}\) that achieve low cost while satisfying approximately
+
+$$ P(x_{0:N-1}\in X_{\rm safe},\;x_N\in X_{\rm goal})\ge 1-\Delta. $$
+
+The intended approach is to use a diffusion model as a trajectory/control prior and impose stochastic safety through some combination of:
+
+nominal diffusion training \(p(u)\);
+risk-conditioned training \(p(u\mid c)\);
+chance-constraint energy guidance during denoising;
+sample-based CVaR guidance during denoising;
+projection/inpainting toward feasible trajectories.
+
+The purpose of this project is not to assume all of these are useful. Determine experimentally which pieces are actually necessary and how they should be formulated.
+
+1. First audit what we already have
+
+Before writing a new planner, inspect the existing repository and prior project work for reusable components.
+
+In particular, look for existing:
+
+Diffuser/D4RL Maze2D code;
+trajectory diffusion models;
+Maze2D datasets and evaluation;
+collision/SDF constraint code;
+stochastic dynamics rollouts;
+risk or Monte Carlo evaluators;
+covariance propagation or chance-constraint code;
+CVaR implementations;
+gradient-guided diffusion;
+projection/inpainting;
+DAG-STL Maze2D components if useful;
+previous execution-risk or DPCC experiments.
+
+Reuse code when it cleanly matches this project, but do not contort an old project into this formulation merely because the code exists.
+
+In particular, the prior DAG-STL Maze2D work may provide useful diffusion/data/environment infrastructure, but its state-space representation and temporal-logic machinery are not requirements here. This project does not need state plans, dwell constraints, temporal allocation, or execution-prefix reasoning.
+
+Likewise, do not revive the previous FULL-vs-PREFIX DPCC hypothesis. That experiment addressed a different question and produced little horizon-matched safety difference.
+
+At the end of this audit, explicitly state:
+
+reuse / adapt / replace for each major subsystem and why.
+
+2. Choose the smallest scientifically appropriate testbed
+
+Prefer beginning with a controlled 2D Maze2D-style navigation environment rather than manipulator arms.
+
+Maze2D is appropriate for rapidly answering whether the proposed guidance mechanisms work at all. However, the presentation specifically concerns stochastic nonlinear systems. Therefore:
+
+use Maze2D or a similar 2D environment as the main development and ablation environment;
+introduce stochastic execution dynamics rather than evaluating only deterministic trajectories;
+if standard Maze2D dynamics are too simple to meaningfully test the local-linearization/chance-constraint method, add one minimal nonlinear 2D dynamical system rather than escalating immediately to a high-DOF manipulator.
+
+Make this decision based on what each experiment needs to establish.
+
+We need a clean scientific testbed, not impressive visuals.
+
+3. Keep the diffusion representation compatible with risk reasoning
+
+Decide explicitly what the diffusion model generates.
+
+The slides are written in terms of control sequences \(u_{0:N-1}\), with stochastic dynamics producing states. That makes model-based stochastic rollout and differentiation conceptually clean.
+
+Existing Diffuser-style implementations may instead generate joint state-action trajectories or state trajectories.
+
+Determine which representation gives us the cleanest experiment:
+
+$$ u_{0:N-1} $$
+
+versus
+
+$$ (x_0,u_0,x_1,u_1,\ldots,x_N) $$
+
+versus an existing Maze2D trajectory representation.
+
+Do not silently change the formulation. Document the choice and its consequences for dynamics consistency and risk gradients.
+
+4. Establish a nominal diffusion baseline first
+
+Build or reuse a standard trajectory diffusion model trained on ordinary feasible/collision-free planning data.
+
+It should know nothing about stochastic risk beyond whatever nominal feasibility is implicit in its training data.
+
+This is our baseline:
+
+$$ p_\theta(u\mid x_0,x_{\rm goal},\text{environment}) $$
+
+or the corresponding state-action formulation.
+
+Verify that it can generate reasonable nominal plans before introducing risk.
+
+Do not begin by building the full risk-conditioned training pipeline.
+
+5. Build an independent stochastic execution evaluator
+
+This component is critical.
+
+Given a candidate trajectory/control sequence, run many stochastic executions under
+
+$$ x_{k+1}=f(x_k,u_k,w_k) $$
+
+and estimate:
+
+whole-trajectory collision probability;
+goal-reaching probability;
+joint safe-and-goal probability;
+trajectory cost;
+violation magnitudes;
+worst-tail losses/CVaR.
+
+This high-sample evaluator is the approximate ground truth for experiments.
+
+Keep it logically separate from whatever approximation guides diffusion. Otherwise we cannot tell whether a surrogate is actually accurate.
+
+Use enough evaluation samples to provide uncertainty/confidence intervals for reported risk estimates.
+
+6. Implement chance-constraint diffusion guidance
+
+Implement the formulation proposed in the presentation.
+
+At a denoising step, for the current candidate controls:
+
+roll out the mean trajectory;
+linearize the stochastic dynamics around the current trajectory;
+propagate state covariance;
+linearize obstacle/goal constraints;
+approximate each violation probability with the Gaussian CDF;
+aggregate risk using the proposed union-bound approximation;
+compare estimated risk against \(\Delta\);
+construct a smooth energy such as
+$$ E_{\rm risk}(u) =\operatorname{softplus} \left( \gamma(\hat\Delta_{\rm UB}(u)-\Delta) \right); $$
+guide denoising with
+$$ s_{\rm guided} = s_\theta-\lambda\nabla_u E_{\rm risk}. $$
+
+Use autodiff where possible instead of manually deriving fragile gradient expressions.
+
+Instrument the method heavily. We need to know whether failure comes from covariance propagation, the Gaussian approximation, union-bound conservatism, poor gradients, or diffusion itself.
+
+7. Implement sample-based CVaR guidance as a genuine alternative
+
+For each candidate \(u\), execute \(K\) differentiable stochastic rollouts and define a trajectory-level loss such as
+
+$$ l(x_{1:N}) = \max\{\text{obstacle violations},\text{goal violation}\}. $$
+
+Safe execution should correspond to \(l\le0\).
+
+Estimate
+
+$$ CVaR_\Delta(l(u)) $$
+
+using the standard sampled formulation and smooth the hinge/max where necessary.
+
+Guide diffusion through
+
+$$ -\lambda\nabla_u CVaR_\Delta(l(u)). $$
+
+Keep the distinction clear:
+
+chance guidance uses a local analytical approximation;
+
+CVaR guidance uses stochastic execution samples and focuses on the bad tail.
+
+Measure computational cost as well as safety.
+
+8. Investigate projection/inpainting
+
+Implement projection only after the two guidance approaches are working.
+
+Define precisely what projection means in this environment. It should not be described vaguely as "make the trajectory safe."
+
+Candidate formulations include projecting a denoised trajectory/control sequence toward a nearby dynamically feasible solution satisfying deterministic or risk-surrogate constraints, and then feeding that corrected sample back into subsequent denoising steps.
+
+Test at least:
+
+$$ \text{diffusion only} $$ $$ \text{diffusion + guidance} $$ $$ \text{diffusion + projection} $$ $$ \text{diffusion + guidance + projection}. $$
+
+Measure whether projection contributes something that guidance alone does not, rather than assuming the combination is superior.
+
+9. Only then test risk-aware training
+
+The deck proposes learning \(p(u\mid c)\), where \(c\) can contain risk information.
+
+Do not pay the cost of building this until inference-time guidance has been characterized.
+
+Investigate practical ways to generate risk-aware training data:
+
+ordinary planner trajectories followed by stochastic rollout labeling;
+trajectories perturbed around nominal plans to create a useful range of risk;
+plans generated by an existing model-based risk-aware planner;
+mixtures of safe, marginal, and unsafe examples if useful for conditioning.
+
+Determine what the conditioning variable should actually be:
+
+requested \(\Delta\);
+measured trajectory risk;
+both;
+another representation justified by the experiment.
+
+If classifier-free guidance is used, implement a proper conditional/unconditional training setup.
+
+Compare risk-aware training against the much simpler nominal-training + inference-guidance solution.
+
+10. Answer the presentation's unresolved questions experimentally
+
+The final result must give evidence-based answers to these questions:
+
+Q1. What should the differentiable safety energy \(g(u)\) be?
+Compare the chance-constraint surrogate and sampled CVaR formulation. Explain what each gradient is actually optimizing.
+
+Q2. Is local Gaussian chance-constraint guidance sufficiently accurate for nonlinear stochastic execution?
+Compare its predicted risk with high-sample Monte Carlo truth across many trajectories and risk levels. Measure calibration, bias, false-safe cases, and conservatism.
+
+Q3. Does CVaR guidance improve safety or planning quality relative to chance guidance?
+Compare safety, cost, solve time, sample count, robustness, and optimization behavior.
+
+Q4. Does projection-based sampling materially help?
+Determine whether it increases actual stochastic safety, merely deterministic feasibility, or mostly adds computational expense.
+
+Q5. Is risk-aware diffusion training actually necessary?
+Compare:
+
+$$ p(u)+\text{risk guidance} $$
+
+against
+
+$$ p(u\mid c)+\text{risk guidance}. $$
+
+Determine whether risk-aware training improves feasibility, number of denoising corrections, diversity, planning speed, or final safety enough to justify the extra training-data pipeline.
+
+Q6. How should risk-aware training data be generated?
+Experiment with the simplest viable approaches and identify whether Monte Carlo labeling of ordinary trajectories is enough or whether a dedicated risk-aware planner is needed.
+
+Q7. How should guidance strength be chosen?
+Sweep \(\lambda\), and where relevant \(\gamma,\beta,K\), and determine the tradeoff between safety, trajectory quality, diversity, and diffusion instability. Do not report a single hand-tuned successful value.
+
+Q8. Does the requested risk level \(\Delta\) actually control realized risk?
+Test several values of \(\Delta\). A risk-bounded planner should show meaningful correspondence between requested and realized risk rather than simply becoming "more cautious."
+
+11. Required ablation matrix
+
+At minimum evaluate:
+
+B0: nominal diffusion.
+
+B1: nominal diffusion + deterministic obstacle/SDF guidance, if applicable.
+
+B2: nominal diffusion + chance-constraint guidance.
+
+B3: nominal diffusion + CVaR guidance.
+
+B4: nominal diffusion + projection.
+
+B5: nominal diffusion + best risk guidance + projection.
+
+B6: risk-conditioned diffusion without inference risk guidance.
+
+B7: risk-conditioned diffusion + best inference risk guidance.
+
+Not every variant needs to survive to the largest experiment. Run cheap pilots first and kill clearly unhelpful variants.
+
+12. Evaluation
+
+Report at least:
+
+Monte-Carlo-estimated joint safety probability;
+fraction of plans satisfying the requested risk bound;
+goal success;
+expected trajectory cost/path length;
+worst-tail violation/CVaR;
+risk-estimator calibration;
+planning wall-clock time;
+number of stochastic rollouts required;
+number of diffusion steps;
+projection/refinement failures;
+trajectory diversity where relevant.
+
+Use multiple environments/start-goal conditions and multiple random seeds.
+
+When comparing safety, distinguish:
+
+surrogate predicted safety from independently measured stochastic execution safety.
+
+13. Important methodological rule
+
+Do not let the project turn into:
+
+"We added another generic cost to diffusion and observed fewer collisions."
+
+The interesting technical question is whether a risk quantity tied to stochastic execution and an explicit risk budget \(\Delta\) can be represented accurately enough to guide a generative planner, and which combination of model-based approximation, sample-based tail risk, projection, and training conditioning is actually justified.
+
+14. Literature and prior-work audit
+
+As the method becomes concrete, continuously check the closest literature.
+
+At minimum inspect the papers referenced in the supplied presentation:
+
+Blackmore, Ono & Williams, Chance-Constrained Optimal Path Planning With Obstacles;
+nonlinear/non-Gaussian risk-bounded trajectory optimization;
+Risk-Guided Diffusion;
+diffusion-based trajectory planning.
+
+Also compare against directly relevant diffusion safety/planning methods already present in our research notes, including SafeDiffuser, MPD/constrained diffusion methods, DPCC where technically relevant, and conventional stochastic planners.
+
+The purpose is both to reuse established machinery and to avoid accidentally claiming a standard ingredient as the contribution.
+
+Do not stop the implementation merely because individual ingredients have precedent. Determine whether the resulting algorithmic combination or empirical capability creates a meaningful robotics contribution, using the conference-level novelty standard established in our other research work.
+
+15. Deliverables
+
+Produce:
+
+DESIGN.md — exact mathematical formulation, architecture, representation choice, and reuse decisions.
+LITERATURE.md — closest prior methods and what is / is not new.
+A reproducible nominal diffusion baseline.
+An independent stochastic Monte Carlo evaluator.
+Chance-guided diffusion.
+CVaR-guided diffusion.
+Projection experiments.
+Risk-aware training experiments if justified by earlier results.
+Reproducible scripts/configs for every reported experiment.
+Plots showing requested risk versus actual risk, surrogate versus true risk, safety/cost tradeoffs, and runtime.
+RESULTS.md answering Q1–Q8 explicitly with evidence.
+VERDICT.md identifying the simplest method supported by the experiments, remaining failure modes, closest competing approaches, and whether the result merits a larger-scale robotics benchmark.
+16. Work autonomously and simplify aggressively
+
+Do not ask me to choose between Maze2D, a custom point robot, an old repository, state-only versus state-action diffusion, etc. Inspect what exists and choose the smallest setup capable of answering the scientific question.
+
+Favor staged experiments over a large implementation.
+
+If Maze2D cleanly answers a question, use Maze2D.
+
+If a claim specifically depends on nonlinear stochastic dynamics and Maze2D cannot test it, add the smallest additional nonlinear system needed.
+
+Do not jump to a manipulator merely to make the experiment appear more sophisticated.
+
+The final objective is not to implement every box in the presentation. It is to determine, with controlled experiments, what a defensible risk-bounded diffusion planner should actually consist of.

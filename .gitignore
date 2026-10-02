@@ -1,0 +1,12 @@
+# Preserved artifacts remain in place; hashes are tracked in preservation/.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+outputs/
+inspection_20260926/*.npz
+inspection_20260926/*.png
+inspection_20260926/*.pdf
+phase1_outputs/
