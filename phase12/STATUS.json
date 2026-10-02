@@ -1,0 +1,26 @@
+{
+  "terminal": true,
+  "stage_completed": "initial/descriptor checks and nominal preparation",
+  "terminal_gate": "FAIL_NOMINAL_HEALTH",
+  "comparison_executed": false,
+  "planned_requests": 16,
+  "completed_risk_requests": 0,
+  "fixed_tasks": 4,
+  "descriptor_valid_tasks": 3,
+  "classical_healthy_tasks_of4": 2,
+  "MPD_healthy_tasks_of4": 3,
+  "all_tasks_retained": true,
+  "risk_sample_counts_actual": {
+    "admission": 0,
+    "unselected_audit": 0,
+    "selected_audit": 0,
+    "prepared_diagnostic": 0
+  },
+  "fresh_model_generation_requests": 3,
+  "fresh_MPD_samples": 6,
+  "denoiser_calls": 45,
+  "classical_IK_seed_trajectories": 6,
+  "nominal_gradient_calls": 960,
+  "GPU_slot_released": true,
+  "no_automatic_follow_on": true
+}

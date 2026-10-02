@@ -1,0 +1,22 @@
+{
+  "prior_cumulative_booked_seconds": 141,
+  "remaining_authorized_seconds_before_run": 309,
+  "forecast_main_seconds": 251.21,
+  "forecast_total_additional_seconds": 290.21,
+  "hard_outer_timeout_seconds": 270,
+  "internal_guard_seconds": 267,
+  "actual_timed_command_wall_seconds": 18.42,
+  "estimated_ancillary_reserve_seconds": 39,
+  "ancillary_reserve_is_estimate_not_measured": true,
+  "additional_booked_seconds": 57.42,
+  "cumulative_booked_seconds": 198.42,
+  "total_cap_seconds": 450,
+  "remaining_seconds": 251.58,
+  "artifact_total_cap_bytes": 50000000,
+  "phase11_bytes": 232424,
+  "phase12_bytes_before_final_ledger": 516919,
+  "sample_counts_reduced_after_outcomes": false,
+  "stopped_on_prespecified_gate": true,
+  "GPU_slot_released": true,
+  "protocol_commit_before_outcomes": "7d53254"
+}

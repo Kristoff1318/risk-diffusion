@@ -11,3 +11,26 @@ Task 42576 has a 26.58% initial joint-violation floor under the fixed physical u
 See phase9/RESULTS.md and its raw/paired CSVs, confidence bounds, historical preparation times and resource ledger. Previous phases remain unchanged. No broad generalization or safety guarantee is established.
 
 Phase10 adds a scientific synthesis, an analytic pre-planning initial-joint-event diagnostic and one four-task/four-arm covariance-energy confirmation plan. Only old task metadata and new index IDs were read; no fresh planning, generation, risk sampling or training ran. The recommended next cap is 450 command seconds / 50 MB, subject to separate execution authorization. See phase10/SCIENTIFIC_SYNTHESIS.md and phase10/FRESH_CONFIRMATION_PLAN.md.
+
+Phase11 froze the covariance-energy objective and qualified its local affine
+derivatives and complete event accounting on old fixtures. The original hybrid
+CPU-builder/CUDA-evaluator failed the 2 s correction gate (13.35 s). A separately
+authorized invariant-cache/device-native refactor preserved all 4,323,770 events,
+float64, frozen-Jacobian semantics and optimizer sequences, then passed the old
+two-slot/eight-step timing gate at 0.265 s. This is warm old-fixture engineering
+evidence, not fresh risk-aware planning performance. Both implementations and
+all failed/passing evidence are retained in phase11.
+
+Phase12 received explicit authorization for the frozen four-task confirmation.
+Protocol/code/assets were committed before outcomes. The study terminated at
+its prescribed nominal-health gate: task 175075 failed native descriptor
+validity due to cuRobo self-collision; classical preparation was healthy on
+2/4 tasks, MPD on 3/4, below the required 3/4 for both sources. All four cases
+remain. All 12 generated paths completed their 80 nominal steps; failures,
+costs and source timings are preserved. No correction, admission, stochastic
+prepared-input diagnostic or audit ran, so fresh dense-versus-covariance risk
+benefit remains unassessed. No replacement, extra preparation or surviving-arm
+comparison follows automatically. GPU slot released. See phase12/RESULTS.md,
+STATUS.json and raw MAIN_RESULTS.json. Cumulative conservative booking is
+198.42/450 s, with 251.58 s unspent; the variant is stopped, not scheduled to
+use that remainder.

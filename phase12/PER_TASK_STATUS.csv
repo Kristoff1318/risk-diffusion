@@ -1,0 +1,5 @@
+task,official_ID,position,descriptor_valid,initial_joint_floor,descriptor_failure_components,classical_valid_slots,MPD_valid_slots,risk_admission_status,stochastic_admission_executions,stochastic_audit_executions,prepared_diagnostic_executions,correction_steps
+0,158032,384,True,-0.0,,1,2,NOT_RUN_NOMINAL_HEALTH_GATE,0,0,0,0
+1,175075,448,False,2.6420915073684918e-269,self_curobo,0,0,NOT_RUN_INVALID_DESCRIPTOR,0,0,0,0
+2,1171877,512,True,7.02026521394525e-58,,1,2,NOT_RUN_NOMINAL_HEALTH_GATE,0,0,0,0
+3,1820403,576,True,-0.0,,0,2,NOT_RUN_NOMINAL_HEALTH_GATE,0,0,0,0
