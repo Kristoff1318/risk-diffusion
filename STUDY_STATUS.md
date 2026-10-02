@@ -9,3 +9,5 @@ Phase9 is a completed diagnostic replay of the same proposals after equal nomina
 Task 42576 has a 26.58% initial joint-violation floor under the fixed physical uncertainty, so 5%/10% cannot be met by later commands. It remains in all arms. All 96 requests completed; no more variants or follow-on experiments have run.
 
 See phase9/RESULTS.md and its raw/paired CSVs, confidence bounds, historical preparation times and resource ledger. Previous phases remain unchanged. No broad generalization or safety guarantee is established.
+
+Phase10 adds a scientific synthesis, an analytic pre-planning initial-joint-event diagnostic and one four-task/four-arm covariance-energy confirmation plan. Only old task metadata and new index IDs were read; no fresh planning, generation, risk sampling or training ran. The recommended next cap is 450 command seconds / 50 MB, subject to separate execution authorization. See phase10/SCIENTIFIC_SYNTHESIS.md and phase10/FRESH_CONFIRMATION_PLAN.md.
