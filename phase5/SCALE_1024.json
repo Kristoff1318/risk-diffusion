@@ -1,0 +1,79 @@
+{
+  "n": 1024,
+  "grid_seconds": 0.005,
+  "runtime_seconds": 77.01872905300115,
+  "chunk_states": 512,
+  "counts": {
+    "world_mpd": 0,
+    "world_curobo": 0,
+    "self_mpd": 0,
+    "self_curobo": 0,
+    "joint": 0,
+    "command_velocity": 0,
+    "executed_velocity": 0,
+    "position": 401,
+    "orientation": 251
+  },
+  "union": 452,
+  "union_probability": 0.44140625,
+  "union_CI95": [
+    0.41071044355203873,
+    0.4724398010815856
+  ],
+  "event_CI95": {
+    "world_mpd": [
+      0.0,
+      0.003595940406834479
+    ],
+    "world_curobo": [
+      0.0,
+      0.003595940406834479
+    ],
+    "self_mpd": [
+      0.0,
+      0.003595940406834479
+    ],
+    "self_curobo": [
+      0.0,
+      0.003595940406834479
+    ],
+    "joint": [
+      0.0,
+      0.003595940406834479
+    ],
+    "command_velocity": [
+      0.0,
+      0.003595940406834479
+    ],
+    "executed_velocity": [
+      0.0,
+      0.003595940406834479
+    ],
+    "position": [
+      0.36156547335530725,
+      0.4222627003359595
+    ],
+    "orientation": [
+      0.21904585289449852,
+      0.27266234207484197
+    ]
+  },
+  "marginal_count_sum": 652,
+  "min_margins": {
+    "world_mpd": 0.02586096801266713,
+    "world_curobo": 0.013883196866047137,
+    "self_mpd": 0.14207597060269428,
+    "self_curobo": 0.07670322115586369,
+    "joint": 0.08423552578787463
+  },
+  "position_max_m": 0.02593454003146998,
+  "orientation_max_rad": 0.07773421489274908,
+  "command_velocity_margin_rad_s": 1.6823149138125588,
+  "executed_velocity_margin_rad_s": 1.6629807363509541,
+  "peak_RSS_KiB": 348412,
+  "path": 0,
+  "regime": "base",
+  "purpose": "1024 CPU scaling probe on predetermined firstpath/base, not full bank comparison",
+  "process_seconds": 77.05522566399304,
+  "prefix256_identical": true
+}

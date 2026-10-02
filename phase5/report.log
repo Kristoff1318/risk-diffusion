@@ -1,0 +1,121 @@
+manifest_type dict ['created_utc', 'root', 'files', 'archive']
+{
+  "grid_changes": {
+    "p0_base": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    },
+    "p0_double": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    },
+    "p1_base": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    },
+    "p1_double": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    },
+    "p2_base": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    },
+    "p2_double": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    },
+    "p3_base": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    },
+    "p3_double": {
+      "changed_executions": 0,
+      "per_event_changes": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 0,
+        "orientation": 0
+      }
+    }
+  },
+  "measured_seconds": 376.58000000000004,
+  "phase_bytes": 2697273,
+  "scale_union": 452,
+  "scale_seconds": 77.01872905300115
+}

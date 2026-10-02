@@ -1,0 +1,614 @@
+{
+  "rows": [
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.769049687994993,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 27,
+        "orientation": 15
+      },
+      "union": 30,
+      "union_probability": 0.46875,
+      "union_CI95": [
+        0.3427965289396206,
+        0.5976901554016487
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "world_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.29938080614346446,
+          0.5518413750630204
+        ],
+        "orientation": [
+          0.13751547844059606,
+          0.3569341103962659
+        ]
+      },
+      "marginal_count_sum": 42,
+      "min_margins": {
+        "world_mpd": 0.02716710529515501,
+        "world_curobo": 0.0152380328751959,
+        "self_mpd": 0.14404845830009433,
+        "self_curobo": 0.07670322115586369,
+        "joint": 0.09236701422087279
+      },
+      "position_max_m": 0.02593454003146998,
+      "orientation_max_rad": 0.07773421489274908,
+      "command_velocity_margin_rad_s": 1.6823149138125588,
+      "executed_velocity_margin_rad_s": 1.6672174945500449,
+      "peak_RSS_KiB": 107512,
+      "path": 0,
+      "regime": "base"
+    },
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.776556017997791,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 56,
+        "orientation": 51
+      },
+      "union": 59,
+      "union_probability": 0.921875,
+      "union_CI95": [
+        0.8270216709957924,
+        0.9741461598320319
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "world_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.7684736940339959,
+          0.944457208820398
+        ],
+        "orientation": [
+          0.6777356932919598,
+          0.88717114052916
+        ]
+      },
+      "marginal_count_sum": 107,
+      "min_margins": {
+        "world_mpd": 0.017727105258372372,
+        "world_curobo": 0.005764066666395978,
+        "self_mpd": 0.14141756095324215,
+        "self_curobo": 0.0766923551692086,
+        "joint": 0.06836907749875198
+      },
+      "position_max_m": 0.05198107591995314,
+      "orientation_max_rad": 0.1552856268727672,
+      "command_velocity_margin_rad_s": 1.6823149138125588,
+      "executed_velocity_margin_rad_s": 1.6521200752875307,
+      "peak_RSS_KiB": 117460,
+      "path": 0,
+      "regime": "double"
+    },
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.838554170011776,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 37,
+        "orientation": 16
+      },
+      "union": 40,
+      "union_probability": 0.625,
+      "union_CI95": [
+        0.4950764600526648,
+        0.7429510775519335
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "world_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.44815862493697944,
+          0.7006191938565355
+        ],
+        "orientation": [
+          0.15015557408527277,
+          0.3739904568818191
+        ]
+      },
+      "marginal_count_sum": 53,
+      "min_margins": {
+        "world_mpd": 0.00016905357815838462,
+        "world_curobo": 0.004615041040365503,
+        "self_mpd": 0.12704754231603413,
+        "self_curobo": 0.07474432444196509,
+        "joint": 0.06275963826024955
+      },
+      "position_max_m": 0.04046069933770522,
+      "orientation_max_rad": 0.0761371557338438,
+      "command_velocity_margin_rad_s": 0.8279091229617004,
+      "executed_velocity_margin_rad_s": 0.8160935521870123,
+      "peak_RSS_KiB": 118800,
+      "path": 1,
+      "regime": "base"
+    },
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.85358429599728,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 9,
+        "world_curobo": 8,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 57,
+        "orientation": 50
+      },
+      "union": 61,
+      "union_probability": 0.953125,
+      "union_CI95": [
+        0.8690642627585942,
+        0.9902269250455434
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.06637407166842632,
+          0.2502368356240119
+        ],
+        "world_curobo": [
+          0.05554279117960204,
+          0.23152630596600407
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.7875427740445976,
+          0.9548789798128852
+        ],
+        "orientation": [
+          0.6603036881847398,
+          0.8749317262847537
+        ]
+      },
+      "marginal_count_sum": 124,
+      "min_margins": {
+        "world_mpd": -0.015505123709764673,
+        "world_curobo": -0.011004872629766155,
+        "self_mpd": 0.1264918446334065,
+        "self_curobo": 0.07469431000176875,
+        "joint": 0.057767012688406894
+      },
+      "position_max_m": 0.08106231024404432,
+      "orientation_max_rad": 0.15243905755496653,
+      "command_velocity_margin_rad_s": 0.8279091229617004,
+      "executed_velocity_margin_rad_s": 0.8042779814123246,
+      "peak_RSS_KiB": 118800,
+      "path": 1,
+      "regime": "double"
+    },
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.949313133009127,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 32,
+        "orientation": 17
+      },
+      "union": 35,
+      "union_probability": 0.546875,
+      "union_CI95": [
+        0.41747631531604745,
+        0.6717928854962819
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "world_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.37232286289560673,
+          0.6276771371043932
+        ],
+        "orientation": [
+          0.16297605146851082,
+          0.390876129153411
+        ]
+      },
+      "marginal_count_sum": 49,
+      "min_margins": {
+        "world_mpd": 0.011805578644297016,
+        "world_curobo": 0.004730763609693961,
+        "self_mpd": 0.2181437743112431,
+        "self_curobo": 0.07459816851282826,
+        "joint": 0.07080571711613404
+      },
+      "position_max_m": 0.029459241522940174,
+      "orientation_max_rad": 0.06651507079866406,
+      "command_velocity_margin_rad_s": 1.7951085483379754,
+      "executed_velocity_margin_rad_s": 1.781375156668127,
+      "peak_RSS_KiB": 120336,
+      "path": 2,
+      "regime": "base"
+    },
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.801947387997643,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 2,
+        "world_curobo": 3,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 58,
+        "orientation": 49
+      },
+      "union": 61,
+      "union_probability": 0.953125,
+      "union_CI95": [
+        0.8690642627585942,
+        0.9902269250455434
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.0038071813818723677,
+          0.10837052222451712
+        ],
+        "world_curobo": [
+          0.009773074954456548,
+          0.13093573724140584
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.8070308955516561,
+          0.9648126671291817
+        ],
+        "orientation": [
+          0.643065889603734,
+          0.8624845215594039
+        ]
+      },
+      "marginal_count_sum": 112,
+      "min_margins": {
+        "world_mpd": -0.002099829382927715,
+        "world_curobo": -0.011096922160472783,
+        "self_mpd": 0.21713272799887245,
+        "self_curobo": 0.07454628753278413,
+        "joint": 0.043348413907561945
+      },
+      "position_max_m": 0.05899468218854066,
+      "orientation_max_rad": 0.13321104892776126,
+      "command_velocity_margin_rad_s": 1.7951085483379754,
+      "executed_velocity_margin_rad_s": 1.7674342626793633,
+      "peak_RSS_KiB": 130064,
+      "path": 2,
+      "regime": "double"
+    },
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.811435497002094,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 15,
+        "orientation": 10
+      },
+      "union": 16,
+      "union_probability": 0.25,
+      "union_CI95": [
+        0.15015557408527277,
+        0.3739904568818191
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "world_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.13751547844059606,
+          0.3569341103962659
+        ],
+        "orientation": [
+          0.07755733180012321,
+          0.26863424426625704
+        ]
+      },
+      "marginal_count_sum": 25,
+      "min_margins": {
+        "world_mpd": 0.01956457213307916,
+        "world_curobo": 0.017808490543815836,
+        "self_mpd": 0.09087131609713486,
+        "self_curobo": 0.07399782571918485,
+        "joint": 0.04755297305974571
+      },
+      "position_max_m": 0.01611839723115383,
+      "orientation_max_rad": 0.052885132500999264,
+      "command_velocity_margin_rad_s": 1.2051656721666477,
+      "executed_velocity_margin_rad_s": 1.1944613641330664,
+      "peak_RSS_KiB": 130064,
+      "path": 3,
+      "regime": "base"
+    },
+    {
+      "n": 64,
+      "grid_seconds": 0.005,
+      "runtime_seconds": 4.7939964680117555,
+      "chunk_states": 512,
+      "counts": {
+        "world_mpd": 0,
+        "world_curobo": 0,
+        "self_mpd": 0,
+        "self_curobo": 0,
+        "joint": 0,
+        "command_velocity": 0,
+        "executed_velocity": 0,
+        "position": 45,
+        "orientation": 48
+      },
+      "union": 57,
+      "union_probability": 0.890625,
+      "union_CI95": [
+        0.7875427740445976,
+        0.9548789798128852
+      ],
+      "event_CI95": {
+        "world_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "world_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_mpd": [
+          0.0,
+          0.05600908938663656
+        ],
+        "self_curobo": [
+          0.0,
+          0.05600908938663656
+        ],
+        "joint": [
+          0.0,
+          0.05600908938663656
+        ],
+        "command_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "executed_velocity": [
+          0.0,
+          0.05600908938663656
+        ],
+        "position": [
+          0.5758292008645438,
+          0.8108826297632739
+        ],
+        "orientation": [
+          0.6260095431181809,
+          0.8498444259147272
+        ]
+      },
+      "marginal_count_sum": 93,
+      "min_margins": {
+        "world_mpd": 0.010482533915897152,
+        "world_curobo": 0.008713466266912384,
+        "self_mpd": 0.08771692866613495,
+        "self_curobo": 0.0739852687069374,
+        "joint": 0.026031320341292297
+      },
+      "position_max_m": 0.03218343181048601,
+      "orientation_max_rad": 0.10578235909586442,
+      "command_velocity_margin_rad_s": 1.2051656721666477,
+      "executed_velocity_margin_rad_s": 1.1837570560994846,
+      "peak_RSS_KiB": 130064,
+      "path": 3,
+      "regime": "double"
+    }
+  ],
+  "process_seconds": 39.566666737999185,
+  "peak_RSS_KiB": 130064
+}
