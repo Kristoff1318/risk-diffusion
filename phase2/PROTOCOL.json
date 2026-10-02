@@ -1,0 +1,4242 @@
+{
+  "created_utc": "2026-10-02T16:37:13.424770+00:00",
+  "cases": [
+    {
+      "id": "moderate_noise_tuning_0",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.09345336258411407
+      ],
+      "goal": [
+        1.5,
+        -0.1520702987909317
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100500,
+      "audit_seed": 2026100700
+    },
+    {
+      "id": "moderate_noise_tuning_1",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.06134912371635437
+      ],
+      "goal": [
+        1.5,
+        0.07106702774763107
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100501,
+      "audit_seed": 2026100701
+    },
+    {
+      "id": "moderate_noise_tuning_2",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.16656295955181122
+      ],
+      "goal": [
+        1.5,
+        0.0823231190443039
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100502,
+      "audit_seed": 2026100702
+    },
+    {
+      "id": "moderate_noise_tuning_3",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.14121493697166443
+      ],
+      "goal": [
+        1.5,
+        0.14288198947906494
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100503,
+      "audit_seed": 2026100703
+    },
+    {
+      "id": "moderate_noise_tuning_4",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.07917147874832153
+      ],
+      "goal": [
+        1.5,
+        -0.1618199199438095
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100504,
+      "audit_seed": 2026100704
+    },
+    {
+      "id": "moderate_noise_tuning_5",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.12921322882175446
+      ],
+      "goal": [
+        1.5,
+        -0.10002158582210541
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100505,
+      "audit_seed": 2026100705
+    },
+    {
+      "id": "moderate_noise_tuning_6",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.0597563274204731
+      ],
+      "goal": [
+        1.5,
+        0.1779201328754425
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100506,
+      "audit_seed": 2026100706
+    },
+    {
+      "id": "moderate_noise_tuning_7",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.1319863498210907
+      ],
+      "goal": [
+        1.5,
+        0.07887745648622513
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100507,
+      "audit_seed": 2026100707
+    },
+    {
+      "id": "moderate_noise_tuning_8",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.1530623435974121
+      ],
+      "goal": [
+        1.5,
+        -0.010660436004400253
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100508,
+      "audit_seed": 2026100708
+    },
+    {
+      "id": "moderate_noise_tuning_9",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.10664631426334381
+      ],
+      "goal": [
+        1.5,
+        0.16329367458820343
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100509,
+      "audit_seed": 2026100709
+    },
+    {
+      "id": "moderate_noise_tuning_10",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.023038947954773903
+      ],
+      "goal": [
+        1.5,
+        -0.14830230176448822
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100510,
+      "audit_seed": 2026100710
+    },
+    {
+      "id": "moderate_noise_tuning_11",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.12415005266666412
+      ],
+      "goal": [
+        1.5,
+        0.04050811752676964
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100511,
+      "audit_seed": 2026100711
+    },
+    {
+      "id": "moderate_noise_tuning_12",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.05763860046863556
+      ],
+      "goal": [
+        1.5,
+        0.009678683243691921
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100512,
+      "audit_seed": 2026100712
+    },
+    {
+      "id": "moderate_noise_tuning_13",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.09386532008647919
+      ],
+      "goal": [
+        1.5,
+        -0.08127658069133759
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100513,
+      "audit_seed": 2026100713
+    },
+    {
+      "id": "moderate_noise_tuning_14",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.09998953342437744
+      ],
+      "goal": [
+        1.5,
+        0.10174182057380676
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100514,
+      "audit_seed": 2026100714
+    },
+    {
+      "id": "moderate_noise_tuning_15",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.10318247228860855
+      ],
+      "goal": [
+        1.5,
+        0.004084445536136627
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100515,
+      "audit_seed": 2026100715
+    },
+    {
+      "id": "moderate_noise_tuning_16",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.0293118916451931
+      ],
+      "goal": [
+        1.5,
+        -0.06509481370449066
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100516,
+      "audit_seed": 2026100716
+    },
+    {
+      "id": "moderate_noise_tuning_17",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.11748497933149338
+      ],
+      "goal": [
+        1.5,
+        -0.06044488027691841
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100517,
+      "audit_seed": 2026100717
+    },
+    {
+      "id": "moderate_noise_tuning_18",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.1214856207370758
+      ],
+      "goal": [
+        1.5,
+        0.05471382662653923
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100518,
+      "audit_seed": 2026100718
+    },
+    {
+      "id": "moderate_noise_tuning_19",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.055332425981760025
+      ],
+      "goal": [
+        1.5,
+        -0.17373347282409668
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100519,
+      "audit_seed": 2026100719
+    },
+    {
+      "id": "moderate_noise_tuning_20",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.013831800781190395
+      ],
+      "goal": [
+        1.5,
+        -0.12994344532489777
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100520,
+      "audit_seed": 2026100720
+    },
+    {
+      "id": "moderate_noise_tuning_21",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.11014857888221741
+      ],
+      "goal": [
+        1.5,
+        -0.03088989295065403
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100521,
+      "audit_seed": 2026100721
+    },
+    {
+      "id": "moderate_noise_tuning_22",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.010190249420702457
+      ],
+      "goal": [
+        1.5,
+        0.1424686312675476
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100522,
+      "audit_seed": 2026100722
+    },
+    {
+      "id": "moderate_noise_tuning_23",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.14548540115356445
+      ],
+      "goal": [
+        1.5,
+        -0.030580924823880196
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100523,
+      "audit_seed": 2026100723
+    },
+    {
+      "id": "moderate_noise_evaluation_0",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.12096472084522247
+      ],
+      "goal": [
+        1.5,
+        -0.03637205436825752
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100524,
+      "audit_seed": 2026100724
+    },
+    {
+      "id": "moderate_noise_evaluation_1",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.13964605331420898
+      ],
+      "goal": [
+        1.5,
+        -0.017075583338737488
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100525,
+      "audit_seed": 2026100725
+    },
+    {
+      "id": "moderate_noise_evaluation_2",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.16933707892894745
+      ],
+      "goal": [
+        1.5,
+        -0.09271155297756195
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100526,
+      "audit_seed": 2026100726
+    },
+    {
+      "id": "moderate_noise_evaluation_3",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.11695348471403122
+      ],
+      "goal": [
+        1.5,
+        0.09103396534919739
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100527,
+      "audit_seed": 2026100727
+    },
+    {
+      "id": "moderate_noise_evaluation_4",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.0019416622817516327
+      ],
+      "goal": [
+        1.5,
+        0.02833002805709839
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100528,
+      "audit_seed": 2026100728
+    },
+    {
+      "id": "moderate_noise_evaluation_5",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.11027254164218903
+      ],
+      "goal": [
+        1.5,
+        -0.10139336436986923
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100529,
+      "audit_seed": 2026100729
+    },
+    {
+      "id": "moderate_noise_evaluation_6",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.15582509338855743
+      ],
+      "goal": [
+        1.5,
+        -0.11167635768651962
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100530,
+      "audit_seed": 2026100730
+    },
+    {
+      "id": "moderate_noise_evaluation_7",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.12999393045902252
+      ],
+      "goal": [
+        1.5,
+        0.042317844927310944
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100531,
+      "audit_seed": 2026100731
+    },
+    {
+      "id": "moderate_noise_evaluation_8",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.0867856815457344
+      ],
+      "goal": [
+        1.5,
+        0.0003605372621677816
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100532,
+      "audit_seed": 2026100732
+    },
+    {
+      "id": "moderate_noise_evaluation_9",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.16633813083171844
+      ],
+      "goal": [
+        1.5,
+        -0.03488648310303688
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100533,
+      "audit_seed": 2026100733
+    },
+    {
+      "id": "moderate_noise_evaluation_10",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.04384521022439003
+      ],
+      "goal": [
+        1.5,
+        0.08948472887277603
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100534,
+      "audit_seed": 2026100734
+    },
+    {
+      "id": "moderate_noise_evaluation_11",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.15963977575302124
+      ],
+      "goal": [
+        1.5,
+        -0.11459889262914658
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100535,
+      "audit_seed": 2026100735
+    },
+    {
+      "id": "moderate_noise_evaluation_12",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.11726158112287521
+      ],
+      "goal": [
+        1.5,
+        0.11439277231693268
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100536,
+      "audit_seed": 2026100736
+    },
+    {
+      "id": "moderate_noise_evaluation_13",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.06484007090330124
+      ],
+      "goal": [
+        1.5,
+        0.0035350294783711433
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100537,
+      "audit_seed": 2026100737
+    },
+    {
+      "id": "moderate_noise_evaluation_14",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.0017508133314549923
+      ],
+      "goal": [
+        1.5,
+        -0.11944646388292313
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100538,
+      "audit_seed": 2026100738
+    },
+    {
+      "id": "moderate_noise_evaluation_15",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.15662166476249695
+      ],
+      "goal": [
+        1.5,
+        0.07435997575521469
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100539,
+      "audit_seed": 2026100739
+    },
+    {
+      "id": "moderate_noise_evaluation_16",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.01986890658736229
+      ],
+      "goal": [
+        1.5,
+        -0.09498171508312225
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100540,
+      "audit_seed": 2026100740
+    },
+    {
+      "id": "moderate_noise_evaluation_17",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.1408393532037735
+      ],
+      "goal": [
+        1.5,
+        -0.17344458401203156
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100541,
+      "audit_seed": 2026100741
+    },
+    {
+      "id": "moderate_noise_evaluation_18",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.11667797714471817
+      ],
+      "goal": [
+        1.5,
+        -0.10733184963464737
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100542,
+      "audit_seed": 2026100742
+    },
+    {
+      "id": "moderate_noise_evaluation_19",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.10444384813308716
+      ],
+      "goal": [
+        1.5,
+        0.11543328315019608
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100543,
+      "audit_seed": 2026100743
+    },
+    {
+      "id": "moderate_noise_evaluation_20",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.061868537217378616
+      ],
+      "goal": [
+        1.5,
+        -0.030004583299160004
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100544,
+      "audit_seed": 2026100744
+    },
+    {
+      "id": "moderate_noise_evaluation_21",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.039730098098516464
+      ],
+      "goal": [
+        1.5,
+        -0.11481428146362305
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100545,
+      "audit_seed": 2026100745
+    },
+    {
+      "id": "moderate_noise_evaluation_22",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.17252756655216217
+      ],
+      "goal": [
+        1.5,
+        0.04500590264797211
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100546,
+      "audit_seed": 2026100746
+    },
+    {
+      "id": "moderate_noise_evaluation_23",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.05643254518508911
+      ],
+      "goal": [
+        1.5,
+        0.011027517728507519
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100547,
+      "audit_seed": 2026100747
+    },
+    {
+      "id": "moderate_noise_evaluation_24",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.161261186003685
+      ],
+      "goal": [
+        1.5,
+        0.10855212807655334
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100548,
+      "audit_seed": 2026100748
+    },
+    {
+      "id": "moderate_noise_evaluation_25",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.013278828002512455
+      ],
+      "goal": [
+        1.5,
+        0.12475374341011047
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100549,
+      "audit_seed": 2026100749
+    },
+    {
+      "id": "moderate_noise_evaluation_26",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.1299760341644287
+      ],
+      "goal": [
+        1.5,
+        -0.09114759415388107
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100550,
+      "audit_seed": 2026100750
+    },
+    {
+      "id": "moderate_noise_evaluation_27",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.08254338055849075
+      ],
+      "goal": [
+        1.5,
+        0.061273448169231415
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100551,
+      "audit_seed": 2026100751
+    },
+    {
+      "id": "moderate_noise_evaluation_28",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.11015342175960541
+      ],
+      "goal": [
+        1.5,
+        0.12735776603221893
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100552,
+      "audit_seed": 2026100752
+    },
+    {
+      "id": "moderate_noise_evaluation_29",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.1518629640340805
+      ],
+      "goal": [
+        1.5,
+        0.11980484426021576
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100553,
+      "audit_seed": 2026100753
+    },
+    {
+      "id": "moderate_noise_evaluation_30",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        0.1614983230829239
+      ],
+      "goal": [
+        1.5,
+        0.1322880983352661
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100554,
+      "audit_seed": 2026100754
+    },
+    {
+      "id": "moderate_noise_evaluation_31",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.12,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.45,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "moderate_noise"
+      },
+      "start": [
+        -1.5,
+        -0.07953713089227676
+      ],
+      "goal": [
+        1.5,
+        0.07537412643432617
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100555,
+      "audit_seed": 2026100755
+    },
+    {
+      "id": "nonlinear_tuning_0",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.09345336258411407
+      ],
+      "goal": [
+        1.5,
+        -0.1520702987909317
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100556,
+      "audit_seed": 2026100756
+    },
+    {
+      "id": "nonlinear_tuning_1",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.06134912371635437
+      ],
+      "goal": [
+        1.5,
+        0.07106702774763107
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100557,
+      "audit_seed": 2026100757
+    },
+    {
+      "id": "nonlinear_tuning_2",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.16656295955181122
+      ],
+      "goal": [
+        1.5,
+        0.0823231190443039
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100558,
+      "audit_seed": 2026100758
+    },
+    {
+      "id": "nonlinear_tuning_3",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.14121493697166443
+      ],
+      "goal": [
+        1.5,
+        0.14288198947906494
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100559,
+      "audit_seed": 2026100759
+    },
+    {
+      "id": "nonlinear_tuning_4",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.07917147874832153
+      ],
+      "goal": [
+        1.5,
+        -0.1618199199438095
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100560,
+      "audit_seed": 2026100760
+    },
+    {
+      "id": "nonlinear_tuning_5",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.12921322882175446
+      ],
+      "goal": [
+        1.5,
+        -0.10002158582210541
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100561,
+      "audit_seed": 2026100761
+    },
+    {
+      "id": "nonlinear_tuning_6",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.0597563274204731
+      ],
+      "goal": [
+        1.5,
+        0.1779201328754425
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100562,
+      "audit_seed": 2026100762
+    },
+    {
+      "id": "nonlinear_tuning_7",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.1319863498210907
+      ],
+      "goal": [
+        1.5,
+        0.07887745648622513
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100563,
+      "audit_seed": 2026100763
+    },
+    {
+      "id": "nonlinear_tuning_8",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.1530623435974121
+      ],
+      "goal": [
+        1.5,
+        -0.010660436004400253
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100564,
+      "audit_seed": 2026100764
+    },
+    {
+      "id": "nonlinear_tuning_9",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.10664631426334381
+      ],
+      "goal": [
+        1.5,
+        0.16329367458820343
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100565,
+      "audit_seed": 2026100765
+    },
+    {
+      "id": "nonlinear_tuning_10",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.023038947954773903
+      ],
+      "goal": [
+        1.5,
+        -0.14830230176448822
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100566,
+      "audit_seed": 2026100766
+    },
+    {
+      "id": "nonlinear_tuning_11",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.12415005266666412
+      ],
+      "goal": [
+        1.5,
+        0.04050811752676964
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100567,
+      "audit_seed": 2026100767
+    },
+    {
+      "id": "nonlinear_tuning_12",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.05763860046863556
+      ],
+      "goal": [
+        1.5,
+        0.009678683243691921
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100568,
+      "audit_seed": 2026100768
+    },
+    {
+      "id": "nonlinear_tuning_13",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.09386532008647919
+      ],
+      "goal": [
+        1.5,
+        -0.08127658069133759
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100569,
+      "audit_seed": 2026100769
+    },
+    {
+      "id": "nonlinear_tuning_14",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.09998953342437744
+      ],
+      "goal": [
+        1.5,
+        0.10174182057380676
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100570,
+      "audit_seed": 2026100770
+    },
+    {
+      "id": "nonlinear_tuning_15",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.10318247228860855
+      ],
+      "goal": [
+        1.5,
+        0.004084445536136627
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100571,
+      "audit_seed": 2026100771
+    },
+    {
+      "id": "nonlinear_tuning_16",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.0293118916451931
+      ],
+      "goal": [
+        1.5,
+        -0.06509481370449066
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100572,
+      "audit_seed": 2026100772
+    },
+    {
+      "id": "nonlinear_tuning_17",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.11748497933149338
+      ],
+      "goal": [
+        1.5,
+        -0.06044488027691841
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100573,
+      "audit_seed": 2026100773
+    },
+    {
+      "id": "nonlinear_tuning_18",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.1214856207370758
+      ],
+      "goal": [
+        1.5,
+        0.05471382662653923
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100574,
+      "audit_seed": 2026100774
+    },
+    {
+      "id": "nonlinear_tuning_19",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.055332425981760025
+      ],
+      "goal": [
+        1.5,
+        -0.17373347282409668
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100575,
+      "audit_seed": 2026100775
+    },
+    {
+      "id": "nonlinear_tuning_20",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.013831800781190395
+      ],
+      "goal": [
+        1.5,
+        -0.12994344532489777
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100576,
+      "audit_seed": 2026100776
+    },
+    {
+      "id": "nonlinear_tuning_21",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.11014857888221741
+      ],
+      "goal": [
+        1.5,
+        -0.03088989295065403
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100577,
+      "audit_seed": 2026100777
+    },
+    {
+      "id": "nonlinear_tuning_22",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.010190249420702457
+      ],
+      "goal": [
+        1.5,
+        0.1424686312675476
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100578,
+      "audit_seed": 2026100778
+    },
+    {
+      "id": "nonlinear_tuning_23",
+      "split": "tuning",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.14548540115356445
+      ],
+      "goal": [
+        1.5,
+        -0.030580924823880196
+      ],
+      "task_seed": 2026100301,
+      "sampling_seed": 2026100302,
+      "reference_seed": 2026100579,
+      "audit_seed": 2026100779
+    },
+    {
+      "id": "nonlinear_evaluation_0",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.12096472084522247
+      ],
+      "goal": [
+        1.5,
+        -0.03637205436825752
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100580,
+      "audit_seed": 2026100780
+    },
+    {
+      "id": "nonlinear_evaluation_1",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.13964605331420898
+      ],
+      "goal": [
+        1.5,
+        -0.017075583338737488
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100581,
+      "audit_seed": 2026100781
+    },
+    {
+      "id": "nonlinear_evaluation_2",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.16933707892894745
+      ],
+      "goal": [
+        1.5,
+        -0.09271155297756195
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100582,
+      "audit_seed": 2026100782
+    },
+    {
+      "id": "nonlinear_evaluation_3",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.11695348471403122
+      ],
+      "goal": [
+        1.5,
+        0.09103396534919739
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100583,
+      "audit_seed": 2026100783
+    },
+    {
+      "id": "nonlinear_evaluation_4",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.0019416622817516327
+      ],
+      "goal": [
+        1.5,
+        0.02833002805709839
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100584,
+      "audit_seed": 2026100784
+    },
+    {
+      "id": "nonlinear_evaluation_5",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.11027254164218903
+      ],
+      "goal": [
+        1.5,
+        -0.10139336436986923
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100585,
+      "audit_seed": 2026100785
+    },
+    {
+      "id": "nonlinear_evaluation_6",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.15582509338855743
+      ],
+      "goal": [
+        1.5,
+        -0.11167635768651962
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100586,
+      "audit_seed": 2026100786
+    },
+    {
+      "id": "nonlinear_evaluation_7",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.12999393045902252
+      ],
+      "goal": [
+        1.5,
+        0.042317844927310944
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100587,
+      "audit_seed": 2026100787
+    },
+    {
+      "id": "nonlinear_evaluation_8",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.0867856815457344
+      ],
+      "goal": [
+        1.5,
+        0.0003605372621677816
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100588,
+      "audit_seed": 2026100788
+    },
+    {
+      "id": "nonlinear_evaluation_9",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.16633813083171844
+      ],
+      "goal": [
+        1.5,
+        -0.03488648310303688
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100589,
+      "audit_seed": 2026100789
+    },
+    {
+      "id": "nonlinear_evaluation_10",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.04384521022439003
+      ],
+      "goal": [
+        1.5,
+        0.08948472887277603
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100590,
+      "audit_seed": 2026100790
+    },
+    {
+      "id": "nonlinear_evaluation_11",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.15963977575302124
+      ],
+      "goal": [
+        1.5,
+        -0.11459889262914658
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100591,
+      "audit_seed": 2026100791
+    },
+    {
+      "id": "nonlinear_evaluation_12",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.11726158112287521
+      ],
+      "goal": [
+        1.5,
+        0.11439277231693268
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100592,
+      "audit_seed": 2026100792
+    },
+    {
+      "id": "nonlinear_evaluation_13",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.06484007090330124
+      ],
+      "goal": [
+        1.5,
+        0.0035350294783711433
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100593,
+      "audit_seed": 2026100793
+    },
+    {
+      "id": "nonlinear_evaluation_14",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.0017508133314549923
+      ],
+      "goal": [
+        1.5,
+        -0.11944646388292313
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100594,
+      "audit_seed": 2026100794
+    },
+    {
+      "id": "nonlinear_evaluation_15",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.15662166476249695
+      ],
+      "goal": [
+        1.5,
+        0.07435997575521469
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100595,
+      "audit_seed": 2026100795
+    },
+    {
+      "id": "nonlinear_evaluation_16",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.01986890658736229
+      ],
+      "goal": [
+        1.5,
+        -0.09498171508312225
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100596,
+      "audit_seed": 2026100796
+    },
+    {
+      "id": "nonlinear_evaluation_17",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.1408393532037735
+      ],
+      "goal": [
+        1.5,
+        -0.17344458401203156
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100597,
+      "audit_seed": 2026100797
+    },
+    {
+      "id": "nonlinear_evaluation_18",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.11667797714471817
+      ],
+      "goal": [
+        1.5,
+        -0.10733184963464737
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100598,
+      "audit_seed": 2026100798
+    },
+    {
+      "id": "nonlinear_evaluation_19",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.10444384813308716
+      ],
+      "goal": [
+        1.5,
+        0.11543328315019608
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100599,
+      "audit_seed": 2026100799
+    },
+    {
+      "id": "nonlinear_evaluation_20",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.061868537217378616
+      ],
+      "goal": [
+        1.5,
+        -0.030004583299160004
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100600,
+      "audit_seed": 2026100800
+    },
+    {
+      "id": "nonlinear_evaluation_21",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.039730098098516464
+      ],
+      "goal": [
+        1.5,
+        -0.11481428146362305
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100601,
+      "audit_seed": 2026100801
+    },
+    {
+      "id": "nonlinear_evaluation_22",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.17252756655216217
+      ],
+      "goal": [
+        1.5,
+        0.04500590264797211
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100602,
+      "audit_seed": 2026100802
+    },
+    {
+      "id": "nonlinear_evaluation_23",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.05643254518508911
+      ],
+      "goal": [
+        1.5,
+        0.011027517728507519
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100603,
+      "audit_seed": 2026100803
+    },
+    {
+      "id": "nonlinear_evaluation_24",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.161261186003685
+      ],
+      "goal": [
+        1.5,
+        0.10855212807655334
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100604,
+      "audit_seed": 2026100804
+    },
+    {
+      "id": "nonlinear_evaluation_25",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.013278828002512455
+      ],
+      "goal": [
+        1.5,
+        0.12475374341011047
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100605,
+      "audit_seed": 2026100805
+    },
+    {
+      "id": "nonlinear_evaluation_26",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.1299760341644287
+      ],
+      "goal": [
+        1.5,
+        -0.09114759415388107
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100606,
+      "audit_seed": 2026100806
+    },
+    {
+      "id": "nonlinear_evaluation_27",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.08254338055849075
+      ],
+      "goal": [
+        1.5,
+        0.061273448169231415
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100607,
+      "audit_seed": 2026100807
+    },
+    {
+      "id": "nonlinear_evaluation_28",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.11015342175960541
+      ],
+      "goal": [
+        1.5,
+        0.12735776603221893
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100608,
+      "audit_seed": 2026100808
+    },
+    {
+      "id": "nonlinear_evaluation_29",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.1518629640340805
+      ],
+      "goal": [
+        1.5,
+        0.11980484426021576
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100609,
+      "audit_seed": 2026100809
+    },
+    {
+      "id": "nonlinear_evaluation_30",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.1614983230829239
+      ],
+      "goal": [
+        1.5,
+        0.1322880983352661
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100610,
+      "audit_seed": 2026100810
+    },
+    {
+      "id": "nonlinear_evaluation_31",
+      "split": "evaluation",
+      "source": "new frozen B0 CPU sample from existing checkpoint",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.07953713089227676
+      ],
+      "goal": [
+        1.5,
+        0.07537412643432617
+      ],
+      "task_seed": 2026100401,
+      "sampling_seed": 2026100402,
+      "reference_seed": 2026100611,
+      "audit_seed": 2026100811
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_0",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.016446193680167198
+      ],
+      "goal": [
+        1.5,
+        -0.06569811701774597
+      ],
+      "reference_seed": 2026100612,
+      "audit_seed": 2026100812
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_1",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.06439975649118423
+      ],
+      "goal": [
+        1.5,
+        -0.009190571494400501
+      ],
+      "reference_seed": 2026100613,
+      "audit_seed": 2026100813
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_2",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.10543235391378403
+      ],
+      "goal": [
+        1.5,
+        -0.08901975303888321
+      ],
+      "reference_seed": 2026100614,
+      "audit_seed": 2026100814
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_3",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.022646412253379822
+      ],
+      "goal": [
+        1.5,
+        0.1354343146085739
+      ],
+      "reference_seed": 2026100615,
+      "audit_seed": 2026100815
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_4",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.17247532308101654
+      ],
+      "goal": [
+        1.5,
+        -0.12122910469770432
+      ],
+      "reference_seed": 2026100616,
+      "audit_seed": 2026100816
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_5",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.011663369834423065
+      ],
+      "goal": [
+        1.5,
+        0.05117836967110634
+      ],
+      "reference_seed": 2026100617,
+      "audit_seed": 2026100817
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_6",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.08123040944337845
+      ],
+      "goal": [
+        1.5,
+        0.10986786335706711
+      ],
+      "reference_seed": 2026100618,
+      "audit_seed": 2026100818
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_7",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.04258328303694725
+      ],
+      "goal": [
+        1.5,
+        0.11875399947166443
+      ],
+      "reference_seed": 2026100619,
+      "audit_seed": 2026100819
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_8",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.050988391041755676
+      ],
+      "goal": [
+        1.5,
+        -0.1707105040550232
+      ],
+      "reference_seed": 2026100620,
+      "audit_seed": 2026100820
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_9",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        -0.0938292145729065
+      ],
+      "goal": [
+        1.5,
+        0.1249561756849289
+      ],
+      "reference_seed": 2026100621,
+      "audit_seed": 2026100821
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_10",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.12590788304805756
+      ],
+      "goal": [
+        1.5,
+        0.040998414158821106
+      ],
+      "reference_seed": 2026100622,
+      "audit_seed": 2026100822
+    },
+    {
+      "id": "legacy_optimizer_diagnostic_11",
+      "split": "diagnostic",
+      "source": "September 26 nonlinear conventional optimizer; known counterexample is task 3",
+      "problem": {
+        "horizon": 20,
+        "dt": 0.2,
+        "strength": 0.35,
+        "process_sigma": 0.04,
+        "initial_sigma": 0.015,
+        "goal_half": 0.55,
+        "control_limit": 2.5,
+        "obstacles": [
+          [
+            0.0,
+            0.0,
+            0.43
+          ]
+        ],
+        "name": "nonlinear"
+      },
+      "start": [
+        -1.5,
+        0.16203662753105164
+      ],
+      "goal": [
+        1.5,
+        -0.04534159600734711
+      ],
+      "reference_seed": 2026100623,
+      "audit_seed": 2026100823
+    }
+  ],
+  "methods": [
+    "jacobian",
+    "sine_gaussian_closure"
+  ],
+  "reference_draws": 8192,
+  "audit_draws": 32768,
+  "risk_thresholds": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "tuning_note": "No parameters are fitted. Tuning cases are reported separately and never used to modify this run. Diagnostic cases are not held-out evidence.",
+  "event_semantics": "Obstacle at x0..x[H-1], terminal goal at xH, boundary contact nonviolating, independent initial/process Gaussian noise; control feasibility separate.",
+  "metrics": [
+    "mean trajectory error",
+    "full covariance Frobenius error",
+    "cross covariance absolute error",
+    "exact/tangent marginal MAE",
+    "signed Gaussian-minus-empirical-tangent sum",
+    "union and geometry excess",
+    "fresh audit risk underestimation",
+    "confirmed false-safe predictions at each threshold",
+    "CPU propagation plus risk runtime",
+    "minimum eigenvalue, finiteness, asymmetry and PSD corrections"
+  ],
+  "frozen_controls_sha256": "f94af5adf434ee28403ed5d83e5a80be7d67bbecb91459c6854f4a1b19aa7e34",
+  "source_sha256": {
+    "revision/risk.py": "9f5aaefb6f728c505b8f3707a98e8eed5b041abbdaf649024c340e24ca89a0b2",
+    "revision/evaluate.py": "c39b448027aa6b12334233f9b7abf3a0a6acae5f0b709c98edca974e72aa5721",
+    "revision/problem.py": "75cb29aaa6627606aeb27d29d794339f56cd356e6f06b2e031b24bcf3a1c444a",
+    "revision/sine_moments.py": "a2a3822c9b4be65ddd0eb57f4c31509147b0de2c508dc6eb65bb892cd571a6c8",
+    "revision/test_sine_moments.py": "3ea6ef96b86cb943b779e99c4bb6a5f1b7dcb167a23fd70a56b021a98296dd9d",
+    "revision/compare_sine.py": "9c273b737c228fe69f3ddf672eaad306b1da2843288d08c79856ab2a45e9d52e"
+  },
+  "input_sha256": {
+    "revision/outputs/nominal_seed0/nominal.pt": "333098edf028b35c576df9d765cb6a7460ad034e0c310762adecb31add6905ab",
+    "revision/outputs/nonlinear_seed0/nominal.pt": "eafd32cd3fe02d98d543f5fb8ca7c52a1fba2d8f2c41f88f447d9f5061ae40a7",
+    "revision/outputs/conventional/nonlinear_WaypointChanceOptimizer.npz": "f2ccb49cc034fc5d176b4283bae1f61789ce9540bca1c0ec2dd52921817996e6"
+  },
+  "device": "cpu",
+  "dtype": "float64",
+  "threads": 2,
+  "runtime_repeats": 5,
+  "resource_cap_seconds": 180,
+  "resource_cap_artifact_bytes": 50000000
+}
