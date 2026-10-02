@@ -1,0 +1,14 @@
+/home/kristoff/Documents/experiments/research/risk_diffusion/phase6/tracking.py:24: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  self.t=torch;self.arm=arm;self.kw={'dtype':torch.float64,'device':'cuda'};self.cast=lambda v:torch.as_tensor(v,**self.kw)
+/home/kristoff/miniconda3/envs/presto-audit/lib/python3.9/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Traceback (most recent call last):
+  File "/home/kristoff/Documents/experiments/research/risk_diffusion/phase7/analyze_saved.py", line 33, in <module>
+    w=csv.DictWriter(f,fieldnames=list(data[0]));w.writeheader();w.writerows(data)
+  File "/home/kristoff/miniconda3/envs/presto-audit/lib/python3.9/csv.py", line 157, in writerows
+    return self.writer.writerows(map(self._dict_to_list, rowdicts))
+  File "/home/kristoff/miniconda3/envs/presto-audit/lib/python3.9/csv.py", line 149, in _dict_to_list
+    raise ValueError("dict contains fields not in fieldnames: "
+ValueError: dict contains fields not in fieldnames: 'after_cost', 'after_risk', 'before_risk', 'before_cost'
+Command exited with non-zero status 1
+WALL=1.48 USER=1.31 SYS=0.32 RSS_KiB=798380

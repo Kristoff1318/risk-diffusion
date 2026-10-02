@@ -1,0 +1,177 @@
+{
+  "task": 6,
+  "official_ID": 693071,
+  "arm": "mpd",
+  "delta": 0.05,
+  "regime": "double",
+  "key": "t6_mpd_d0.05",
+  "status": "completed",
+  "accepted": false,
+  "selected": null,
+  "candidates": [
+    {
+      "admission": {
+        "n": 1024,
+        "union": 1024,
+        "risk": 1.0,
+        "CI95": [
+          0.9964040595931655,
+          1.0
+        ],
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 1024,
+          "orientation": 1024
+        },
+        "minimum_margins": [
+          0.10875409513632958,
+          0.10842369481196404,
+          0.17661275793837383,
+          0.076275273969226,
+          0.09209264074085044
+        ],
+        "max_position": 0.062294263664589906,
+        "max_orientation": 0.29682921069697893,
+        "seconds": 1.2730835260008462,
+        "finite": true,
+        "upper95_selection_corrected": 1.0,
+        "nominal_command_limit_valid": true,
+        "cost": 1.6345827782622413,
+        "admitted": false,
+        "slot": 0,
+        "path_hash": "da879dd4cf8a0584ea8a17e6dc654e4b4a8b5bac92508e8ea295e54af9310bf9"
+      },
+      "audit": {
+        "n": 2048,
+        "union": 2048,
+        "risk": 1.0,
+        "CI95": [
+          0.9982004105354623,
+          1.0
+        ],
+        "counts": {
+          "world_mpd": 0,
+          "world_curobo": 0,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 2048,
+          "orientation": 2048
+        },
+        "minimum_margins": [
+          0.10855097586301585,
+          0.10887265792963621,
+          0.17659996817132584,
+          0.07627602600842552,
+          0.09113222096456619
+        ],
+        "max_position": 0.061769498796012234,
+        "max_orientation": 0.2967209687442917,
+        "seconds": 2.545607845997438,
+        "finite": true,
+        "cache_reused": false,
+        "cost": 1.6345827782622413,
+        "nominal_control_count": 201
+      }
+    },
+    {
+      "admission": {
+        "n": 1024,
+        "union": 1024,
+        "risk": 1.0,
+        "CI95": [
+          0.9964040595931655,
+          1.0
+        ],
+        "counts": {
+          "world_mpd": 1024,
+          "world_curobo": 1024,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 1024,
+          "orientation": 1024
+        },
+        "minimum_margins": [
+          -0.00991037373918982,
+          -0.013110483691737201,
+          0.18057599201492636,
+          0.07616557520852967,
+          0.2528958012219089
+        ],
+        "max_position": 0.025938682128069636,
+        "max_orientation": 0.1248938917247778,
+        "seconds": 1.2725218440027675,
+        "finite": true,
+        "upper95_selection_corrected": 1.0,
+        "nominal_command_limit_valid": true,
+        "cost": 3.872809744455475,
+        "admitted": false,
+        "slot": 1,
+        "path_hash": "e24e3fd291b107163662f55414cde08a3d79a7c6e6a2007396e25aba714d14f8"
+      },
+      "audit": {
+        "n": 2048,
+        "union": 2048,
+        "risk": 1.0,
+        "CI95": [
+          0.9982004105354623,
+          1.0
+        ],
+        "counts": {
+          "world_mpd": 2048,
+          "world_curobo": 2048,
+          "self_mpd": 0,
+          "self_curobo": 0,
+          "joint": 0,
+          "command_velocity": 0,
+          "executed_velocity": 0,
+          "position": 2048,
+          "orientation": 2048
+        },
+        "minimum_margins": [
+          -0.010188781654561913,
+          -0.013301398891641614,
+          0.18056363648019985,
+          0.07616759577102712,
+          0.25222361122960724
+        ],
+        "max_position": 0.025874470003971323,
+        "max_orientation": 0.12399119745449842,
+        "seconds": 2.5458311069960473,
+        "finite": true,
+        "cache_reused": false,
+        "cost": 3.872809744455475,
+        "nominal_control_count": 201
+      }
+    }
+  ],
+  "generation": {
+    "seconds": 0.04960099799791351,
+    "denoiser_calls": 15,
+    "n_samples": 2,
+    "seed": 2026104600,
+    "guide": false
+  },
+  "risk_refinements": [],
+  "proposal_correction_seconds": 0.04961067299882416,
+  "admission_seconds": 2.5467993240017677,
+  "request_seconds": 2.596410965998075,
+  "shared_initialization_charge_seconds": 0.01070015448453887,
+  "latency_with_amortized_init": 2.607111120482614,
+  "cold_equivalent_request_seconds": 2.996833362005418,
+  "audit_seconds": 5.093483682008809,
+  "audit_cache_hits": 0,
+  "timeout": false,
+  "end_to_end_with_research_audit_seconds": 7.689898122000159
+}

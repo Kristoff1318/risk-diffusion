@@ -1,0 +1,58 @@
+[
+  {
+    "task": 0,
+    "seconds": 0.37482719800027553,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  },
+  {
+    "task": 1,
+    "seconds": 0.37565109800198115,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  },
+  {
+    "task": 2,
+    "seconds": 0.4037865639984375,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  },
+  {
+    "task": 3,
+    "seconds": 0.3728654800070217,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  },
+  {
+    "task": 4,
+    "seconds": 0.37112624499422964,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  },
+  {
+    "task": 5,
+    "seconds": 0.3751554880000185,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  },
+  {
+    "task": 6,
+    "seconds": 0.4776755009952467,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  },
+  {
+    "task": 7,
+    "seconds": 0.39263809700787533,
+    "optimizer_samples": 32,
+    "admission_samples": 1024,
+    "audit_stream_samples": 4096
+  }
+]

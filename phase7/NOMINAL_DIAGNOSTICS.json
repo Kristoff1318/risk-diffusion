@@ -1,0 +1,4098 @@
+{
+  "t0_classical_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.002690172356473286,
+      0.0016901723564732851,
+      0.09806597022549009,
+      -0.0005786881034074848,
+      -0.28175498877840865
+    ],
+    "max_position": 0.018516877860194184,
+    "max_orientation": 0.5389054243992168,
+    "seconds": 0.05577763300971128,
+    "finite": true,
+    "cost": 7.718616384077343
+  },
+  "t0_classical_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.014445238829321194,
+      0.012356721132705223,
+      0.07044774442444635,
+      -0.003983762093440091,
+      0.17145895462036131
+    ],
+    "max_position": 0.0011034144144058938,
+    "max_orientation": 0.004379385363116192,
+    "seconds": 0.0028241209947736934,
+    "finite": true,
+    "cost": 4.902681005008026
+  },
+  "t0_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.001955842273346192,
+      0.0009558422733461913,
+      0.09842258009450706,
+      -0.0002102879426302967,
+      -0.2748028767240702
+    ],
+    "max_position": 0.028558204927147095,
+    "max_orientation": 0.5143317735604999,
+    "seconds": 0.002523778995964676,
+    "finite": true,
+    "cost": 7.272692779426737
+  },
+  "t0_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02441791511197189,
+      0.022136840958836113,
+      0.07537406698152121,
+      0.0017153006870478937,
+      0.17145895462036131
+    ],
+    "max_position": 0.007409237728228822,
+    "max_orientation": 0.01711149253093483,
+    "seconds": 0.0025070569972740486,
+    "finite": true,
+    "cost": 4.782633581071565
+  },
+  "t0_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.01698630236245957,
+      -0.022812848663469915,
+      0.13073648673759355,
+      0.019916328561112473,
+      0.17145895462036131
+    ],
+    "max_position": 0.0104903489149444,
+    "max_orientation": 0.05565322393825941,
+    "seconds": 0.002508478006348014,
+    "finite": true,
+    "cost": 4.427695476530934
+  },
+  "t0_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.02400002131192952,
+      -0.03000500901758199,
+      0.13073648673759355,
+      0.007588689581538632,
+      0.0028581569671630724
+    ],
+    "max_position": 0.02576807598062628,
+    "max_orientation": 0.08253853548025396,
+    "seconds": 0.002506459000869654,
+    "finite": true,
+    "cost": 6.147514937975049
+  },
+  "t0_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.005150506479269484,
+      -0.0041505064792694835,
+      0.13073648673759355,
+      0.01874130524971454,
+      0.17145895462036131
+    ],
+    "max_position": 0.012277225156815137,
+    "max_orientation": 0.043880286738036706,
+    "seconds": 0.0024683640076546,
+    "finite": true,
+    "cost": 4.272553653350483
+  },
+  "t0_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.0019290036339610073,
+      -0.007868821484042082,
+      0.13073648673759355,
+      0.01237486557487788,
+      0.021010729933537142
+    ],
+    "max_position": 0.02362453255042267,
+    "max_orientation": 0.05402571185094983,
+    "seconds": 0.002482580006471835,
+    "finite": true,
+    "cost": 5.96931899488649
+  },
+  "t0_classical_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.002690172356473286,
+      0.0016901723564732851,
+      0.09806597022549009,
+      -0.0005786881034074848,
+      -0.28175498877840865
+    ],
+    "max_position": 0.018516877860194184,
+    "max_orientation": 0.5389054243992168,
+    "seconds": 0.002476046996889636,
+    "finite": true,
+    "cost": 7.718616384077343
+  },
+  "t0_classical_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.014445238829321194,
+      0.012356721132705223,
+      0.07044774442444635,
+      -0.003983762093440091,
+      0.17145895462036131
+    ],
+    "max_position": 0.0011034144144058938,
+    "max_orientation": 0.004379385363116192,
+    "seconds": 0.0024823250132612884,
+    "finite": true,
+    "cost": 4.902681005008026
+  },
+  "t0_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.0019558535582545056,
+      0.0009558535582545047,
+      0.0984226381318913,
+      -0.00021029313657389137,
+      -0.274802220389212
+    ],
+    "max_position": 0.028558617484813007,
+    "max_orientation": 0.5143320633927515,
+    "seconds": 0.002497024994227104,
+    "finite": true,
+    "cost": 7.272682337550796
+  },
+  "t0_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02505369626631454,
+      0.022754099462144295,
+      0.07558365941893547,
+      0.0013604506502271907,
+      0.17145895462036131
+    ],
+    "max_position": 0.006939942927782094,
+    "max_orientation": 0.014563224108581537,
+    "seconds": 0.0024762469984125346,
+    "finite": true,
+    "cost": 4.780284570400112
+  },
+  "t0_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.01698630236245957,
+      -0.022812848663469915,
+      0.13073648673759355,
+      0.019916328561112473,
+      0.17145895462036131
+    ],
+    "max_position": 0.0104903489149444,
+    "max_orientation": 0.05565322393825941,
+    "seconds": 0.0025738189870025963,
+    "finite": true,
+    "cost": 4.427695476530934
+  },
+  "t0_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.02400002131192952,
+      -0.03000500901758199,
+      0.13073648673759355,
+      0.007588689581538632,
+      0.0028581569671630724
+    ],
+    "max_position": 0.02576807598062628,
+    "max_orientation": 0.08253853548025396,
+    "seconds": 0.002477109999745153,
+    "finite": true,
+    "cost": 6.147514937975049
+  },
+  "t0_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.0029891433607018014,
+      -0.0022762224490740224,
+      0.13073648673759355,
+      0.018777388144002205,
+      0.17145895462036131
+    ],
+    "max_position": 0.012287657301516496,
+    "max_orientation": 0.04409749075805641,
+    "seconds": 0.0024798340018605813,
+    "finite": true,
+    "cost": 4.275520765268647
+  },
+  "t0_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.0019317950416644913,
+      -0.007870467140952964,
+      0.13073648673759355,
+      0.00970672162565453,
+      0.02004052111583965
+    ],
+    "max_position": 0.0197483542408042,
+    "max_orientation": 0.044767715135273035,
+    "seconds": 0.002486259996658191,
+    "finite": true,
+    "cost": 5.979023625431523
+  },
+  "t1_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03699311330052016,
+      0.03799311330052016,
+      0.03077439249527436,
+      0.006731668545848363,
+      -0.3537334205223228
+    ],
+    "max_position": 0.03872171576632668,
+    "max_orientation": 0.8934421625537008,
+    "seconds": 0.0024967229983303696,
+    "finite": true,
+    "cost": 11.49694495127374
+  },
+  "t1_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02247680492472487,
+      0.017267951339819204,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.00274584038807425,
+    "max_orientation": 0.021912345971845073,
+    "seconds": 0.0024954260006779805,
+    "finite": true,
+    "cost": 2.0430271713193964
+  },
+  "t1_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.017577663904906587,
+      0.006528833158261055,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.06953949534245799,
+    "max_orientation": 0.13807824929784268,
+    "seconds": 0.0025014700077008456,
+    "finite": true,
+    "cost": 4.0599180234195735
+  },
+  "t1_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03479580323772796,
+      0.027587109741887966,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.017844195791990876,
+    "max_orientation": 0.18345570651052104,
+    "seconds": 0.0025026250077644363,
+    "finite": true,
+    "cost": 6.90628311594362
+  },
+  "t1_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.00034424723023010473,
+      -0.009900527867198888,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.04543642713083248,
+    "max_orientation": 0.13970553955879655,
+    "seconds": 0.002501292008673772,
+    "finite": true,
+    "cost": 3.8517905675553945
+  },
+  "t1_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.021043964398770543,
+      0.012988345178680555,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.03198437778597442,
+    "max_orientation": 0.11451627253021085,
+    "seconds": 0.0024984030023915693,
+    "finite": true,
+    "cost": 6.738717851668864
+  },
+  "t1_classical_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03300829951282638,
+      0.034008299512826384,
+      0.03077439249527436,
+      0.006731668545848363,
+      -0.33278781875049157
+    ],
+    "max_position": 0.009774720607549706,
+    "max_orientation": 0.955644463333164,
+    "seconds": 0.002504991993191652,
+    "finite": true,
+    "cost": 11.702651224612286
+  },
+  "t1_classical_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.026971554067119152,
+      0.021292667174640817,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.0011027202536579245,
+    "max_orientation": 0.00895654388944193,
+    "seconds": 0.0024869069893611595,
+    "finite": true,
+    "cost": 2.162342400834506
+  },
+  "t1_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03699317183324771,
+      0.03799317183324771,
+      0.03077439249527436,
+      0.006731668545848363,
+      -0.35373318983055757
+    ],
+    "max_position": 0.038721526278226864,
+    "max_orientation": 0.8934423692919542,
+    "seconds": 0.0024994690029416233,
+    "finite": true,
+    "cost": 11.496944104898263
+  },
+  "t1_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.020964012559165107,
+      0.015790632558683154,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.0038314376063910303,
+    "max_orientation": 0.026276909236127056,
+    "seconds": 0.002491358987754211,
+    "finite": true,
+    "cost": 2.019595321764822
+  },
+  "t1_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.017577663904906587,
+      0.006528833158261055,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.06953949534245799,
+    "max_orientation": 0.13807824929784268,
+    "seconds": 0.002503024006728083,
+    "finite": true,
+    "cost": 4.0599180234195735
+  },
+  "t1_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03479580323772796,
+      0.027587109741887966,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.017844195791990876,
+    "max_orientation": 0.18345570651052104,
+    "seconds": 0.002489610997145064,
+    "finite": true,
+    "cost": 6.90628311594362
+  },
+  "t1_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.00034422237122905264,
+      -0.00990049363820275,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.04543024294022712,
+    "max_orientation": 0.13966078596038836,
+    "seconds": 0.0024923099990701303,
+    "finite": true,
+    "cost": 3.8522267850645266
+  },
+  "t1_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.02104435703700097,
+      0.012988717360984697,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.031684680058672844,
+    "max_orientation": 0.11440005322816509,
+    "seconds": 0.002503436990082264,
+    "finite": true,
+    "cost": 6.739425916483344
+  },
+  "t1_classical_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03300829951282638,
+      0.034008299512826384,
+      0.03077439249527436,
+      0.006731668545848363,
+      -0.33278781875049157
+    ],
+    "max_position": 0.009774720607549706,
+    "max_orientation": 0.955644463333164,
+    "seconds": 0.00249543999962043,
+    "finite": true,
+    "cost": 11.702651224612286
+  },
+  "t1_classical_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.026971554067119152,
+      0.021292667174640817,
+      0.03077439249527436,
+      0.006731668545848363,
+      0.013868576812744227
+    ],
+    "max_position": 0.0011027202536579245,
+    "max_orientation": 0.00895654388944193,
+    "seconds": 0.0024882370053092018,
+    "finite": true,
+    "cost": 2.162342400834506
+  },
+  "t2_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.027801163617315744,
+      -0.020776216668766917,
+      0.02833823347900978,
+      0.02833823347900978,
+      0.2035726928710937
+    ],
+    "max_position": 0.02871999204302884,
+    "max_orientation": 0.22344144070336483,
+    "seconds": 0.0025215079949703068,
+    "finite": true,
+    "cost": 2.3582083053192227
+  },
+  "t2_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      -0.1699784308077285,
+      -0.1699784308077285,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.24043632202148446
+    ],
+    "max_position": 0.0209636861123611,
+    "max_orientation": 0.03369022127840552,
+    "seconds": 0.0025013589911395684,
+    "finite": true,
+    "cost": 11.738135048110356
+  },
+  "t2_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.025300692555888515,
+      -0.01825992620662084,
+      0.02841240307988653,
+      0.02841240307988653,
+      0.18245676577916337
+    ],
+    "max_position": 0.01261688235703397,
+    "max_orientation": 0.13180993187124276,
+    "seconds": 0.0025342650042148307,
+    "finite": true,
+    "cost": 2.227173566009917
+  },
+  "t2_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      -0.16452735248255573,
+      -0.16452735248255573,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.24043632202148446
+    ],
+    "max_position": 0.009317898071281614,
+    "max_orientation": 0.026712011282302196,
+    "seconds": 0.0027613330021267757,
+    "finite": true,
+    "cost": 11.45551118177614
+  },
+  "t2_classical_d0.05_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.0037105442379237463,
+      0.0031815450538098256,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.0
+    ],
+    "max_position": 4.611102534756203e-16,
+    "max_orientation": 2.7152272709485396e-15,
+    "seconds": 0.0024927159975050017,
+    "finite": true,
+    "cost": 0.43674854771087623
+  },
+  "t2_classical_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.0008060892027501043,
+      0.006806089202750082,
+      0.0047529677384382935,
+      -0.0225597124031204,
+      -0.4138482495884201
+    ],
+    "max_position": 0.02565906126067343,
+    "max_orientation": 0.7732335252520455,
+    "seconds": 0.0025088450056500733,
+    "finite": true,
+    "cost": 13.549077273013365
+  },
+  "t2_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.0038601380482622405,
+      0.003268219286649582,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.01255620267999813
+    ],
+    "max_position": 0.0066766335368052395,
+    "max_orientation": 0.02847658270428848,
+    "seconds": 0.0024924169993028045,
+    "finite": true,
+    "cost": 0.41786673359554016
+  },
+  "t2_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.002671086722463051,
+      0.0033289132775369545,
+      0.011170173052258606,
+      -0.022425881644199654,
+      -0.413370091270165
+    ],
+    "max_position": 0.03473118983687747,
+    "max_orientation": 0.745018794372565,
+    "seconds": 0.0024966070050140843,
+    "finite": true,
+    "cost": 12.847830821843232
+  },
+  "t2_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.027801163617315744,
+      -0.020776216668766917,
+      0.02833823347900978,
+      0.02833823347900978,
+      0.2035726928710937
+    ],
+    "max_position": 0.02871999204302884,
+    "max_orientation": 0.22344144070336483,
+    "seconds": 0.0024861599958967417,
+    "finite": true,
+    "cost": 2.3582083053192227
+  },
+  "t2_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      -0.1699784308077285,
+      -0.1699784308077285,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.24043632202148446
+    ],
+    "max_position": 0.0209636861123611,
+    "max_orientation": 0.03369022127840552,
+    "seconds": 0.0025041159969987348,
+    "finite": true,
+    "cost": 11.738135048110356
+  },
+  "t2_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.02530088633381214,
+      -0.018260119105098477,
+      0.028412340243727796,
+      0.028412340243727796,
+      0.18245630365049514
+    ],
+    "max_position": 0.012620170394548864,
+    "max_orientation": 0.13180960327977823,
+    "seconds": 0.0025849420053418726,
+    "finite": true,
+    "cost": 2.2271711645024714
+  },
+  "t2_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      -0.16417277532691588,
+      -0.16417277532691588,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.24043632202148446
+    ],
+    "max_position": 0.009102922180578989,
+    "max_orientation": 0.027520011508499906,
+    "seconds": 0.002485022007022053,
+    "finite": true,
+    "cost": 11.452305196032022
+  },
+  "t2_classical_d0.1_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.0037105442379237463,
+      0.0031815450538098256,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.0
+    ],
+    "max_position": 4.611102534756203e-16,
+    "max_orientation": 2.7152272709485396e-15,
+    "seconds": 0.002559643005952239,
+    "finite": true,
+    "cost": 0.43674854771087623
+  },
+  "t2_classical_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.0008060892027501043,
+      0.006806089202750082,
+      0.0047529677384382935,
+      -0.0225597124031204,
+      -0.4138482495884201
+    ],
+    "max_position": 0.02565906126067343,
+    "max_orientation": 0.7732335252520455,
+    "seconds": 0.0027227739919908345,
+    "finite": true,
+    "cost": 13.549077273013365
+  },
+  "t2_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.0037973377764949634,
+      0.003181477331089394,
+      0.054724709319641796,
+      0.054724709319641796,
+      0.012557586214716476
+    ],
+    "max_position": 0.006840645093334511,
+    "max_orientation": 0.0283734905608727,
+    "seconds": 0.002507527999114245,
+    "finite": true,
+    "cost": 0.4177873940153138
+  },
+  "t2_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 1,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.0026710389875995444,
+      0.003328961012400461,
+      0.011170572614740165,
+      -0.022452760063235606,
+      -0.4133714510294409
+    ],
+    "max_position": 0.03473044984968089,
+    "max_orientation": 0.745038211349476,
+    "seconds": 0.0025158329954138026,
+    "finite": true,
+    "cost": 12.848545313841369
+  },
+  "t3_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.0448657234099665,
+      -0.04759185442654332,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.019181444880892573,
+    "max_orientation": 0.1995324932497565,
+    "seconds": 0.002502889998140745,
+    "finite": true,
+    "cost": 13.479736821264982
+  },
+  "t3_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.003876203587979854,
+      -0.005289769139043776,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.008660443885518586,
+    "max_orientation": 0.049335241073260656,
+    "seconds": 0.0025132679875241593,
+    "finite": true,
+    "cost": 7.998207590483299
+  },
+  "t3_classical_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.06323592373991105,
+      -0.06638718993611142,
+      0.17992507264926194,
+      0.045839041179200096,
+      -0.18569960890548198
+    ],
+    "max_position": 0.01328246726943311,
+    "max_orientation": 0.25281765684024793,
+    "seconds": 0.00251929099613335,
+    "finite": true,
+    "cost": 19.964802474656256
+  },
+  "t3_classical_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.013289317972721204,
+      0.009821173099704122,
+      0.19838356404603413,
+      0.04183295081579125,
+      0.0026801625276644137
+    ],
+    "max_position": 0.0008078178511603838,
+    "max_orientation": 0.004624486654812139,
+    "seconds": 0.0024977299908641726,
+    "finite": true,
+    "cost": 10.586859471323024
+  },
+  "t3_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.06317862795524756,
+      -0.06614035889575266,
+      0.18182601282912897,
+      0.045839041179200096,
+      -0.1646996089160091
+    ],
+    "max_position": 0.025791974033307852,
+    "max_orientation": 0.256919169072287,
+    "seconds": 0.0025130389985861257,
+    "finite": true,
+    "cost": 18.775062366661565
+  },
+  "t3_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.025951316655653506,
+      0.022056387022495655,
+      0.1997072465125433,
+      0.04437186427581116,
+      0.013803298011006847
+    ],
+    "max_position": 0.002904436233995875,
+    "max_orientation": 0.015988406537586406,
+    "seconds": 0.002456958987750113,
+    "finite": true,
+    "cost": 9.713844703755573
+  },
+  "t3_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.06223633815935667,
+      -0.06493406054375311,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.0256031932933736,
+    "max_orientation": 0.25620494880840944,
+    "seconds": 0.0024920389987528324,
+    "finite": true,
+    "cost": 13.90671651340541
+  },
+  "t3_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.011875417129813048,
+      0.010517318770250389,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.03031272948456481,
+    "max_orientation": 0.09329327082249593,
+    "seconds": 0.0024731529993005097,
+    "finite": true,
+    "cost": 8.369302351578774
+  },
+  "t3_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.04494489168240193,
+      -0.04767153955077438,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.01898206866475422,
+    "max_orientation": 0.19701373931146435,
+    "seconds": 0.0024659830087330192,
+    "finite": true,
+    "cost": 13.481574274246588
+  },
+  "t3_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.003892508946825163,
+      -0.0053057715462155874,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.008505773834633405,
+    "max_orientation": 0.04968797116856487,
+    "seconds": 0.0024538339930586517,
+    "finite": true,
+    "cost": 7.998905243717461
+  },
+  "t3_classical_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.06323592373991105,
+      -0.06638718993611142,
+      0.17992507264926194,
+      0.045839041179200096,
+      -0.18569960890548198
+    ],
+    "max_position": 0.01328246726943311,
+    "max_orientation": 0.25281765684024793,
+    "seconds": 0.0024484850000590086,
+    "finite": true,
+    "cost": 19.964802474656256
+  },
+  "t3_classical_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.013289317972721204,
+      0.009821173099704122,
+      0.19838356404603413,
+      0.04183295081579125,
+      0.0026801625276644137
+    ],
+    "max_position": 0.0008078178511603838,
+    "max_orientation": 0.004624486654812139,
+    "seconds": 0.002456747999531217,
+    "finite": true,
+    "cost": 10.586859471323024
+  },
+  "t3_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.06317863500019513,
+      -0.06614036615841783,
+      0.18182601282912886,
+      0.045839041179200096,
+      -0.16469960891600932
+    ],
+    "max_position": 0.02579202167089528,
+    "max_orientation": 0.2569191952440966,
+    "seconds": 0.0024759529915172607,
+    "finite": true,
+    "cost": 18.775056910753623
+  },
+  "t3_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02495648750235266,
+      0.02109126776263104,
+      0.19960335534964535,
+      0.04432596646209669,
+      0.013717795682710913
+    ],
+    "max_position": 0.005578287076010865,
+    "max_orientation": 0.025373204287169042,
+    "seconds": 0.0024771729949861765,
+    "finite": true,
+    "cost": 9.77169364780421
+  },
+  "t3_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.06223633815935667,
+      -0.06493406054375311,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.0256031932933736,
+    "max_orientation": 0.25620494880840944,
+    "seconds": 0.0024866369931260124,
+    "finite": true,
+    "cost": 13.90671651340541
+  },
+  "t3_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.011875417129813048,
+      0.010517318770250389,
+      0.20432082200535157,
+      0.045839041179200096,
+      0.06119313030242912
+    ],
+    "max_position": 0.03031272948456481,
+    "max_orientation": 0.09329327082249593,
+    "seconds": 0.002443927005515434,
+    "finite": true,
+    "cost": 8.369302351578774
+  },
+  "t4_classical_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.01643420552292532,
+      0.017434205522925322,
+      0.2099626973264997,
+      0.07640387150212126,
+      -0.09964787276230647
+    ],
+    "max_position": 0.006188405969417671,
+    "max_orientation": 0.27322727861904605,
+    "seconds": 0.00247018200752791,
+    "finite": true,
+    "cost": 3.542140635335943
+  },
+  "t4_classical_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.016592627771000956,
+      0.022429236122792767,
+      0.19272479867657777,
+      0.07681704378731798,
+      0.18738001823425288
+    ],
+    "max_position": 0.000255823161622832,
+    "max_orientation": 0.0010290662839862747,
+    "seconds": 0.0024510009970981628,
+    "finite": true,
+    "cost": 3.9099274639151798
+  },
+  "t4_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.021913628774640342,
+      0.022913628774640343,
+      0.2099626973264997,
+      0.0764198967746592,
+      -0.11464547454806606
+    ],
+    "max_position": 0.02227334918110305,
+    "max_orientation": 0.22491995277112584,
+    "seconds": 0.002453683002386242,
+    "finite": true,
+    "cost": 3.5074845950195104
+  },
+  "t4_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.030372609157173686,
+      0.036067350581344,
+      0.19427084156023056,
+      0.07684082393681892,
+      0.18738001823425288
+    ],
+    "max_position": 0.003070308716356073,
+    "max_orientation": 0.016335746990792203,
+    "seconds": 0.0024662630021339282,
+    "finite": true,
+    "cost": 3.6752987908057415
+  },
+  "t4_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.041316716312929935,
+      0.03762954931274473,
+      0.19238840257982542,
+      0.07540918260290251,
+      0.18738001823425288
+    ],
+    "max_position": 0.022065515950499034,
+    "max_orientation": 0.09115714993134381,
+    "seconds": 0.002468810009304434,
+    "finite": true,
+    "cost": 6.153170303355427
+  },
+  "t4_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.011256464520725401,
+      -0.01755804367998473,
+      0.1955098985659962,
+      0.07610315492007962,
+      0.18738001823425288
+    ],
+    "max_position": 0.08751619992935056,
+    "max_orientation": 0.19932301865157107,
+    "seconds": 0.0024661869974806905,
+    "finite": true,
+    "cost": 7.159601828607844
+  },
+  "t4_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.026867083095235306,
+      0.022625921014405026,
+      0.1911128428105266,
+      0.07545578178960578,
+      0.18738001823425288
+    ],
+    "max_position": 0.010945449328049776,
+    "max_orientation": 0.017621594270310507,
+    "seconds": 0.002456653004628606,
+    "finite": true,
+    "cost": 5.906519686308326
+  },
+  "t4_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.02017530885077984,
+      -0.026666588407331965,
+      0.19406393418107287,
+      0.07613463933127736,
+      0.18738001823425288
+    ],
+    "max_position": 0.06928461258690533,
+    "max_orientation": 0.1299942251577248,
+    "seconds": 0.002454986999509856,
+    "finite": true,
+    "cost": 6.864196994938371
+  },
+  "t4_classical_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.01643420552292532,
+      0.017434205522925322,
+      0.2099626973264997,
+      0.07640387150212126,
+      -0.09964787276230647
+    ],
+    "max_position": 0.006188405969417671,
+    "max_orientation": 0.27322727861904605,
+    "seconds": 0.002451870997902006,
+    "finite": true,
+    "cost": 3.542140635335943
+  },
+  "t4_classical_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.016592627771000956,
+      0.022429236122792767,
+      0.19272479867657777,
+      0.07681704378731798,
+      0.18738001823425288
+    ],
+    "max_position": 0.000255823161622832,
+    "max_orientation": 0.0010290662839862747,
+    "seconds": 0.002444406010909006,
+    "finite": true,
+    "cost": 3.9099274639151798
+  },
+  "t4_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.021912911679218022,
+      0.022912911679218023,
+      0.2099626973264997,
+      0.07641989420435534,
+      -0.11464535483069138
+    ],
+    "max_position": 0.022271467442994564,
+    "max_orientation": 0.2249214664532384,
+    "seconds": 0.002474585999152623,
+    "finite": true,
+    "cost": 3.507514177242891
+  },
+  "t4_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.030373879464580755,
+      0.036068602393395294,
+      0.19427097910827074,
+      0.07684082604665547,
+      0.18738001823425288
+    ],
+    "max_position": 0.002865498284787103,
+    "max_orientation": 0.016088094154932307,
+    "seconds": 0.0024587149964645505,
+    "finite": true,
+    "cost": 3.6755399049626667
+  },
+  "t4_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.041316716312929935,
+      0.03762954931274473,
+      0.19238840257982542,
+      0.07540918260290251,
+      0.18738001823425288
+    ],
+    "max_position": 0.022065515950499034,
+    "max_orientation": 0.09115714993134381,
+    "seconds": 0.002584293994004838,
+    "finite": true,
+    "cost": 6.153170303355427
+  },
+  "t4_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.011256464520725401,
+      -0.01755804367998473,
+      0.1955098985659962,
+      0.07610315492007962,
+      0.18738001823425288
+    ],
+    "max_position": 0.08751619992935056,
+    "max_orientation": 0.19932301865157107,
+    "seconds": 0.0024640490009915084,
+    "finite": true,
+    "cost": 7.159601828607844
+  },
+  "t4_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02690213363664637,
+      0.022662267799021835,
+      0.19114891370910436,
+      0.07545569265465486,
+      0.18738001823425288
+    ],
+    "max_position": 0.010849137639293955,
+    "max_orientation": 0.01765255739487649,
+    "seconds": 0.0024609410029370338,
+    "finite": true,
+    "cost": 5.906542900927176
+  },
+  "t4_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.020175027429307435,
+      -0.026666296349667634,
+      0.1940648171291961,
+      0.07613463745623665,
+      0.18738001823425288
+    ],
+    "max_position": 0.06926890328704192,
+    "max_orientation": 0.13012429012019802,
+    "seconds": 0.0024758169893175364,
+    "finite": true,
+    "cost": 6.864295146582259
+  },
+  "t5_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02494354244418942,
+      0.03151169177688798,
+      0.18258413832752873,
+      0.07638541458254504,
+      0.01485729101581379
+    ],
+    "max_position": 0.002614949638809168,
+    "max_orientation": 0.01868702883575517,
+    "seconds": 0.0024735640035942197,
+    "finite": true,
+    "cost": 0.549137187739634
+  },
+  "t5_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.021010001797261757,
+      0.026639980969889482,
+      0.18258413832752873,
+      0.07622807362718174,
+      0.4513943145751953
+    ],
+    "max_position": 0.004277400455034906,
+    "max_orientation": 0.024681148076426726,
+    "seconds": 0.0024786710127955303,
+    "finite": true,
+    "cost": 2.524528950488849
+  },
+  "t5_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.04574999704905061,
+      0.05202149693122124,
+      0.18258413832752873,
+      0.07625895959875349,
+      0.4513943145751953
+    ],
+    "max_position": 0.049873773680159085,
+    "max_orientation": 0.11376803309164091,
+    "seconds": 0.0024541970051359385,
+    "finite": true,
+    "cost": 4.774017921570112
+  },
+  "t5_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.03419193837925595,
+      -0.04344422398427776,
+      0.18258413832752873,
+      0.07622728937846195,
+      0.4513943145751953
+    ],
+    "max_position": 0.0675360478882889,
+    "max_orientation": 0.11207335396171203,
+    "seconds": 0.002453918001265265,
+    "finite": true,
+    "cost": 3.2670809873956204
+  },
+  "t5_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03614676314172782,
+      0.042073858703917194,
+      0.18258413832752873,
+      0.0762422208553689,
+      0.4513943145751953
+    ],
+    "max_position": 0.022739338017587055,
+    "max_orientation": 0.04798760707303514,
+    "seconds": 0.002469875995302573,
+    "finite": true,
+    "cost": 4.618917159280001
+  },
+  "t5_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.026819452999417584,
+      -0.03545969726577562,
+      0.18258413832752873,
+      0.076191489504687,
+      0.4513943145751953
+    ],
+    "max_position": 0.03962662082993233,
+    "max_orientation": 0.04593613938709842,
+    "seconds": 0.0024675140011822805,
+    "finite": true,
+    "cost": 3.075906852479785
+  },
+  "t5_classical_d0.05_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02585111287924219,
+      0.031361169302210085,
+      0.18258413832752873,
+      0.07635913588933786,
+      0.0
+    ],
+    "max_position": 1.0007415106216802e-16,
+    "max_orientation": 2.665835726527522e-16,
+    "seconds": 0.002454266999848187,
+    "finite": true,
+    "cost": 0.5640862545330388
+  },
+  "t5_classical_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02057056298738491,
+      0.026191231930845132,
+      0.18258413832752873,
+      0.07620398740340355,
+      0.4513943145751953
+    ],
+    "max_position": 0.0009604633193271375,
+    "max_orientation": 0.000884601025902781,
+    "seconds": 0.0024631300038890913,
+    "finite": true,
+    "cost": 2.659027156655929
+  },
+  "t5_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.024882506903290635,
+      0.03145427285448135,
+      0.18258413832752873,
+      0.07638516006142342,
+      0.014850162203967177
+    ],
+    "max_position": 0.002559882146364258,
+    "max_orientation": 0.01850183661003241,
+    "seconds": 0.0024734900071052834,
+    "finite": true,
+    "cost": 0.5493066604660752
+  },
+  "t5_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.024053711089646934,
+      0.029675812916811845,
+      0.18258413832752873,
+      0.07622927919934773,
+      0.4513943145751953
+    ],
+    "max_position": 0.005755700079519343,
+    "max_orientation": 0.028983909203643993,
+    "seconds": 0.002476046996889636,
+    "finite": true,
+    "cost": 2.5437675242334383
+  },
+  "t5_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.04574999704905061,
+      0.05202149693122124,
+      0.18258413832752873,
+      0.07625895959875349,
+      0.4513943145751953
+    ],
+    "max_position": 0.049873773680159085,
+    "max_orientation": 0.11376803309164091,
+    "seconds": 0.0024644890072522685,
+    "finite": true,
+    "cost": 4.774017921570112
+  },
+  "t5_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.03419193837925595,
+      -0.04344422398427776,
+      0.18258413832752873,
+      0.07622728937846195,
+      0.4513943145751953
+    ],
+    "max_position": 0.0675360478882889,
+    "max_orientation": 0.11207335396171203,
+    "seconds": 0.0024588300002506003,
+    "finite": true,
+    "cost": 3.2670809873956204
+  },
+  "t5_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.0360220658485676,
+      0.04196937713383106,
+      0.18258413832752873,
+      0.0762452765857659,
+      0.4513943145751953
+    ],
+    "max_position": 0.02296296260973625,
+    "max_orientation": 0.04736174224967139,
+    "seconds": 0.0024688730045454577,
+    "finite": true,
+    "cost": 4.618604409610674
+  },
+  "t5_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.02568745960604686,
+      -0.03426696835171626,
+      0.18258413832752873,
+      0.07619188615629573,
+      0.4513943145751953
+    ],
+    "max_position": 0.03961949387456515,
+    "max_orientation": 0.046180569617263474,
+    "seconds": 0.0024578680022386834,
+    "finite": true,
+    "cost": 3.0830684722469095
+  },
+  "t5_classical_d0.1_c0": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02585111287924219,
+      0.031361169302210085,
+      0.18258413832752873,
+      0.07635913588933786,
+      0.0
+    ],
+    "max_position": 1.0007415106216802e-16,
+    "max_orientation": 2.665835726527522e-16,
+    "seconds": 0.0024570200039306656,
+    "finite": true,
+    "cost": 0.5640862545330388
+  },
+  "t5_classical_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.02057056298738491,
+      0.026191231930845132,
+      0.18258413832752873,
+      0.07620398740340355,
+      0.4513943145751953
+    ],
+    "max_position": 0.0009604633193271375,
+    "max_orientation": 0.000884601025902781,
+    "seconds": 0.0024556540010962635,
+    "finite": true,
+    "cost": 2.659027156655929
+  },
+  "t6_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.11009337687319307,
+      0.11219718001300846,
+      0.17706033306106495,
+      0.07630043840235425,
+      0.09677817611694328
+    ],
+    "max_position": 0.059041442027459826,
+    "max_orientation": 0.28840517433087454,
+    "seconds": 0.0024615900038043037,
+    "finite": true,
+    "cost": 1.6345827782622413
+  },
+  "t6_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.006122152411847326,
+      -0.009488193518006505,
+      0.18100833016320822,
+      0.07617731310690277,
+      0.25737356643676756
+    ],
+    "max_position": 0.022519062665579143,
+    "max_orientation": 0.11665041680872941,
+    "seconds": 0.002460339994286187,
+    "finite": true,
+    "cost": 3.872809744455475
+  },
+  "t6_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.10732312447187611,
+      0.11332312447187612,
+      0.1751044955821648,
+      0.07630043840235425,
+      0.11776147486645772
+    ],
+    "max_position": 0.054419305130864896,
+    "max_orientation": 0.21182816065278362,
+    "seconds": 0.0024607130035292357,
+    "finite": true,
+    "cost": 1.4921115650181829
+  },
+  "t6_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.0022076849939920984,
+      -0.0010733353564313097,
+      0.18232434858687213,
+      0.07621838678352737,
+      0.27714078216555205
+    ],
+    "max_position": 0.019009945311437026,
+    "max_orientation": 0.05646711609132744,
+    "seconds": 0.0024512429954484105,
+    "finite": true,
+    "cost": 3.679066869948936
+  },
+  "t6_classical_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13480511632450445,
+      0.1319462677293596,
+      0.16584555357711284,
+      0.07630043840235425,
+      -0.03817061335034966
+    ],
+    "max_position": 0.0024556049492553533,
+    "max_orientation": 0.07783421444915099,
+    "seconds": 0.0024601879995316267,
+    "finite": true,
+    "cost": 1.4909724626188485
+  },
+  "t6_classical_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13120888217135743,
+      0.1319462677293596,
+      0.17392544330679943,
+      0.038184616230790114,
+      -0.14374326792780323
+    ],
+    "max_position": 0.005477896969078778,
+    "max_orientation": 0.37062972119940524,
+    "seconds": 0.0024826329899951816,
+    "finite": true,
+    "cost": 5.695260933229478
+  },
+  "t6_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13477467903974197,
+      0.1319462677293596,
+      0.16782989559179534,
+      0.07630043840235425,
+      -0.01793949046476362
+    ],
+    "max_position": 0.015290627980205801,
+    "max_orientation": 0.07114072365895112,
+    "seconds": 0.0024686679971637204,
+    "finite": true,
+    "cost": 1.392691949342684
+  },
+  "t6_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.1261187807360364,
+      0.1319462677293596,
+      0.17563665518981686,
+      0.033537442041998655,
+      -0.16173414827401222
+    ],
+    "max_position": 0.025557470779841718,
+    "max_orientation": 0.32496199049036323,
+    "seconds": 0.002458984003169462,
+    "finite": true,
+    "cost": 5.650078421399649
+  },
+  "t6_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.11009337687319307,
+      0.11219718001300846,
+      0.17706033306106495,
+      0.07630043840235425,
+      0.09677817611694328
+    ],
+    "max_position": 0.059041442027459826,
+    "max_orientation": 0.28840517433087454,
+    "seconds": 0.0024729290016693994,
+    "finite": true,
+    "cost": 1.6345827782622413
+  },
+  "t6_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 1,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      -0.006122152411847326,
+      -0.009488193518006505,
+      0.18100833016320822,
+      0.07617731310690277,
+      0.25737356643676756
+    ],
+    "max_position": 0.022519062665579143,
+    "max_orientation": 0.11665041680872941,
+    "seconds": 0.0024711610021768138,
+    "finite": true,
+    "cost": 3.872809744455475
+  },
+  "t6_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.10732293838972615,
+      0.11332293838972615,
+      0.1751021198712271,
+      0.07630043840235425,
+      0.11776260863641008
+    ],
+    "max_position": 0.054424437999598924,
+    "max_orientation": 0.2118258385741234,
+    "seconds": 0.002450632004183717,
+    "finite": true,
+    "cost": 1.4921131342472158
+  },
+  "t6_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 1,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.0022262091332901357,
+      -0.0010558958183319589,
+      0.18233647625498017,
+      0.07621840433818812,
+      0.2771433066284228
+    ],
+    "max_position": 0.019102510501797672,
+    "max_orientation": 0.05638716257677771,
+    "seconds": 0.00245342000562232,
+    "finite": true,
+    "cost": 3.678911801205561
+  },
+  "t6_classical_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13480511632450445,
+      0.1319462677293596,
+      0.16584555357711284,
+      0.07630043840235425,
+      -0.03817061335034966
+    ],
+    "max_position": 0.0024556049492553533,
+    "max_orientation": 0.07783421444915099,
+    "seconds": 0.0024713019956834614,
+    "finite": true,
+    "cost": 1.4909724626188485
+  },
+  "t6_classical_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 0,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13120888217135743,
+      0.1319462677293596,
+      0.17392544330679943,
+      0.038184616230790114,
+      -0.14374326792780323
+    ],
+    "max_position": 0.005477896969078778,
+    "max_orientation": 0.37062972119940524,
+    "seconds": 0.002469189988914877,
+    "finite": true,
+    "cost": 5.695260933229478
+  },
+  "t6_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13477711735397288,
+      0.1319462677293596,
+      0.16782999408885851,
+      0.07630043840235425,
+      -0.01793726821034891
+    ],
+    "max_position": 0.015293286450361045,
+    "max_orientation": 0.07114004415121533,
+    "seconds": 0.002452004002407193,
+    "finite": true,
+    "cost": 1.3926849766221
+  },
+  "t6_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.12611874237250723,
+      0.1319462677293596,
+      0.17563732973887353,
+      0.033537258844564405,
+      -0.161734177530366
+    ],
+    "max_position": 0.025560370222680415,
+    "max_orientation": 0.3249485175181132,
+    "seconds": 0.002481099989381619,
+    "finite": true,
+    "cost": 5.649958186579431
+  },
+  "t7_mpd_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.12986853318558786,
+      0.12886853318558786,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.02470805973826714,
+    "max_orientation": 0.0704772293948187,
+    "seconds": 0.0024523690080968663,
+    "finite": true,
+    "cost": 1.7208685174160618
+  },
+  "t7_mpd_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.032554272577172666,
+      0.03263443908123312,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.020283025517860858,
+    "max_orientation": 0.06425258717352442,
+    "seconds": 0.0024736000050324947,
+    "finite": true,
+    "cost": 10.659428990155954
+  },
+  "t7_classical_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.024175324968216866,
+      0.014574318777862777,
+      0.16724065165003266,
+      0.05049856962084258,
+      -0.31760329117818387
+    ],
+    "max_position": 0.02641189996242926,
+    "max_orientation": 0.7505521034539276,
+    "seconds": 0.0024532840034225956,
+    "finite": true,
+    "cost": 12.853610865713886
+  },
+  "t7_classical_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.04609732520340529,
+      0.03693810219558266,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.001221074943098376,
+    "max_orientation": 0.0032811423335870845,
+    "seconds": 0.002471873987815343,
+    "finite": true,
+    "cost": 4.9712794294831655
+  },
+  "t7_classical_cvar_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.019663476682964975,
+      0.010099327804627939,
+      0.16510428562578539,
+      0.05266296359115126,
+      -0.33860985677120425
+    ],
+    "max_position": 0.04208750562677633,
+    "max_orientation": 0.6867667475524084,
+    "seconds": 0.0024709740100661293,
+    "finite": true,
+    "cost": 12.651178981099724
+  },
+  "t7_classical_cvar_d0.05_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.04609732520340529,
+      0.03693810219558266,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.001221074943098376,
+    "max_orientation": 0.0032811423335870845,
+    "seconds": 0.0024642409989610314,
+    "finite": true,
+    "cost": 4.9712794294831655
+  },
+  "t7_mpd_d0.05_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13521849607233224,
+      0.13153305717683536,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.04796337873176952,
+    "max_orientation": 0.12783805758210076,
+    "seconds": 0.0024688370031071827,
+    "finite": true,
+    "cost": 1.875520725551012
+  },
+  "t7_mpd_d0.05_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03767702376112381,
+      0.03782460830575887,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.029969838011762083,
+    "max_orientation": 0.1265027199907833,
+    "seconds": 0.002458264003507793,
+    "finite": true,
+    "cost": 10.97707821739081
+  },
+  "t7_mpd_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.12986284426953273,
+      0.12886284426953273,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.024727200057124362,
+    "max_orientation": 0.07024595518609184,
+    "seconds": 0.002465287994709797,
+    "finite": true,
+    "cost": 1.7209449535425678
+  },
+  "t7_mpd_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03255107937512647,
+      0.032631251122691024,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.02015285912806531,
+    "max_orientation": 0.06440582240157815,
+    "seconds": 0.0024714390019653365,
+    "finite": true,
+    "cost": 10.659304551355886
+  },
+  "t7_classical_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.024175324968216866,
+      0.014574318777862777,
+      0.16724065165003266,
+      0.05049856962084258,
+      -0.31760329117818387
+    ],
+    "max_position": 0.02641189996242926,
+    "max_orientation": 0.7505521034539276,
+    "seconds": 0.0024628520041005686,
+    "finite": true,
+    "cost": 12.853610865713886
+  },
+  "t7_classical_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.04609732520340529,
+      0.03693810219558266,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.001221074943098376,
+    "max_orientation": 0.0032811423335870845,
+    "seconds": 0.002471418003551662,
+    "finite": true,
+    "cost": 4.9712794294831655
+  },
+  "t7_classical_cvar_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 1,
+      "command_velocity": 1,
+      "executed_velocity": 1,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.019681083815949463,
+      0.0101192198801415,
+      0.16510430342497417,
+      0.05266298446574834,
+      -0.3386096830306101
+    ],
+    "max_position": 0.042081127788809694,
+    "max_orientation": 0.6867572208956912,
+    "seconds": 0.002481574992998503,
+    "finite": true,
+    "cost": 12.650986458882716
+  },
+  "t7_classical_cvar_d0.1_c1": {
+    "n": 1,
+    "union": 0,
+    "risk": 0.0,
+    "CI95": [
+      0.0,
+      0.975
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 0,
+      "orientation": 0
+    },
+    "minimum_margins": [
+      0.04609732520340529,
+      0.03693810219558266,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.001221074943098376,
+    "max_orientation": 0.0032811423335870845,
+    "seconds": 0.0024551519891247153,
+    "finite": true,
+    "cost": 4.9712794294831655
+  },
+  "t7_mpd_d0.1_c0": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.13521849607233224,
+      0.13153305717683536,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.04796337873176952,
+    "max_orientation": 0.12783805758210076,
+    "seconds": 0.0024659390037413687,
+    "finite": true,
+    "cost": 1.875520725551012
+  },
+  "t7_mpd_d0.1_c1": {
+    "n": 1,
+    "union": 1,
+    "risk": 1.0,
+    "CI95": [
+      0.025,
+      1.0
+    ],
+    "counts": {
+      "world_mpd": 0,
+      "world_curobo": 0,
+      "self_mpd": 0,
+      "self_curobo": 0,
+      "joint": 0,
+      "command_velocity": 0,
+      "executed_velocity": 0,
+      "position": 1,
+      "orientation": 1
+    },
+    "minimum_margins": [
+      0.03767702376112381,
+      0.03782460830575887,
+      0.19576370811454447,
+      0.07372897275259237,
+      0.0025276138305664053
+    ],
+    "max_position": 0.029969838011762083,
+    "max_orientation": 0.1265027199907833,
+    "seconds": 0.0024708779965294525,
+    "finite": true,
+    "cost": 10.97707821739081
+  }
+}
