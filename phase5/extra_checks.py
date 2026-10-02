@@ -12,6 +12,9 @@ check['seven_joint_limits_match_both_URDFs']=True
 # Velocity errors are actually executed, independent of commanded velocity.
 u=np.zeros((p.H,7));u[0,0]=arm.vmax[0]-.001;draw=(np.zeros((1,7)),np.zeros((1,7)),np.zeros((1,p.H,7)));draw[2][0,0,0]=.01
 q,v=p.execute(np.zeros(7),u,draw);assert not (np.abs(u)>arm.vmax).any() and (np.abs(v)>arm.vmax).any();assert q[0,1,0]==p.DT*v[0,0,0]
+row,flags,_,_=p.evaluate(arm,np.zeros(7),u,z['target'][0],draw)
+assert not flags[0,5] and flags[0,6]
+check['executed_velocity_validator_flags']={'command_failed':bool(flags[0,5]),'execution_failed':bool(flags[0,6])}
 check['executed_velocity_violation_unclipped']={'command':u[0,0],'executed':v[0,0,0],'limit':arm.vmax[0],'next_joint':q[0,1,0]}
 # Empirical covariance check independent samples, no FK; bias correlation across time retained.
 d=p.noise(20000,2026102988);qe,_=p.execute(np.zeros(7),np.zeros((p.H,7)),d)
