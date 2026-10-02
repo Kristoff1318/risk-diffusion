@@ -1,0 +1,566 @@
+{
+  "waypoint/delta_0.05": {
+    "methods": {
+      "jacobian": {
+        "attempts": 8,
+        "accepted": 0,
+        "rejected": 8,
+        "solver_successes": 5,
+        "timeouts": 3,
+        "solver_success_but_rejected": 5,
+        "all_proposal_audit_failure": 0.0517120361328125,
+        "all_proposal_audit_collision": 0.005340576171875,
+        "all_proposal_goal_success": 0.9515380859375,
+        "all_proposal_nominal_J": 3.2087747839047713,
+        "accepted_audit_failure": null,
+        "accepted_nominal_J": null,
+        "accepted_executed_length": null,
+        "internal_constraint_violations": 1,
+        "false_safe_confirmed": 0,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.4193295687528007,
+        "request_seconds_min": 0.08763519600324798,
+        "request_seconds_median": 0.46921509750245605,
+        "request_seconds_p90": 0.5064302234066418,
+        "request_seconds_max": 0.5071220950048883,
+        "solver_seconds_mean": 0.413253707873082,
+        "solver_seconds_median": 0.46333360399876256,
+        "solver_seconds_max": 0.5008835409971653,
+        "gradient_evaluations_mean": 138.875
+      },
+      "closure": {
+        "attempts": 8,
+        "accepted": 5,
+        "rejected": 3,
+        "solver_successes": 0,
+        "timeouts": 8,
+        "solver_success_but_rejected": 0,
+        "all_proposal_audit_failure": 0.042633056640625,
+        "all_proposal_audit_collision": 0.0050506591796875,
+        "all_proposal_goal_success": 0.960296630859375,
+        "all_proposal_nominal_J": 3.251583958696152,
+        "accepted_audit_failure": 0.041748046875,
+        "accepted_nominal_J": 3.291275230156144,
+        "accepted_executed_length": 3.5920384625097896,
+        "internal_constraint_violations": 1,
+        "false_safe_confirmed": 0,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.5065940750009759,
+        "request_seconds_min": 0.5064887360058492,
+        "request_seconds_median": 0.5065855659922818,
+        "request_seconds_p90": 0.5066836237092502,
+        "request_seconds_max": 0.5067467070039129,
+        "solver_seconds_mean": 0.5001743110024108,
+        "solver_seconds_median": 0.5001700240100035,
+        "solver_seconds_max": 0.5002523860021029,
+        "gradient_evaluations_mean": 101.0
+      }
+    },
+    "pairs": [
+      {
+        "task": 0,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": -0.06505228963389964,
+        "audit_failure_difference_closure_minus_jacobian": -0.007568359375,
+        "request_seconds_difference_closure_minus_jacobian": 0.4191115110006649
+      },
+      {
+        "task": 1,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.09843428431939083,
+        "audit_failure_difference_closure_minus_jacobian": -0.00927734375,
+        "request_seconds_difference_closure_minus_jacobian": 0.0004661989805754274
+      },
+      {
+        "task": 2,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.0668864258605959,
+        "audit_failure_difference_closure_minus_jacobian": -0.0091552734375,
+        "request_seconds_difference_closure_minus_jacobian": 0.0038771980034653097
+      },
+      {
+        "task": 3,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.05796686412808505,
+        "audit_failure_difference_closure_minus_jacobian": -0.0081787109375,
+        "request_seconds_difference_closure_minus_jacobian": 0.07074682399979793
+      },
+      {
+        "task": 4,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.04165493004233545,
+        "audit_failure_difference_closure_minus_jacobian": -0.0115966796875,
+        "request_seconds_difference_closure_minus_jacobian": 0.09747286600759253
+      },
+      {
+        "task": 5,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.042371130242312205,
+        "audit_failure_difference_closure_minus_jacobian": -0.0089111328125,
+        "request_seconds_difference_closure_minus_jacobian": 0.0004917649930575863
+      },
+      {
+        "task": 6,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.04188246020563868,
+        "audit_failure_difference_closure_minus_jacobian": -0.0084228515625,
+        "request_seconds_difference_closure_minus_jacobian": 0.10643656201136764
+      },
+      {
+        "task": 7,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.0583295931665897,
+        "audit_failure_difference_closure_minus_jacobian": -0.009521484375,
+        "request_seconds_difference_closure_minus_jacobian": -0.00048687501111999154
+      }
+    ],
+    "paired_summary": {
+      "acceptance_gained": 5,
+      "acceptance_lost": 0,
+      "common_accepted": 0,
+      "common_accepted_J_difference": null,
+      "all_task_risk_difference": -0.0090789794921875
+    }
+  },
+  "waypoint/delta_0.1": {
+    "methods": {
+      "jacobian": {
+        "attempts": 8,
+        "accepted": 3,
+        "rejected": 5,
+        "solver_successes": 2,
+        "timeouts": 6,
+        "solver_success_but_rejected": 2,
+        "all_proposal_audit_failure": 0.093719482421875,
+        "all_proposal_audit_collision": 0.00909423828125,
+        "all_proposal_goal_success": 0.9112548828125,
+        "all_proposal_nominal_J": 3.1329282166314085,
+        "accepted_audit_failure": 0.0858154296875,
+        "accepted_nominal_J": 3.1896710357717795,
+        "accepted_executed_length": 3.5715726771748124,
+        "internal_constraint_violations": 2,
+        "false_safe_confirmed": 0,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.5022020292508387,
+        "request_seconds_min": 0.4762854989967309,
+        "request_seconds_median": 0.5059787444915855,
+        "request_seconds_p90": 0.5062930002110079,
+        "request_seconds_max": 0.506902794004418,
+        "solver_seconds_mean": 0.4962484526258777,
+        "solver_seconds_median": 0.500039138001739,
+        "solver_seconds_max": 0.5009423809970031,
+        "gradient_evaluations_mean": 168.375
+      },
+      "closure": {
+        "attempts": 8,
+        "accepted": 7,
+        "rejected": 1,
+        "solver_successes": 0,
+        "timeouts": 8,
+        "solver_success_but_rejected": 0,
+        "all_proposal_audit_failure": 0.08154296875,
+        "all_proposal_audit_collision": 0.0079498291015625,
+        "all_proposal_goal_success": 0.92230224609375,
+        "all_proposal_nominal_J": 3.3208791621840863,
+        "accepted_audit_failure": 0.07880510602678571,
+        "accepted_nominal_J": 3.165585736393087,
+        "accepted_executed_length": 3.4573087635398965,
+        "internal_constraint_violations": 1,
+        "false_safe_confirmed": 0,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.5072576941220177,
+        "request_seconds_min": 0.506496126006823,
+        "request_seconds_median": 0.5069946604999132,
+        "request_seconds_p90": 0.5082847755911644,
+        "request_seconds_max": 0.5085319959907793,
+        "solver_seconds_mean": 0.5006788282480557,
+        "solver_seconds_median": 0.5004044640081702,
+        "solver_seconds_max": 0.5018792159971781,
+        "gradient_evaluations_mean": 97.875
+      }
+    },
+    "pairs": [
+      {
+        "task": 0,
+        "jacobian_accepted": true,
+        "closure_accepted": true,
+        "both_accepted": true,
+        "nominal_J_difference_closure_minus_jacobian": 0.1123623076559741,
+        "audit_failure_difference_closure_minus_jacobian": -0.0072021484375,
+        "request_seconds_difference_closure_minus_jacobian": 0.0001908009871840477
+      },
+      {
+        "task": 1,
+        "jacobian_accepted": true,
+        "closure_accepted": true,
+        "both_accepted": true,
+        "nominal_J_difference_closure_minus_jacobian": 0.05899221975865876,
+        "audit_failure_difference_closure_minus_jacobian": -0.0145263671875,
+        "request_seconds_difference_closure_minus_jacobian": 0.00046928500523790717
+      },
+      {
+        "task": 2,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": -0.1645466687498316,
+        "audit_failure_difference_closure_minus_jacobian": -0.0206298828125,
+        "request_seconds_difference_closure_minus_jacobian": 0.0007475650054402649
+      },
+      {
+        "task": 3,
+        "jacobian_accepted": true,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 1.1250043319880367,
+        "audit_failure_difference_closure_minus_jacobian": 0.0142822265625,
+        "request_seconds_difference_closure_minus_jacobian": 0.0005653849802911282
+      },
+      {
+        "task": 4,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.0817168107753381,
+        "audit_failure_difference_closure_minus_jacobian": -0.017822265625,
+        "request_seconds_difference_closure_minus_jacobian": 0.003694016981171444
+      },
+      {
+        "task": 5,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.10439190408466059,
+        "audit_failure_difference_closure_minus_jacobian": -0.0126953125,
+        "request_seconds_difference_closure_minus_jacobian": 0.0015631870046490803
+      },
+      {
+        "task": 6,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.13727997000219805,
+        "audit_failure_difference_closure_minus_jacobian": -0.0194091796875,
+        "request_seconds_difference_closure_minus_jacobian": 0.0009685820114100352
+      },
+      {
+        "task": 7,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.04840668890638433,
+        "audit_failure_difference_closure_minus_jacobian": -0.0194091796875,
+        "request_seconds_difference_closure_minus_jacobian": 0.03224649699404836
+      }
+    ],
+    "paired_summary": {
+      "acceptance_gained": 5,
+      "acceptance_lost": 1,
+      "common_accepted": 2,
+      "common_accepted_J_difference": 0.08567726370731643,
+      "all_task_risk_difference": -0.012176513671875
+    }
+  },
+  "diffusion/delta_0.05": {
+    "methods": {
+      "jacobian": {
+        "attempts": 8,
+        "accepted": 0,
+        "rejected": 8,
+        "solver_successes": 0,
+        "timeouts": 8,
+        "solver_success_but_rejected": 0,
+        "all_proposal_audit_failure": 0.052886962890625,
+        "all_proposal_audit_collision": 0.004547119140625,
+        "all_proposal_goal_success": 0.9504852294921875,
+        "all_proposal_nominal_J": 3.1815390127337624,
+        "accepted_audit_failure": null,
+        "accepted_nominal_J": null,
+        "accepted_executed_length": null,
+        "internal_constraint_violations": 2,
+        "false_safe_confirmed": 0,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.5105517935007811,
+        "request_seconds_min": 0.509903044992825,
+        "request_seconds_median": 0.510687477501051,
+        "request_seconds_p90": 0.5108465847049957,
+        "request_seconds_max": 0.5108633280033246,
+        "solver_seconds_mean": 0.5003204927488696,
+        "solver_seconds_median": 0.5002559705026215,
+        "solver_seconds_max": 0.5006930750096217,
+        "gradient_evaluations_mean": 154.875
+      },
+      "closure": {
+        "attempts": 8,
+        "accepted": 4,
+        "rejected": 4,
+        "solver_successes": 1,
+        "timeouts": 7,
+        "solver_success_but_rejected": 0,
+        "all_proposal_audit_failure": 0.1631011962890625,
+        "all_proposal_audit_collision": 0.003936767578125,
+        "all_proposal_goal_success": 0.839569091796875,
+        "all_proposal_nominal_J": 3.6219130725878435,
+        "accepted_audit_failure": 0.041778564453125,
+        "accepted_nominal_J": 3.2992006443606186,
+        "accepted_executed_length": 3.5670552863304996,
+        "internal_constraint_violations": 2,
+        "false_safe_confirmed": 0,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.4994987241243507,
+        "request_seconds_min": 0.4153117099922383,
+        "request_seconds_median": 0.5110784224962117,
+        "request_seconds_p90": 0.5125658709992422,
+        "request_seconds_max": 0.5132325370068429,
+        "solver_seconds_mean": 0.4889879976217344,
+        "solver_seconds_median": 0.500627870002063,
+        "solver_seconds_max": 0.5024269759887829,
+        "gradient_evaluations_mean": 91.375
+      }
+    },
+    "pairs": [
+      {
+        "task": 0,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.04149338612336706,
+        "audit_failure_difference_closure_minus_jacobian": -0.00634765625,
+        "request_seconds_difference_closure_minus_jacobian": 0.000176961999386549
+      },
+      {
+        "task": 1,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.13832590028147518,
+        "audit_failure_difference_closure_minus_jacobian": -0.011474609375,
+        "request_seconds_difference_closure_minus_jacobian": -0.0948896800109651
+      },
+      {
+        "task": 2,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.05868873383165818,
+        "audit_failure_difference_closure_minus_jacobian": -0.0068359375,
+        "request_seconds_difference_closure_minus_jacobian": 0.0005882459954591468
+      },
+      {
+        "task": 3,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.09830347809074258,
+        "audit_failure_difference_closure_minus_jacobian": -0.012939453125,
+        "request_seconds_difference_closure_minus_jacobian": 0.0023931280011311173
+      },
+      {
+        "task": 4,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.03309797509244561,
+        "audit_failure_difference_closure_minus_jacobian": -0.012939453125,
+        "request_seconds_difference_closure_minus_jacobian": 0.0014168289926601574
+      },
+      {
+        "task": 5,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.08046517786105101,
+        "audit_failure_difference_closure_minus_jacobian": -0.0059814453125,
+        "request_seconds_difference_closure_minus_jacobian": 0.00010524400568101555
+      },
+      {
+        "task": 6,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 3.0101182476623918,
+        "audit_failure_difference_closure_minus_jacobian": 0.947265625,
+        "request_seconds_difference_closure_minus_jacobian": -0.00017894200573209673
+      },
+      {
+        "task": 7,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.06249957988951893,
+        "audit_failure_difference_closure_minus_jacobian": -0.009033203125,
+        "request_seconds_difference_closure_minus_jacobian": 0.001963658010936342
+      }
+    ],
+    "paired_summary": {
+      "acceptance_gained": 4,
+      "acceptance_lost": 0,
+      "common_accepted": 0,
+      "common_accepted_J_difference": null,
+      "all_task_risk_difference": 0.1102142333984375
+    }
+  },
+  "diffusion/delta_0.1": {
+    "methods": {
+      "jacobian": {
+        "attempts": 8,
+        "accepted": 0,
+        "rejected": 8,
+        "solver_successes": 2,
+        "timeouts": 6,
+        "solver_success_but_rejected": 2,
+        "all_proposal_audit_failure": 0.097991943359375,
+        "all_proposal_audit_collision": 0.010009765625,
+        "all_proposal_goal_success": 0.9092254638671875,
+        "all_proposal_nominal_J": 3.1358935302910145,
+        "accepted_audit_failure": null,
+        "accepted_nominal_J": null,
+        "accepted_executed_length": null,
+        "internal_constraint_violations": 4,
+        "false_safe_confirmed": 1,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.4740796896239772,
+        "request_seconds_min": 0.3530096319882432,
+        "request_seconds_median": 0.5094919210023363,
+        "request_seconds_p90": 0.5098176428946317,
+        "request_seconds_max": 0.509900867997203,
+        "solver_seconds_mean": 0.464669133127245,
+        "solver_seconds_median": 0.5000885545014171,
+        "solver_seconds_max": 0.500460335999378,
+        "gradient_evaluations_mean": 156.625
+      },
+      "closure": {
+        "attempts": 8,
+        "accepted": 6,
+        "rejected": 2,
+        "solver_successes": 2,
+        "timeouts": 6,
+        "solver_success_but_rejected": 0,
+        "all_proposal_audit_failure": 0.193450927734375,
+        "all_proposal_audit_collision": 0.00848388671875,
+        "all_proposal_goal_success": 0.8121490478515625,
+        "all_proposal_nominal_J": 4.1992768806626355,
+        "accepted_audit_failure": 0.07767740885416667,
+        "accepted_nominal_J": 3.1466079367768134,
+        "accepted_executed_length": 3.439224431815616,
+        "internal_constraint_violations": 2,
+        "false_safe_confirmed": 0,
+        "accepted_audit_unsafe_confirmed": 0,
+        "accepted_audit_unsafe_point": 0,
+        "request_seconds_mean": 0.49305944562365767,
+        "request_seconds_min": 0.38383213299675845,
+        "request_seconds_median": 0.5104633605005802,
+        "request_seconds_p90": 0.5123506554024061,
+        "request_seconds_max": 0.5127212619991042,
+        "solver_seconds_mean": 0.4829284716233815,
+        "solver_seconds_median": 0.5001832814959926,
+        "solver_seconds_max": 0.5023855109902797,
+        "gradient_evaluations_mean": 95.25
+      }
+    },
+    "pairs": [
+      {
+        "task": 0,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.026235395642222326,
+        "audit_failure_difference_closure_minus_jacobian": -0.008056640625,
+        "request_seconds_difference_closure_minus_jacobian": 0.0014793189911870286
+      },
+      {
+        "task": 1,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.08022304186213836,
+        "audit_failure_difference_closure_minus_jacobian": -0.018310546875,
+        "request_seconds_difference_closure_minus_jacobian": 0.0028203940019011497
+      },
+      {
+        "task": 2,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.04590118848077207,
+        "audit_failure_difference_closure_minus_jacobian": -0.017822265625,
+        "request_seconds_difference_closure_minus_jacobian": 0.15731634601252154
+      },
+      {
+        "task": 3,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.05719546834529288,
+        "audit_failure_difference_closure_minus_jacobian": -0.0308837890625,
+        "request_seconds_difference_closure_minus_jacobian": -0.12558281800011173
+      },
+      {
+        "task": 4,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.0535000314385945,
+        "audit_failure_difference_closure_minus_jacobian": -0.01953125,
+        "request_seconds_difference_closure_minus_jacobian": 0.002798315996187739
+      },
+      {
+        "task": 5,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 0.019058639655028298,
+        "audit_failure_difference_closure_minus_jacobian": -0.010986328125,
+        "request_seconds_difference_closure_minus_jacobian": 0.11146032498800196
+      },
+      {
+        "task": 6,
+        "jacobian_accepted": false,
+        "closure_accepted": false,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": 8.464885571120844,
+        "audit_failure_difference_closure_minus_jacobian": 0.898193359375,
+        "request_seconds_difference_closure_minus_jacobian": 0.0006856969994259998
+      },
+      {
+        "task": 7,
+        "jacobian_accepted": false,
+        "closure_accepted": true,
+        "both_accepted": false,
+        "nominal_J_difference_closure_minus_jacobian": -0.23993253357192224,
+        "audit_failure_difference_closure_minus_jacobian": -0.0289306640625,
+        "request_seconds_difference_closure_minus_jacobian": 0.0008604690083302557
+      }
+    ],
+    "paired_summary": {
+      "acceptance_gained": 6,
+      "acceptance_lost": 0,
+      "common_accepted": 0,
+      "common_accepted_J_difference": null,
+      "all_task_risk_difference": 0.095458984375
+    }
+  }
+}
