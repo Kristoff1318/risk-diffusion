@@ -1,0 +1,493 @@
+{
+  "fresh_tasks_opened": 0,
+  "new_sampling": 0,
+  "new_inference": 0,
+  "numeric_gate_pass": true,
+  "timing_ran": true,
+  "full_events": 4323770,
+  "GPU_name": "NVIDIA GeForce RTX 4090",
+  "fixture_sha256": "356f600d646d461f9fa6fe898371a2c98d4b6f949cafd86ad8ab34280af62a76",
+  "first_context_setup_seconds": 0.03739656800462399,
+  "full_fixture_parity": [
+    {
+      "slot": 0,
+      "pass": true,
+      "max_block_abs_error": 8.604228440844963e-16,
+      "risk_sum": 5.246941964049159e-09
+    },
+    {
+      "slot": 1,
+      "pass": true,
+      "max_block_abs_error": 1.6930901125533637e-15,
+      "risk_sum": 4.367069501308003e-06
+    },
+    {
+      "slot": 2,
+      "pass": true,
+      "max_block_abs_error": 1.0547118733938987e-15,
+      "risk_sum": 1.5072841278312922e-06
+    },
+    {
+      "slot": 3,
+      "pass": true,
+      "max_block_abs_error": 9.43689570931383e-16,
+      "risk_sum": 1.3674444687937896e-11
+    }
+  ],
+  "process_seconds": 20.23657328299305,
+  "peak_RSS_KiB": 2327264,
+  "peak_GPU_allocated_bytes": 1424957952,
+  "edge_checks_pass": true,
+  "fixed_model_spline_FD": {
+    "pass": true,
+    "relative_error": 3.436802430810956e-10,
+    "initial_derivative": 0.0
+  },
+  "optimizer_equivalence": [
+    {
+      "slot": 0,
+      "iterations": 8,
+      "selected_iteration_native": 6,
+      "selected_iteration_reference": 6,
+      "max_update_abs_errors": [
+        5.551115123125783e-17,
+        2.220446049250313e-15,
+        5.773159728050814e-15,
+        7.549516567451064e-15,
+        1.6653345369377348e-14,
+        1.2212453270876722e-14,
+        1.199040866595169e-14,
+        1.5765166949677223e-14
+      ],
+      "pass": true
+    },
+    {
+      "slot": 1,
+      "iterations": 8,
+      "selected_iteration_native": 6,
+      "selected_iteration_reference": 6,
+      "max_update_abs_errors": [
+        3.469446951953614e-18,
+        3.9968028886505635e-15,
+        6.661338147750939e-15,
+        6.661338147750939e-15,
+        8.881784197001252e-15,
+        4.440892098500626e-15,
+        4.440892098500626e-15,
+        1.021405182655144e-14
+      ],
+      "pass": true
+    }
+  ],
+  "timing": {
+    "two_old_fixture_slots_each_own_start_and_goal": true,
+    "cache_setup_in_request_seconds": 0.005826501990668476,
+    "whole_request_seconds": 0.2645262760051992,
+    "target_seconds": 2.0,
+    "pass": true,
+    "slots": [
+      {
+        "slot": 0,
+        "iterations": 8,
+        "selected_iteration": 6,
+        "trace": [
+          {
+            "iteration": 0,
+            "anchor_build_including_terminal_transfer_seconds": 0.012706413996056654,
+            "evaluation_seconds": 0.0018771989998640493,
+            "backward_seconds": 0.0017261859902646393,
+            "checks_selection_clip_Adam_seconds": 0.0003373629879206419,
+            "energy": 4.063290703242958,
+            "cost": 4.063290703242958,
+            "risk_sum": 5.246941964049159e-09,
+            "components": {
+              "world_mpd": 2.5843616410896022e-253,
+              "self_mpd": 0.0,
+              "world_curobo": 2.742735053350399e-115,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 5.246941964049159e-09
+            },
+            "gradient_norm_before_cap": 1.7148348311354467
+          },
+          {
+            "iteration": 1,
+            "anchor_build_including_terminal_transfer_seconds": 0.01257730700308457,
+            "evaluation_seconds": 0.0018533499969635159,
+            "backward_seconds": 0.0016611290047876537,
+            "checks_selection_clip_Adam_seconds": 0.00028878700686618686,
+            "energy": 4.041085479591415,
+            "cost": 4.041085479591415,
+            "risk_sum": 5.713182617725109e-09,
+            "components": {
+              "world_mpd": 5.200134520442425e-234,
+              "self_mpd": 0.0,
+              "world_curobo": 3.3226631839290495e-102,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 5.713182617725109e-09
+            },
+            "gradient_norm_before_cap": 1.6685007921012218
+          },
+          {
+            "iteration": 2,
+            "anchor_build_including_terminal_transfer_seconds": 0.012558125992654823,
+            "evaluation_seconds": 0.0018642900104168802,
+            "backward_seconds": 0.0016638259985484183,
+            "checks_selection_clip_Adam_seconds": 0.0002750690036918968,
+            "energy": 4.019882351563517,
+            "cost": 4.019882351563517,
+            "risk_sum": 5.207558793344423e-08,
+            "components": {
+              "world_mpd": 5.747426098071447e-214,
+              "self_mpd": 0.0,
+              "world_curobo": 5.971000602242273e-89,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 5.207558793344423e-08
+            },
+            "gradient_norm_before_cap": 1.6265719257459383
+          },
+          {
+            "iteration": 3,
+            "anchor_build_including_terminal_transfer_seconds": 0.012563002004753798,
+            "evaluation_seconds": 0.0018581100011942908,
+            "backward_seconds": 0.0016746670007705688,
+            "checks_selection_clip_Adam_seconds": 0.0002823180111590773,
+            "energy": 3.999672643343951,
+            "cost": 3.999672643343951,
+            "risk_sum": 0.0003049935074445259,
+            "components": {
+              "world_mpd": 4.9709506529445714e-194,
+              "self_mpd": 0.0,
+              "world_curobo": 3.905936715094455e-76,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.0003049935074445259
+            },
+            "gradient_norm_before_cap": 1.5916815205027854
+          },
+          {
+            "iteration": 4,
+            "anchor_build_including_terminal_transfer_seconds": 0.012533410001196899,
+            "evaluation_seconds": 0.0018646700045792386,
+            "backward_seconds": 0.001667747987085022,
+            "checks_selection_clip_Adam_seconds": 0.00025240200920961797,
+            "energy": 54.042320079040735,
+            "cost": 3.9801296873125556,
+            "risk_sum": 0.06582121840942223,
+            "components": {
+              "world_mpd": 1.5154000835472864e-174,
+              "self_mpd": 0.0,
+              "world_curobo": 4.222137433738305e-64,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.06582121840942223
+            },
+            "gradient_norm_before_cap": 532439.098746147
+          },
+          {
+            "iteration": 5,
+            "anchor_build_including_terminal_transfer_seconds": 0.01254913599404972,
+            "evaluation_seconds": 0.0018573599954834208,
+            "backward_seconds": 0.001651739003136754,
+            "checks_selection_clip_Adam_seconds": 0.0002714540023589507,
+            "energy": 3.970017948423695,
+            "cost": 3.970017948423695,
+            "risk_sum": 0.00016396136284011455,
+            "components": {
+              "world_mpd": 1.882724408409414e-158,
+              "self_mpd": 0.0,
+              "world_curobo": 1.9859309279687035e-54,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.00016396136284011455
+            },
+            "gradient_norm_before_cap": 1.5475902438813451
+          },
+          {
+            "iteration": 6,
+            "anchor_build_including_terminal_transfer_seconds": 0.012239549003425054,
+            "evaluation_seconds": 0.001756437006406486,
+            "backward_seconds": 0.001603651006007567,
+            "checks_selection_clip_Adam_seconds": 0.0002786170080071315,
+            "energy": 3.959311295766979,
+            "cost": 3.959311295766979,
+            "risk_sum": 0.0032216669166429185,
+            "components": {
+              "world_mpd": 6.780477219529771e-144,
+              "self_mpd": 0.0,
+              "world_curobo": 4.391600706204062e-46,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.0032216669166429185
+            },
+            "gradient_norm_before_cap": 1.537346402224419
+          },
+          {
+            "iteration": 7,
+            "anchor_build_including_terminal_transfer_seconds": 0.012174217001302168,
+            "evaluation_seconds": 0.0017450489976909012,
+            "backward_seconds": 0.001593206005054526,
+            "checks_selection_clip_Adam_seconds": 0.00025567399279680103,
+            "energy": 263.9436675851062,
+            "cost": 3.948313391489714,
+            "risk_sum": 0.08605519062448683,
+            "components": {
+              "world_mpd": 1.473202240216514e-131,
+              "self_mpd": 0.0,
+              "world_curobo": 3.3215479681367396e-39,
+              "self_curobo": 0.0,
+              "joint_lower": 0.0,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.08605519062448683
+            },
+            "gradient_norm_before_cap": 1321602.892295484
+          }
+        ]
+      },
+      {
+        "slot": 1,
+        "iterations": 8,
+        "selected_iteration": 6,
+        "trace": [
+          {
+            "iteration": 0,
+            "anchor_build_including_terminal_transfer_seconds": 0.01215787099499721,
+            "evaluation_seconds": 0.0017525419971207157,
+            "backward_seconds": 0.0015935050032567233,
+            "checks_selection_clip_Adam_seconds": 0.00028461701003834605,
+            "energy": 15.10729745641196,
+            "cost": 15.10729745641196,
+            "risk_sum": 4.367069501308003e-06,
+            "components": {
+              "world_mpd": 1.4208238071610916e-84,
+              "self_mpd": 0.0,
+              "world_curobo": 4.577820915469085e-110,
+              "self_curobo": 0.0,
+              "joint_lower": 1.227279627150383e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 4.367069501308003e-06
+            },
+            "gradient_norm_before_cap": 4.684059157864092
+          },
+          {
+            "iteration": 1,
+            "anchor_build_including_terminal_transfer_seconds": 0.012186727995867841,
+            "evaluation_seconds": 0.00174737699853722,
+            "backward_seconds": 0.001628960992093198,
+            "checks_selection_clip_Adam_seconds": 0.0002656819997355342,
+            "energy": 15.02135454638062,
+            "cost": 15.02135454638062,
+            "risk_sum": 0.00010887696364345037,
+            "components": {
+              "world_mpd": 7.77268613711062e-75,
+              "self_mpd": 0.0,
+              "world_curobo": 4.5776972889882637e-110,
+              "self_curobo": 0.0,
+              "joint_lower": 1.227449121429623e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.00010887696364345037
+            },
+            "gradient_norm_before_cap": 4.64635492407274
+          },
+          {
+            "iteration": 2,
+            "anchor_build_including_terminal_transfer_seconds": 0.01217505599197466,
+            "evaluation_seconds": 0.0017391279980074614,
+            "backward_seconds": 0.0015883330052020028,
+            "checks_selection_clip_Adam_seconds": 0.00026553901261650026,
+            "energy": 14.936352508227237,
+            "cost": 14.936352508227237,
+            "risk_sum": 0.00252385076157857,
+            "components": {
+              "world_mpd": 6.225610056907461e-64,
+              "self_mpd": 0.0,
+              "world_curobo": 1.822152445893749e-109,
+              "self_curobo": 0.0,
+              "joint_lower": 1.227617732372157e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.00252385076157857
+            },
+            "gradient_norm_before_cap": 4.608990935647324
+          },
+          {
+            "iteration": 3,
+            "anchor_build_including_terminal_transfer_seconds": 0.012155709002399817,
+            "evaluation_seconds": 0.0017452180036343634,
+            "backward_seconds": 0.0015912520029814914,
+            "checks_selection_clip_Adam_seconds": 0.0002669969981070608,
+            "energy": 14.852573734246677,
+            "cost": 14.852573734246677,
+            "risk_sum": 0.027571594779546682,
+            "components": {
+              "world_mpd": 5.614764943064631e-53,
+              "self_mpd": 0.0,
+              "world_curobo": 2.5652882091875456e-95,
+              "self_curobo": 0.0,
+              "joint_lower": 1.2277839341892963e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.027571594779546682
+            },
+            "gradient_norm_before_cap": 4.5712526894987455
+          },
+          {
+            "iteration": 4,
+            "anchor_build_including_terminal_transfer_seconds": 0.012180247009382583,
+            "evaluation_seconds": 0.001754300988977775,
+            "backward_seconds": 0.0015992249973351136,
+            "checks_selection_clip_Adam_seconds": 0.00027005599986296147,
+            "energy": 1906.8605761085187,
+            "cost": 14.769926535488702,
+            "risk_sum": 0.14726486132136904,
+            "components": {
+              "world_mpd": 1.2591535559379008e-42,
+              "self_mpd": 0.0,
+              "world_curobo": 1.6003992665424637e-81,
+              "self_curobo": 0.0,
+              "joint_lower": 1.2279456803644783e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.14726486132136904
+            },
+            "gradient_norm_before_cap": 5607261.366045573
+          },
+          {
+            "iteration": 5,
+            "anchor_build_including_terminal_transfer_seconds": 0.01216644499800168,
+            "evaluation_seconds": 0.0017466509889345616,
+            "backward_seconds": 0.0015937970019876957,
+            "checks_selection_clip_Adam_seconds": 0.00027771000168286264,
+            "energy": 14.705847983756177,
+            "cost": 14.705847983756177,
+            "risk_sum": 0.0028432522557378316,
+            "components": {
+              "world_mpd": 5.661138186552592e-32,
+              "self_mpd": 0.0,
+              "world_curobo": 9.770561212875802e-67,
+              "self_curobo": 0.0,
+              "joint_lower": 1.2280828245373288e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.0028432522557378316
+            },
+            "gradient_norm_before_cap": 4.506885343350389
+          },
+          {
+            "iteration": 6,
+            "anchor_build_including_terminal_transfer_seconds": 0.012139978993218392,
+            "evaluation_seconds": 0.0017465490091126412,
+            "backward_seconds": 0.0015979789895936847,
+            "checks_selection_clip_Adam_seconds": 0.00026005299878306687,
+            "energy": 14.639327071188045,
+            "cost": 14.639327071188045,
+            "risk_sum": 0.00972988163709235,
+            "components": {
+              "world_mpd": 1.073739931594829e-22,
+              "self_mpd": 0.0,
+              "world_curobo": 2.3343245007784777e-53,
+              "self_curobo": 0.0,
+              "joint_lower": 1.228213109777472e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.00972988163709235
+            },
+            "gradient_norm_before_cap": 4.479354162752685
+          },
+          {
+            "iteration": 7,
+            "anchor_build_including_terminal_transfer_seconds": 0.01215594299719669,
+            "evaluation_seconds": 0.0017409800057066604,
+            "backward_seconds": 0.0015916169941192493,
+            "checks_selection_clip_Adam_seconds": 0.00025646400172263384,
+            "energy": 595.719252551251,
+            "cost": 14.571447349811542,
+            "risk_sum": 0.1039049072534885,
+            "components": {
+              "world_mpd": 7.74150786466946e-15,
+              "self_mpd": 0.0,
+              "world_curobo": 2.4536247173175435e-41,
+              "self_curobo": 0.0,
+              "joint_lower": 1.2283329753702235e-64,
+              "joint_upper": 0.0,
+              "command_velocity_upper": 0.0,
+              "command_velocity_lower": 0.0,
+              "executed_velocity_upper": 0.0,
+              "executed_velocity_lower": 0.0,
+              "terminal_box": 0.10390490725348075
+            },
+            "gradient_norm_before_cap": 2469935.0629458865
+          }
+        ]
+      }
+    ],
+    "all_step_timing_synchronizations_charged": true,
+    "optional_component_log_materialization_outside_request": true,
+    "corrected_paths_not_independently_audited": true
+  },
+  "terminal_gate": "PASS: native old-fixture equivalence and runtime gate"
+}
