@@ -40,6 +40,7 @@ class Arm:
   for path in self.urdfs:
    joints=[]
    for e in ET.parse(path).getroot().findall('joint'):
+    if e.find('child').get('link')=='panda_link0':continue
     origin=e.find('origin');xyz=np.fromstring(origin.get('xyz','0 0 0'),sep=' ');rpy=np.fromstring(origin.get('rpy','0 0 0'),sep=' ')
     R=Rotation.from_euler('xyz',rpy).as_matrix();name=e.get('name');idx=int(name[-1])-1 if name.startswith('panda_joint') and name[-1] in '1234567' else None
     typ=e.get('type');val=.04 if name.startswith('panda_finger_joint') and typ=='prismatic' else 0.
