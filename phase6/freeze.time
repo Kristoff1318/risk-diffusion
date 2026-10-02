@@ -1,0 +1,6 @@
+  File "/home/kristoff/Documents/experiments/research/risk_diffusion/phase6/tracking.py", line 105
+    draws=tuple(v[:n] for v in p0.noise(1024,spec['seeds'][i],scale));row,f,q,v,u=evaluate(arm,bank['q'][i],bank['target'][i],draws,sub,backend,4096 if backend else512);row.update(path=i,regime=regime);rows.append(row);key=f'p{i}_{regime}';flags[key]=f;demo[key+'_q']=q[:4];demo[key+'_v']=v[:4];demo[key+'_u']=u[:4];print(json.dumps(row),flush=True)
+                                                                                                                                                                ^
+SyntaxError: invalid syntax
+Command exited with non-zero status 1
+WALL=0.02 RSS_KiB=12248
