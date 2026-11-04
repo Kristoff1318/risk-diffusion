@@ -1,0 +1,62 @@
+[
+  {
+    "method": "nominal",
+    "budget": -1.0,
+    "plans": 9,
+    "nominal_healthy": 0,
+    "surrogate_accepted": 0,
+    "audit_accepted": 0,
+    "failure_rate": 0.9738888888888889,
+    "collision_rate": 0.9738888888888889,
+    "goal_failure_rate": 0.8344444444444444,
+    "mean_cost": 403.45782368053267,
+    "sampling_batch_seconds": 0.5479213720000189,
+    "predicted_risk_min": 34.21197509765625,
+    "predicted_risk_max": 335.70257568359375
+  },
+  {
+    "method": "chance",
+    "budget": 0.05,
+    "plans": 9,
+    "nominal_healthy": 0,
+    "surrogate_accepted": 0,
+    "audit_accepted": 0,
+    "failure_rate": 1.0,
+    "collision_rate": 1.0,
+    "goal_failure_rate": 0.9388888888888889,
+    "mean_cost": 402.5399951927021,
+    "sampling_batch_seconds": 10.242549439000868,
+    "predicted_risk_min": 31.721744537353516,
+    "predicted_risk_max": 290.1651611328125
+  },
+  {
+    "method": "chance",
+    "budget": 0.15,
+    "plans": 9,
+    "nominal_healthy": 0,
+    "surrogate_accepted": 0,
+    "audit_accepted": 0,
+    "failure_rate": 1.0,
+    "collision_rate": 1.0,
+    "goal_failure_rate": 0.9388888888888889,
+    "mean_cost": 402.5399951927021,
+    "sampling_batch_seconds": 10.204076700000769,
+    "predicted_risk_min": 31.721744537353516,
+    "predicted_risk_max": 290.1651611328125
+  },
+  {
+    "method": "chance",
+    "budget": 0.3,
+    "plans": 9,
+    "nominal_healthy": 0,
+    "surrogate_accepted": 0,
+    "audit_accepted": 0,
+    "failure_rate": 1.0,
+    "collision_rate": 1.0,
+    "goal_failure_rate": 0.9388888888888889,
+    "mean_cost": 402.5399951927021,
+    "sampling_batch_seconds": 10.220503276999807,
+    "predicted_risk_min": 31.721744537353516,
+    "predicted_risk_max": 290.1651611328125
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "method": "nominal",
+    "budget": -1.0,
+    "task": 0,
+    "seed": 11,
+    "predicted_risk": 136.77932739257812,
+    "predicted_wall": 136.77915954589844,
+    "predicted_goal": 0.0001618222304387018,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": true,
+      "distance": 2.663162768057689,
+      "cost": 423.0536962579936,
+      "path_length": 12.297186817851212
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 30
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 3.703574392196273,
+    "cost_mean": 423.0536962579936,
+    "path_length_mean": 11.897412658693693,
+    "sampling_seconds_per_candidate": 0.1943331759997212,
+    "sampling_batch_seconds": 0.5829995279991635,
+    "execution_seconds": 0.4646664840001904,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "nominal",
+    "budget": -1.0,
+    "task": 1,
+    "seed": 11,
+    "predicted_risk": 245.53591918945312,
+    "predicted_wall": 244.53591918945312,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": false,
+      "distance": 0.1549497560223709,
+      "cost": 388.32309277169406,
+      "path_length": 12.710498650874595
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 7
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 0.3314412494855138,
+    "cost_mean": 388.32309277169406,
+    "path_length_mean": 12.134109348981362,
+    "sampling_seconds_per_candidate": 0.1943331759997212,
+    "sampling_batch_seconds": 0.5829995279991635,
+    "execution_seconds": 0.4640706929994849,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "nominal",
+    "budget": -1.0,
+    "task": 2,
+    "seed": 11,
+    "predicted_risk": 176.933837890625,
+    "predicted_wall": 175.933837890625,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": true,
+      "distance": 3.0614901459464074,
+      "cost": 395.68524336256087,
+      "path_length": 10.514619499067074
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 30
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 3.231736198621043,
+    "cost_mean": 395.68524336256087,
+    "path_length_mean": 10.442154950375762,
+    "sampling_seconds_per_candidate": 0.1943331759997212,
+    "sampling_batch_seconds": 0.5829995279991635,
+    "execution_seconds": 0.5249619650003297,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.05,
+    "task": 0,
+    "seed": 11,
+    "predicted_risk": 238.58290100097656,
+    "predicted_wall": 237.58290100097656,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": true,
+      "distance": 3.067639215645453,
+      "cost": 404.12356276018545,
+      "path_length": 12.780089922324134
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 30
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 3.627247703627509,
+    "cost_mean": 404.12356276018545,
+    "path_length_mean": 12.353258020216447,
+    "sampling_seconds_per_candidate": 2.2668639773334385,
+    "sampling_batch_seconds": 6.800591932000316,
+    "execution_seconds": 0.5543900080001549,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.05,
+    "task": 1,
+    "seed": 11,
+    "predicted_risk": 236.0518798828125,
+    "predicted_wall": 235.05552673339844,
+    "predicted_goal": 0.9963576197624207,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": false,
+      "distance": 0.1701149431417519,
+      "cost": 386.1007213857956,
+      "path_length": 12.231160021836493
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 8
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 0.7220950517806753,
+    "cost_mean": 386.1007213857956,
+    "path_length_mean": 11.741141539085996,
+    "sampling_seconds_per_candidate": 2.2668639773334385,
+    "sampling_batch_seconds": 6.800591932000316,
+    "execution_seconds": 0.4805017440003212,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.05,
+    "task": 2,
+    "seed": 11,
+    "predicted_risk": 70.82051849365234,
+    "predicted_wall": 69.82051849365234,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": false,
+      "distance": 0.09794354779701805,
+      "cost": 394.8706054389477,
+      "path_length": 12.810562586386327
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 9
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 0.9751614040893389,
+    "cost_mean": 394.8706054389477,
+    "path_length_mean": 12.536946465775712,
+    "sampling_seconds_per_candidate": 2.2668639773334385,
+    "sampling_batch_seconds": 6.800591932000316,
+    "execution_seconds": 0.5803625329999704,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.15,
+    "task": 0,
+    "seed": 11,
+    "predicted_risk": 238.58290100097656,
+    "predicted_wall": 237.58290100097656,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": true,
+      "distance": 3.067639215645453,
+      "cost": 404.12356276018545,
+      "path_length": 12.780089922324134
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 30
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 3.627247703627509,
+    "cost_mean": 404.12356276018545,
+    "path_length_mean": 12.353258020216447,
+    "sampling_seconds_per_candidate": 2.2617249536666955,
+    "sampling_batch_seconds": 6.785174861000087,
+    "execution_seconds": 0.5491884410002967,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.15,
+    "task": 1,
+    "seed": 11,
+    "predicted_risk": 236.0518798828125,
+    "predicted_wall": 235.05552673339844,
+    "predicted_goal": 0.9963576197624207,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": false,
+      "distance": 0.1701149431417519,
+      "cost": 386.1007213857956,
+      "path_length": 12.231160021836493
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 8
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 0.7220950517806753,
+    "cost_mean": 386.1007213857956,
+    "path_length_mean": 11.741141539085996,
+    "sampling_seconds_per_candidate": 2.2617249536666955,
+    "sampling_batch_seconds": 6.785174861000087,
+    "execution_seconds": 0.48754852000001847,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.15,
+    "task": 2,
+    "seed": 11,
+    "predicted_risk": 70.82051849365234,
+    "predicted_wall": 69.82051849365234,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": false,
+      "distance": 0.09794354779701805,
+      "cost": 394.8706054389477,
+      "path_length": 12.810562586386327
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 9
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 0.9751614040893389,
+    "cost_mean": 394.8706054389477,
+    "path_length_mean": 12.536946465775712,
+    "sampling_seconds_per_candidate": 2.2617249536666955,
+    "sampling_batch_seconds": 6.785174861000087,
+    "execution_seconds": 0.5807078970001385,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.3,
+    "task": 0,
+    "seed": 11,
+    "predicted_risk": 238.58290100097656,
+    "predicted_wall": 237.58290100097656,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": true,
+      "distance": 3.067639215645453,
+      "cost": 404.12356276018545,
+      "path_length": 12.780089922324134
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 30
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 3.627247703627509,
+    "cost_mean": 404.12356276018545,
+    "path_length_mean": 12.353258020216447,
+    "sampling_seconds_per_candidate": 2.2604562863331616,
+    "sampling_batch_seconds": 6.781368858999485,
+    "execution_seconds": 0.5587101329992947,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.3,
+    "task": 1,
+    "seed": 11,
+    "predicted_risk": 236.0518798828125,
+    "predicted_wall": 235.05552673339844,
+    "predicted_goal": 0.9963576197624207,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": false,
+      "distance": 0.1701149431417519,
+      "cost": 386.1007213857956,
+      "path_length": 12.231160021836493
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 8
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 0.7220950517806753,
+    "cost_mean": 386.1007213857956,
+    "path_length_mean": 11.741141539085996,
+    "sampling_seconds_per_candidate": 2.2604562863331616,
+    "sampling_batch_seconds": 6.781368858999485,
+    "execution_seconds": 0.4746402119999402,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  },
+  {
+    "method": "chance",
+    "budget": 0.3,
+    "task": 2,
+    "seed": 11,
+    "predicted_risk": 70.82051849365234,
+    "predicted_wall": 69.82051849365234,
+    "predicted_goal": 1.0,
+    "surrogate_accepted": false,
+    "nominal": {
+      "failure": true,
+      "collision": true,
+      "goal_failure": false,
+      "distance": 0.09794354779701805,
+      "cost": 394.8706054389477,
+      "path_length": 12.810562586386327
+    },
+    "executions": 30,
+    "counts": {
+      "failure": 30,
+      "collision": 30,
+      "goal_failure": 9
+    },
+    "failure_rate": 1.0,
+    "failure_ci95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "goal_distance_mean": 0.9751614040893389,
+    "cost_mean": 394.8706054389477,
+    "path_length_mean": 12.536946465775712,
+    "sampling_seconds_per_candidate": 2.2604562863331616,
+    "sampling_batch_seconds": 6.781368858999485,
+    "execution_seconds": 0.5781093479999981,
+    "audit_certified": false,
+    "false_safe_confirmed": false
+  }
+]

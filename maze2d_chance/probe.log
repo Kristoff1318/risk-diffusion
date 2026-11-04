@@ -1,0 +1,71 @@
+pybullet build time: Jan 29 2025 23:19:57
+Warning: Flow failed to import. Set the environment variable D4RL_SUPPRESS_IMPORT_ERROR=1 to suppress this message.
+No module named 'flow'
+Warning: CARLA failed to import. Set the environment variable D4RL_SUPPRESS_IMPORT_ERROR=1 to suppress this message.
+No module named 'carla'
+RuntimeError: module compiled against API version 0x10 but this version of numpy is 0xe . Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem .
+[ utils/colab ] Warning: not importing colab dependencies
+mass [0.        4.1887902] body pos [[0.  0.  0. ]
+ [1.2 1.2 0. ]]
+Warning: GymBullet failed to import. Set the environment variable D4RL_SUPPRESS_IMPORT_ERROR=1 to suppress this message.
+numpy.core.multiarray failed to import
+load datafile:   0%|          | 0/8 [00:00<?, ?it/s]load datafile:  12%|█▎        | 1/8 [00:00<00:00,  8.91it/s]load datafile:  38%|███▊      | 3/8 [00:00<00:00, 11.66it/s]load datafile:  62%|██████▎   | 5/8 [00:00<00:00,  7.56it/s]load datafile: 100%|██████████| 8/8 [00:00<00:00, 12.58it/s][ utils/preprocessing ] Segmented maze2d-large-v1 | 1061 paths | min length: 67 | max length: 30470
+[ datasets/buffer ] Finalized replay buffer | 1062 episodes
+[ datasets/buffer ] Fields:
+    actions: (1062, 40000, 2)
+    infos/goal: (1062, 40000, 2)
+    infos/qpos: (1062, 40000, 2)
+    infos/qvel: (1062, 40000, 2)
+    observations: (1062, 40000, 4)
+    rewards: (1062, 40000, 1)
+    terminals: (1062, 40000, 1)
+    timeouts: (1062, 40000, 1)
+    next_observations: (1062, 40000, 4)
+    normed_observations: (1062, 40000, 4)
+    normed_actions: (1062, 40000, 2)
+[ models/temporal ] Channel dimensions: [(6, 32), (32, 128), (128, 256)]
+[(6, 32), (32, 128), (128, 256)]
+normalizers actions: [ Normalizer ] dim: 2
+    -: [-1. -1.]
+    +: [1. 1.]
+]
+infos/goal: [ Normalizer ] dim: 2
+    -: [0.9 0.9]
+    +: [ 7.1 10.1]
+]
+infos/qpos: [ Normalizer ] dim: 2
+    -: [0.4  0.44]
+    +: [ 7.22 10.22]
+]
+infos/qvel: [ Normalizer ] dim: 2
+    -: [-5.23 -5.23]
+    +: [5.23 5.23]
+]
+observations: [ Normalizer ] dim: 4
+    -: [ 0.4   0.44 -5.23 -5.23]
+    +: [ 7.22 10.22  5.23  5.23]
+]
+rewards: [ Normalizer ] dim: 1
+    -: [0.]
+    +: [1.]
+]
+terminals: [ Normalizer ] dim: 1
+    -: [0.]
+    +: [0.]
+]
+timeouts: [ Normalizer ] dim: 1
+    -: [0.]
+    +: [0.]
+]
+next_observations: [ Normalizer ] dim: 4
+    -: [ 0.4   0.44 -5.23 -5.23]
+    +: [ 7.22 10.22  5.23  5.23]
+]
+
+{'start': [1.0, 1.0, 0.0, 0.0], 'goal': [7.0, 9.0], 'mode': 'actions', 'final': 0.518158446860989, 'contacts': 0}
+{'start': [1.0, 1.0, 0.0, 0.0], 'goal': [7.0, 9.0], 'mode': 'tracking', 'final': 0.4321195753615396, 'contacts': 68}
+{'start': [1.0, 1.0, 0.0, 0.0], 'goal': [3.0, 1.0], 'mode': 'actions', 'final': 0.08646377413781205, 'contacts': 0}
+{'start': [1.0, 1.0, 0.0, 0.0], 'goal': [3.0, 1.0], 'mode': 'tracking', 'final': 0.20233122837419423, 'contacts': 0}
+{'start': [3.0, 1.0, 0.0, 0.0], 'goal': [5.0, 1.0], 'mode': 'actions', 'final': 1.566014730276968, 'contacts': 301}
+{'start': [3.0, 1.0, 0.0, 0.0], 'goal': [5.0, 1.0], 'mode': 'tracking', 'final': 0.6900584308223063, 'contacts': 178}
+
