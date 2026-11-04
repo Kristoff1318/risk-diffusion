@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "mean_native_max_error": 2.6645352591003757e-15,
+  "covariance_matrix_max_error": 1.3552527156068805e-20,
+  "covariance_empirical_relative_error": 0.009016891805532223,
+  "full_energy_gradient_relative_error": 3.7064803393084004e-08,
+  "physical_added_obstacles_checked": true,
+  "zero_guidance_exact_sampler_parity": true,
+  "two_guidance_stage_seconds": 0.701080806000391,
+  "two_guidance_stage_gradient_norms": [
+    3642.052734375,
+    4166.8310546875
+  ]
+}

@@ -1,0 +1,10 @@
+pybullet build time: Jan 29 2025 23:19:57
+{
+  "passed": true,
+  "source_snapshots_verified": true,
+  "reference_hashes_verified": true,
+  "event_streams_recounted": 36,
+  "all_confidence_bounds_exact": true,
+  "all_admissions_recomputed": true,
+  "proposal_count": 18
+}

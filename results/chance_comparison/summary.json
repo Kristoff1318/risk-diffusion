@@ -1,0 +1,90 @@
+[
+  {
+    "scenario": "walls",
+    "budget": 0.05,
+    "method": "nominal",
+    "requests": 3,
+    "accepted": 0,
+    "all_proposal_audit_risk": 0.7109375,
+    "accepted_audit_risk": null,
+    "mean_generation_seconds": 0.5744202073334842,
+    "mean_validation_seconds": 8.934863665333372
+  },
+  {
+    "scenario": "walls",
+    "budget": 0.05,
+    "method": "chance",
+    "requests": 3,
+    "accepted": 1,
+    "all_proposal_audit_risk": 0.6666666666666666,
+    "accepted_audit_risk": 0.0,
+    "mean_generation_seconds": 2.667239075333176,
+    "mean_validation_seconds": 8.883201527999821
+  },
+  {
+    "scenario": "walls",
+    "budget": 0.1,
+    "method": "nominal",
+    "requests": 3,
+    "accepted": 0,
+    "all_proposal_audit_risk": 0.7109375,
+    "accepted_audit_risk": null,
+    "mean_generation_seconds": 0.5744202073334842,
+    "mean_validation_seconds": 8.934863665333372
+  },
+  {
+    "scenario": "walls",
+    "budget": 0.1,
+    "method": "chance",
+    "requests": 3,
+    "accepted": 1,
+    "all_proposal_audit_risk": 0.6666666666666666,
+    "accepted_audit_risk": 0.0,
+    "mean_generation_seconds": 2.648665123999914,
+    "mean_validation_seconds": 9.033829234333098
+  },
+  {
+    "scenario": "added_obstacles",
+    "budget": 0.05,
+    "method": "nominal",
+    "requests": 3,
+    "accepted": 0,
+    "all_proposal_audit_risk": 1.0,
+    "accepted_audit_risk": null,
+    "mean_generation_seconds": 0.5763263353334575,
+    "mean_validation_seconds": 9.26478286233396
+  },
+  {
+    "scenario": "added_obstacles",
+    "budget": 0.05,
+    "method": "chance",
+    "requests": 3,
+    "accepted": 0,
+    "all_proposal_audit_risk": 1.0,
+    "accepted_audit_risk": null,
+    "mean_generation_seconds": 2.6659197876670078,
+    "mean_validation_seconds": 9.215033310999692
+  },
+  {
+    "scenario": "added_obstacles",
+    "budget": 0.1,
+    "method": "nominal",
+    "requests": 3,
+    "accepted": 0,
+    "all_proposal_audit_risk": 1.0,
+    "accepted_audit_risk": null,
+    "mean_generation_seconds": 0.5763263353334575,
+    "mean_validation_seconds": 9.26478286233396
+  },
+  {
+    "scenario": "added_obstacles",
+    "budget": 0.1,
+    "method": "chance",
+    "requests": 3,
+    "accepted": 0,
+    "all_proposal_audit_risk": 1.0,
+    "accepted_audit_risk": null,
+    "mean_generation_seconds": 2.6629479466670696,
+    "mean_validation_seconds": 9.291539452666862
+  }
+]

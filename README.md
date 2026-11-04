@@ -1,71 +1,112 @@
 # Maze2D Risk Diffusion
 
-This repository contains its own Diffuser inference source, pretrained model,
-normalization/configuration, nominal execution code, and chance-guidance
-equations. It does **not** import or load files from another project folder.
+This is the standalone Maze2D project. Its code lives directly in this folder;
+there is no nested `maze2d_chance` project. Diffuser source and the required
+checkpoint/configuration/normalization are local. No other project folder is
+needed at runtime.
 
-The research target is the chance formulation in slides 13–14 of
-[main.pptx](main.pptx), evaluated on native D4RL `maze2d-large-v1`.
+## Visual comparison
 
-## Layout
+[Compact side-by-side comparison](results/chance_comparison/comparison_overview.png)
+shows nominal versus 5% and 10% chance guidance on the same start, with 32
+already-audited noisy executions per panel. Blue paths are safe, red paths fail.
+It shows the successful wall-only risk-repair case and its added-obstacle case.
+Paths show the agent center; collision checks include its physical radius 0.1.
 
-| Location | Contents |
+- [All three wall-only starts](results/chance_comparison/walls.png)
+- [All three starts with added obstacles](results/chance_comparison/added_obstacles.png)
+- [Full report and all failures](results/chance_comparison/REPORT.md)
+- [Nominal baseline trajectories](results/nominal_baseline/trajectories.png)
+
+The comparison completed 18 proposals and 9,216 native stochastic executions.
+In one wall-only case, nominal failed in 34/256 independent audit executions;
+both guided versions had 0/256 and passed the 5%/10% validation budgets.
+The other two wall cases remained unsafe. None of the added-obstacle cases
+passed. All cases remain in the report; there is no general safety claim.
+
+## Organization
+
+| Location | Purpose |
 |---|---|
-| `src/diffuser/` | Local temporal model, diffusion sampler, Policy, normalizers, environment loader and utilities |
-| `assets/maze2d-large-v1/` | Local pretrained checkpoint, JSON configuration, normalization and asset hashes |
-| `maze2d_chance/` | Nominal runner, local asset loader, slide-referenced chance guidance and verification scripts |
-| `maze2d_chance/results/nominal_baseline/` | Current report, plans, native executions, plots and verification evidence |
-| `third_party/diffuser/` | Upstream MIT license, source provenance and copied-file hashes |
-| `main.pptx`, `maze2d_chance/slide_evidence/` | Research specification |
+| `chance_guidance.py` | Slides 13–14: Gaussian constraints, risk sum, softplus energy, autodiff denoising guidance |
+| `tracking_dynamics.py` | Executed mean/covariance through the original feedback controller |
+| `nominal_baseline.py` | Original unguided sampler and 800-step tracking execution |
+| `compare_tracking.py` | Frozen paired guided comparison; existing outcomes protected |
+| `evaluate_tracking.py` | Independent native MuJoCo noise, collision/goal checks, confidence bounds |
+| `environment.py` | Maze2D Large v1 and optional physical circular obstacles |
+| `runtime.py` | Repository-local model/source loading |
+| `qualify_tracking.py`, `verify_*.py` | Dynamics, covariance, gradient, replay and portability checks |
+| `report_comparison.py`, `visualize_comparison.py` | Figures and tables from saved outcomes/replayed audit draws |
+| `pilot_tracking.py` | Disclosed guidance-strength pilot on separate seed 10 |
+| `src/diffuser/` | Original local Diffuser inference modules |
+| `assets/maze2d-large-v1/` | Required local checkpoint, configuration and scaling data |
+| `results/` | One nominal baseline and one guided comparison |
+| `main.pptx`, `slide_evidence/` | Slide specification and inspected equations |
+| `third_party/diffuser/` | MIT license, provenance and copied-source hashes |
 
-Historical `archive/` and `maze2d_chance/archive/` directories may exist locally.
-They are ignored, untracked, and unnecessary for running this repository.
+Historical material is outside the repository at
+`/home/kristoff/Documents/risk_diffusion_storage/`, consolidated into
+`prior_studies/` and `maze2d_attempts/`. It is optional local history and is
+neither tracked nor imported. Required model data stays inside this repo.
 
-## Run
+## Slide-to-code mapping
 
-The tested runtime is Python 3.8, PyTorch 1.9.1/CUDA 11.1 and native D4RL/MuJoCo.
-[environment.yml](environment.yml) records the runtime dependencies.
-MuJoCo 2.0 binaries, system libraries and a compatible GPU/driver are installed
-runtime prerequisites; they are not project source or vendored binaries.
+| Slide step | Implementation |
+|---|---|
+| 13, 1–3: mean, dynamics Jacobian, covariance | `tracking_dynamics.propagate_tracking` |
+| 13, 4–6: constraints and Gaussian probabilities | Wall/circle/goal functions in `chance_guidance.py` |
+| 13, 7–8: union sum and budget | `TrackingChanceModel.risk_reference` |
+| 14, 9–10: residual and softplus | `TrackingChanceModel.energy` |
+| 14, 11–13: energy gradient and score correction | `sample_guided` |
 
-With that environment active, from repository root:
+The existing checkpoint generates reference states. The controller uses
+`u = p_ref - p + (v_ref - v)`, with native clipping. Mean and covariance are
+propagated through this actual feedback system, rather than treating the
+reference as the executed path. This explicitly adapts the slides' control
+representation to the pretrained state-reference diffusion model.
+
+Guidance differentiates the energy through the denoiser's clean reference,
+normalization, controller and dynamics, in the final 32 of 256 denoising stages.
+Walls are always included. The added-obstacle scene contains physical MuJoCo
+cylinders of radius 0.35 at (3,4), (5,8), (7,5), in agent coordinates.
+The native validator checks the complete 800-step execution with independent
+Gaussian velocity perturbations of standard deviation 0.005 after each step.
+The surrogate is locally approximate; it is not a universal risk certificate.
+There is no CVaR, projection, extra clearance objective, or new training.
+
+## Normalization data
+
+`assets/maze2d-large-v1/normalization.npz` is a small NumPy archive with four
+arrays: observation/action minima and maxima from the checkpoint's training
+data. It scales positions, velocities and actions to approximately [-1,1] and
+back. It is required model data, not a second baseline or uncertainty model.
+The [asset README](assets/maze2d-large-v1/README.md) shows how to inspect it.
+
+## Run and verify
+
+The tested runtime is Python 3.8, PyTorch 1.9.1/CUDA 11.1, D4RL and MuJoCo 2.0.
+`environment.yml` records dependencies. Native MuJoCo binaries/system libraries
+and a compatible GPU are runtime prerequisites. Fresh installation was not
+performed; execution and relocation were tested in the existing runtime.
+
+From this project root, in that environment:
 
 ```bash
-python maze2d_chance/nominal_baseline.py --out results/my_nominal_run
-python maze2d_chance/verify_nominal.py
-python maze2d_chance/verify_portability.py
+python nominal_baseline.py --out results/my_nominal_run
+python verify_nominal.py
+python verify_comparison.py
+python qualify_tracking.py
+python verify_portability.py
+python report_comparison.py
+python visualize_comparison.py
 ```
 
-Use a fresh output directory for each run. Scripts locate code and assets from
-their own file location; they do not require an editable install. Optional
-`pip install --no-deps -e .` installs the local Diffuser package after preparing
-the runtime. No training, dataset download or other checkout is needed for
-inference. Fresh environment installation has not been tested in this task;
-execution and relocation were checked in the existing documented runtime.
+The comparison/pilot refuse to overwrite existing protocols. The current
+reports preserve the exact pre-flattening source snapshots and source hashes
+beside their results. Structural relocation does not change the saved trials.
+The compact visualization replays the first 32 existing audit draws; its flags
+match the saved audit exactly, and it supplies no new independent evidence.
 
-## Current evidence
-
-The [nominal baseline report](maze2d_chance/results/nominal_baseline/REPORT.md)
-uses the original Diffuser sampler and state-reference feedback controller for
-800 steps, with no guidance, added noise, added obstacles, or retraining.
-It reaches the goal in **9/10** fixed-seed cases, with **4/10** collision-free
-goal-reaching cases. Every saved array matches the previous external-source
-reproduction exactly. A relocated-copy test blocks all old-project/archive
-access and reproduces a saved episode exactly.
-
-`maze2d_chance/chance_guidance.py` follows the numbered equations in slides
-13–14: mean/covariance, linearized constraints, Gaussian probabilities, union
-sum, softplus energy and autodiff score correction. Its current direct-action
-execution model is **not yet connected to the nominal state-tracking
-controller**. The nominal runner does not invoke it; this is the unfinished
-integration previously called "experimental". No new risk result is claimed.
-
-There is one nominal method: `nominal_baseline.py`, with its saved results
-under `results/nominal_baseline/`. "Nominal local" was an earlier location-based
-name for the same method, not an additional baseline.
-
-`assets/maze2d-large-v1/normalization.npz` holds the original checkpoint's
-position, velocity, and action min/max scaling. It is needed to translate
-between physical coordinates and the network's normalized coordinates.
-
-See [the experiment guide](maze2d_chance/README.md) for the slide-to-code map.
+The nominal baseline is one method and one canonical result folder,
+`results/nominal_baseline/`: 9/10 goal-reaching and 4/10 collision-free cases.
+Those deterministic checks are separate from the noisy guided comparison.

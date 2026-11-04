@@ -1,0 +1,21 @@
+{
+  "selected_strength": 0.02,
+  "scores": [
+    [
+      2,
+      138.89997333936947,
+      0.0002
+    ],
+    [
+      2,
+      137.45922335741432,
+      0.002
+    ],
+    [
+      2,
+      128.1653680347626,
+      0.02
+    ]
+  ],
+  "scope": "pilot seed10 only; no held-out audit or noise tuning"
+}

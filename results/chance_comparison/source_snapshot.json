@@ -1,0 +1,9 @@
+{
+  "maze2d_chance/chance_guidance.py": "source_snapshot/maze2d_chance/chance_guidance.py",
+  "maze2d_chance/tracking_dynamics.py": "source_snapshot/maze2d_chance/tracking_dynamics.py",
+  "maze2d_chance/environment.py": "source_snapshot/maze2d_chance/environment.py",
+  "maze2d_chance/evaluate_tracking.py": "source_snapshot/maze2d_chance/evaluate_tracking.py",
+  "maze2d_chance/compare_tracking.py": "source_snapshot/maze2d_chance/compare_tracking.py",
+  "maze2d_chance/runtime.py": "source_snapshot/maze2d_chance/runtime.py",
+  "maze2d_chance/nominal_baseline.py": "source_snapshot/maze2d_chance/nominal_baseline.py"
+}

@@ -1,0 +1,69 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "budgets": [
+    0.05,
+    0.1
+  ],
+  "noise_std": 0.005,
+  "gamma": 10.0,
+  "guidance_steps": 32,
+  "strength": 0.02,
+  "execution_steps": 800,
+  "validation_draws": 256,
+  "audit_draws": 256,
+  "scenarios": {
+    "walls": [],
+    "added_obstacles": [
+      [
+        3.0,
+        4.0,
+        0.35
+      ],
+      [
+        5.0,
+        8.0,
+        0.35
+      ],
+      [
+        7.0,
+        5.0,
+        0.35
+      ]
+    ]
+  },
+  "validation_seed_base": 2026110400,
+  "audit_seed_base": 2026119400,
+  "acceptance": "single prespecified proposal; one-sided exact95% upper <= requested budget",
+  "risk_event": "any native wall/added-obstacle contact OR terminal goal distance>=0.5",
+  "goal_metric": "terminal goal at800 for risk; ever-reached goal also reported",
+  "guidance_candidate": "denoiser clean reference; gradient through denoiser and actual feedback model",
+  "slide_obstacle_index": "x1..x799; goal x800. Independent validator also checks x0 and x800 collisions.",
+  "source_sha256": {
+    "maze2d_chance/chance_guidance.py": "9f474609547e570dc76a6b0cd5cd0f1cbc8bf715be0d1d09d5724edcfadba279",
+    "maze2d_chance/tracking_dynamics.py": "f5d44365f29c1c4c1678d588e6ee9cf964266f38381f479b4a0d9847049154f8",
+    "maze2d_chance/environment.py": "085ffe3282575279ded023366e9864ec2e339ae0a16b68070646e72aa315ec6c",
+    "maze2d_chance/evaluate_tracking.py": "071ada79573f5b319fd697a60d0495956cc00b1bed72c57bda1e527ea2cf871e",
+    "maze2d_chance/compare_tracking.py": "634d937efa3b3bc5e7aa32c523388e16586cf090d42421f26448a2a05b824374",
+    "maze2d_chance/runtime.py": "f8ed9abd83b77fbfbfd176c691031fffa0fe09c0741f8f2a0b7e9254993fbabf",
+    "maze2d_chance/nominal_baseline.py": "56a181bc81fbcf4bbb8452b7b89117af10d454476f701e377d960d94bc71dba5"
+  },
+  "qualification": {
+    "passed": true,
+    "mean_native_max_error": 2.6645352591003757e-15,
+    "covariance_matrix_max_error": 1.3552527156068805e-20,
+    "covariance_empirical_relative_error": 0.009016891805532223,
+    "full_energy_gradient_relative_error": 3.7064803393084004e-08,
+    "physical_added_obstacles_checked": true,
+    "zero_guidance_exact_sampler_parity": true,
+    "two_guidance_stage_seconds": 0.7810572360012884,
+    "two_guidance_stage_gradient_norms": [
+      3641.95263671875,
+      4176.53564453125
+    ]
+  },
+  "original_checkpoint_sha256": "316e7e0449d36ed605e7d42d7d6a12fe3803b01b80037c5a268ff537aede8555"
+}

@@ -1,6 +1,5 @@
 # Historical studies stay on disk, outside the active repository contents.
 /archive/
-/maze2d_chance/archive/
 
 # Python caches, environments, and packaging output.
 __pycache__/

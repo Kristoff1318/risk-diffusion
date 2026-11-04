@@ -1,0 +1,138 @@
+[
+  {
+    "scenario": "walls",
+    "strength": 0.0,
+    "surrogate_risk": 45.90987809662977,
+    "generation_seconds": 0.5895438689985895,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": false,
+      "goal_failure": false,
+      "failure": true,
+      "reached_goal": true,
+      "final_distance": 0.016420343522819403,
+      "effort": 2.6952595527779324,
+      "length": 12.769822362617774
+    },
+    "max_gradient_norm": 0.0
+  },
+  {
+    "scenario": "walls",
+    "strength": 0.0002,
+    "surrogate_risk": 46.001862084959754,
+    "generation_seconds": 2.6622084840000753,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": false,
+      "goal_failure": false,
+      "failure": true,
+      "reached_goal": true,
+      "final_distance": 0.016402253386536635,
+      "effort": 2.6944692638665964,
+      "length": 12.769409030114842
+    },
+    "max_gradient_norm": 6323.146484375
+  },
+  {
+    "scenario": "walls",
+    "strength": 0.002,
+    "surrogate_risk": 45.21963723221119,
+    "generation_seconds": 2.658083247999457,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": false,
+      "goal_failure": false,
+      "failure": true,
+      "reached_goal": true,
+      "final_distance": 0.016516694044749886,
+      "effort": 2.6986694177967867,
+      "length": 12.771301948356314
+    },
+    "max_gradient_norm": 6543.90576171875
+  },
+  {
+    "scenario": "walls",
+    "strength": 0.02,
+    "surrogate_risk": 40.663805362922886,
+    "generation_seconds": 2.6390800230001332,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": false,
+      "goal_failure": false,
+      "failure": true,
+      "reached_goal": true,
+      "final_distance": 0.020213410571580794,
+      "effort": 2.8624423081229264,
+      "length": 12.911227792344233
+    },
+    "max_gradient_norm": 5396.72509765625
+  },
+  {
+    "scenario": "added_obstacles",
+    "strength": 0.0,
+    "surrogate_risk": 92.90987385717344,
+    "generation_seconds": 0.577874401000372,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 6.608258266043961,
+      "effort": 14.08939735490086,
+      "length": 3.204177032780835
+    },
+    "max_gradient_norm": 0.0
+  },
+  {
+    "scenario": "added_obstacles",
+    "strength": 0.0002,
+    "surrogate_risk": 92.8981112544097,
+    "generation_seconds": 2.6533963169986237,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 6.608258266043961,
+      "effort": 14.089620560063665,
+      "length": 3.203695691443566
+    },
+    "max_gradient_norm": 6314.65673828125
+  },
+  {
+    "scenario": "added_obstacles",
+    "strength": 0.002,
+    "surrogate_risk": 92.23958612520313,
+    "generation_seconds": 2.6629700739995315,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 6.608258266043961,
+      "effort": 14.08964453696351,
+      "length": 3.203688894928554
+    },
+    "max_gradient_norm": 6527.96728515625
+  },
+  {
+    "scenario": "added_obstacles",
+    "strength": 0.02,
+    "surrogate_risk": 87.5015626718397,
+    "generation_seconds": 2.645715482000014,
+    "nominal": {
+      "wall": true,
+      "added_obstacle": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 6.608258266043961,
+      "effort": 14.075070694134078,
+      "length": 3.26705856635873
+    },
+    "max_gradient_norm": 5424.8798828125
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "walls_s1_nominal",
+    "replayed_existing_draws": 32,
+    "all_flags_exact": true
+  },
+  {
+    "name": "walls_s1_chance_d0.05",
+    "replayed_existing_draws": 32,
+    "all_flags_exact": true
+  },
+  {
+    "name": "walls_s1_chance_d0.1",
+    "replayed_existing_draws": 32,
+    "all_flags_exact": true
+  },
+  {
+    "name": "added_obstacles_s1_nominal",
+    "replayed_existing_draws": 32,
+    "all_flags_exact": true
+  },
+  {
+    "name": "added_obstacles_s1_chance_d0.05",
+    "replayed_existing_draws": 32,
+    "all_flags_exact": true
+  },
+  {
+    "name": "added_obstacles_s1_chance_d0.1",
+    "replayed_existing_draws": 32,
+    "all_flags_exact": true
+  }
+]

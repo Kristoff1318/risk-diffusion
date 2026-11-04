@@ -1,0 +1,58 @@
+pybullet build time: Jan 29 2025 23:19:57
+[ models/temporal ] Channel dimensions: [(6, 32), (32, 128), (128, 256)]
+[(6, 32), (32, 128), (128, 256)]
+GENERATED walls_s0_nominal risk 72.22472840814477 nominal_failure True
+GENERATED walls_s0_chance_d0.05 risk 50.34497734455781 nominal_failure True
+GENERATED walls_s0_chance_d0.1 risk 49.50250977316504 nominal_failure True
+GENERATED walls_s1_nominal risk 0.23549377810675592 nominal_failure False
+GENERATED walls_s1_chance_d0.05 risk 2.2349884929108378e-69 nominal_failure False
+GENERATED walls_s1_chance_d0.1 risk 9.359121704876835e-67 nominal_failure False
+GENERATED walls_s2_nominal risk 70.95068392329924 nominal_failure True
+GENERATED walls_s2_chance_d0.05 risk 67.76411292584858 nominal_failure True
+GENERATED walls_s2_chance_d0.1 risk 67.70505991108426 nominal_failure True
+GENERATED added_obstacles_s0_nominal risk 126.21156859630858 nominal_failure True
+GENERATED added_obstacles_s0_chance_d0.05 risk 105.88101509753619 nominal_failure True
+GENERATED added_obstacles_s0_chance_d0.1 risk 105.69238593451158 nominal_failure True
+GENERATED added_obstacles_s1_nominal risk 51.964271490040744 nominal_failure True
+GENERATED added_obstacles_s1_chance_d0.05 risk 52.580837735148414 nominal_failure True
+GENERATED added_obstacles_s1_chance_d0.1 risk 52.590618515605584 nominal_failure True
+GENERATED added_obstacles_s2_nominal risk 109.94616698594332 nominal_failure True
+GENERATED added_obstacles_s2_chance_d0.05 risk 106.2301656718018 nominal_failure True
+GENERATED added_obstacles_s2_chance_d0.1 risk 106.07352231564315 nominal_failure True
+VALIDATED walls_s0_nominal {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.937159821000023, 'mean_length': 12.873371237017452, 'mean_effort': 2.264524512000837}
+AUDITED walls_s0_nominal 1.0 accepted None reuse None
+VALIDATED walls_s0_chance_d0.05 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.936319237000134, 'mean_length': 12.882704303979866, 'mean_effort': 2.289202502178462}
+AUDITED walls_s0_chance_d0.05 1.0 accepted False reuse None
+VALIDATED walls_s0_chance_d0.1 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.963892278999992, 'mean_length': 12.883907500982817, 'mean_effort': 2.2888004898201624}
+AUDITED walls_s0_chance_d0.1 1.0 accepted False reuse None
+VALIDATED walls_s1_nominal {'draws': 256, 'failures': 29, 'failure_rate': 0.11328125, 'CI95': [0.0771922442155407, 0.15862616300082646], 'upper95': 0.15123304977211013, 'counts': {'wall': 29, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.902881665999303, 'mean_length': 12.846655683114033, 'mean_effort': 2.231880212385292}
+AUDITED walls_s1_nominal 0.1328125 accepted None reuse None
+VALIDATED walls_s1_chance_d0.05 {'draws': 256, 'failures': 0, 'failure_rate': 0.0, 'CI95': [0.0, 0.014306362729039375], 'upper95': 0.011633876163163281, 'counts': {'wall': 0, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.773722685999019, 'mean_length': 12.83912411692555, 'mean_effort': 2.2315298335483025}
+AUDITED walls_s1_chance_d0.05 0.0 accepted True reuse None
+VALIDATED walls_s1_chance_d0.1 {'draws': 256, 'failures': 0, 'failure_rate': 0.0, 'CI95': [0.0, 0.014306362729039375], 'upper95': 0.011633876163163281, 'counts': {'wall': 0, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.95316519699918, 'mean_length': 12.839050735442072, 'mean_effort': 2.231386448059933}
+AUDITED walls_s1_chance_d0.1 0.0 accepted True reuse None
+VALIDATED walls_s2_nominal {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.96454950900079, 'mean_length': 13.050692574197988, 'mean_effort': 2.284198676796916}
+AUDITED walls_s2_nominal 1.0 accepted None reuse None
+VALIDATED walls_s2_chance_d0.05 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 8.93956266100031, 'mean_length': 13.058226631158869, 'mean_effort': 2.280583144742122}
+AUDITED walls_s2_chance_d0.05 1.0 accepted False reuse None
+VALIDATED walls_s2_chance_d0.1 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 0, 'goal_failure': 0}, 'seconds': 9.18443022700012, 'mean_length': 13.058220958396625, 'mean_effort': 2.2805306964722893}
+AUDITED walls_s2_chance_d0.1 1.0 accepted False reuse None
+VALIDATED added_obstacles_s0_nominal {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 256}, 'seconds': 9.796770043001743, 'mean_length': 3.205607149006818, 'mean_effort': 14.034598010317602}
+AUDITED added_obstacles_s0_nominal 1.0 accepted None reuse None
+VALIDATED added_obstacles_s0_chance_d0.05 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 256}, 'seconds': 9.6850558189999, 'mean_length': 3.1904751374484395, 'mean_effort': 14.03528557190215}
+AUDITED added_obstacles_s0_chance_d0.05 1.0 accepted False reuse None
+VALIDATED added_obstacles_s0_chance_d0.1 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 256}, 'seconds': 9.572841766999773, 'mean_length': 3.190764746667126, 'mean_effort': 14.035592006412779}
+AUDITED added_obstacles_s0_chance_d0.1 1.0 accepted False reuse None
+VALIDATED added_obstacles_s1_nominal {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 0}, 'seconds': 9.03881342800014, 'mean_length': 10.948722773112763, 'mean_effort': 4.292646349548959}
+AUDITED added_obstacles_s1_nominal 1.0 accepted None reuse None
+VALIDATED added_obstacles_s1_chance_d0.05 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 0}, 'seconds': 9.022604508998484, 'mean_length': 10.946992571025067, 'mean_effort': 4.302591764850315}
+AUDITED added_obstacles_s1_chance_d0.05 1.0 accepted False reuse None
+VALIDATED added_obstacles_s1_chance_d0.1 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 0}, 'seconds': 9.20453448400076, 'mean_length': 10.947396488590893, 'mean_effort': 4.302790313978161}
+AUDITED added_obstacles_s1_chance_d0.1 1.0 accepted False reuse None
+VALIDATED added_obstacles_s2_nominal {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 0}, 'seconds': 8.958765115999995, 'mean_length': 10.015791640694623, 'mean_effort': 3.2869556820768806}
+AUDITED added_obstacles_s2_nominal 1.0 accepted None reuse None
+VALIDATED added_obstacles_s2_chance_d0.05 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 0}, 'seconds': 8.93743960500069, 'mean_length': 10.098537963934813, 'mean_effort': 3.3407828485757323}
+AUDITED added_obstacles_s2_chance_d0.05 1.0 accepted False reuse None
+VALIDATED added_obstacles_s2_chance_d0.1 {'draws': 256, 'failures': 256, 'failure_rate': 1.0, 'CI95': [0.9856936372709606, 1.0], 'upper95': 1.0, 'counts': {'wall': 256, 'added_obstacle': 256, 'goal_failure': 0}, 'seconds': 9.097242107000056, 'mean_length': 10.097372340011495, 'mean_effort': 3.33937264405842}
+AUDITED added_obstacles_s2_chance_d0.1 1.0 accepted False reuse None
+COMPLETE {'complete': True, 'proposal_count': 18, 'unique_audited_paths': 18, 'native_stochastic_executions': 9216, 'process_seconds': 364.6133370910011}

@@ -1,0 +1,35 @@
+{
+  "seed": 10,
+  "budget": 0.1,
+  "noise_std": 0.005,
+  "gamma": 10.0,
+  "guidance_steps": 32,
+  "strengths": [
+    0.0002,
+    0.002,
+    0.02
+  ],
+  "execution_steps": 800,
+  "scenarios": {
+    "walls": [],
+    "added_obstacles": [
+      [
+        3.0,
+        4.0,
+        0.35
+      ],
+      [
+        5.0,
+        8.0,
+        0.35
+      ],
+      [
+        7.0,
+        5.0,
+        0.35
+      ]
+    ]
+  },
+  "selection": "fewest zero-noise union failures, then smallest sum surrogate risk; tie smaller strength",
+  "independent_stochastic_executions": 0
+}
