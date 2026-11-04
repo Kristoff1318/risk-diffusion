@@ -1,0 +1,30 @@
+{
+  "environment": "maze2d-large-v1",
+  "epoch": 1960000,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "execution": "original state-reference feedback, 800 steps",
+  "guidance": false,
+  "added_noise": false,
+  "added_obstacles": false,
+  "goal_threshold": 0.5,
+  "source_sha256": {
+    "maze2d_chance/nominal_baseline.py": "8856aedee9c4f5fb215067b7a0ba0ff2eaca66bed193aa15719c5b4aa4666114",
+    "maze2d_chance/runtime.py": "212bbf24e255088d986f68afa899b713a96203829d991da998af2d0f8c21e23c",
+    "assets/maze2d-large-v1/normalization.npz": "a2a3b5d66a9d23b9d3e2aa6dda6d7b0ac7d1f7d5ef6ad4a6f51ac3d7d91a148f",
+    "assets/maze2d-large-v1/config.json": "525bc7f4c365d0dc73bc22026a6240ed0bd332ac7f731f8f5bb49622858470cb",
+    "src/diffuser/guides/policies.py": "850c3f4da40c1ec403ac10bb9753ebcab4d62944c2a7cf6faafcbb13c86d23f4",
+    "src/diffuser/models/diffusion.py": "e4cb234e280b88dae5d6dbb6b79a38e9d6a1dea36c48a01b1b5385e7afcf9aac",
+    "assets/maze2d-large-v1/state_1960000.pt": "316e7e0449d36ed605e7d42d7d6a12fe3803b01b80037c5a268ff537aede8555"
+  }
+}

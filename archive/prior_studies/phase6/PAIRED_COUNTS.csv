@@ -1,9 +1,0 @@
-path,regime,open_arm,open_pose,open_union,closed_arm,closed_pose,closed_union,paired_failures_removed,paired_failures_introduced
-0,base,0,106,106,0,0,0,106,0
-0,double,0,233,233,0,0,0,233,0
-1,base,0,152,152,0,0,0,152,0
-1,double,20,244,244,0,0,0,244,0
-2,base,1,147,147,0,0,0,147,0
-2,double,24,241,241,0,0,0,241,0
-3,base,0,91,91,0,0,0,91,0
-3,double,0,222,222,0,0,0,222,0

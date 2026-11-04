@@ -1,5 +1,0 @@
-/home/kristoff/Documents/experiments/research/risk_diffusion/phase6/tracking.py:24: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
-  self.t=torch;self.arm=arm;self.kw={'dtype':torch.float64,'device':'cuda'};self.cast=lambda v:torch.as_tensor(v,**self.kw)
-/home/kristoff/miniconda3/envs/presto-audit/lib/python3.9/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
-  return self.fget.__get__(instance, owner)()
-WALL=21.62 USER=20.85 SYS=0.86 RSS_KiB=3283476

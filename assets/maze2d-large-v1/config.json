@@ -1,0 +1,26 @@
+{
+  "epoch": 1960000,
+  "environment": "maze2d-large-v1",
+  "model": {
+    "horizon": 384,
+    "transition_dim": 6,
+    "cond_dim": 4,
+    "dim_mults": [
+      1,
+      4,
+      8
+    ]
+  },
+  "diffusion": {
+    "horizon": 384,
+    "observation_dim": 4,
+    "action_dim": 2,
+    "n_timesteps": 256,
+    "loss_type": "l2",
+    "clip_denoised": true,
+    "predict_epsilon": false,
+    "action_weight": 1,
+    "loss_weights": null,
+    "loss_discount": 1
+  }
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61,<76"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maze2d-risk-diffusion"
+version = "0.1.0"
+description = "Nominal Diffuser reproduction and chance-guidance research on D4RL Maze2D Large v1"
+requires-python = ">=3.8,<3.11"
+dependencies = [
+  "numpy==1.21.6",
+  "scipy==1.10.1",
+  "torch>=1.9.1,<2",
+  "einops>=0.3,<0.9",
+  "gym==0.18.0",
+  "mujoco-py==2.0.2.13",
+  "matplotlib==3.3.4",
+  "d4rl @ git+https://github.com/Farama-Foundation/d4rl@f2a05c0d66722499bf8031b094d9af3aea7c372b",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

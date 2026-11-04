@@ -3,17 +3,18 @@ import argparse
 import json
 from pathlib import Path
 
-from nominal_baseline import ROOT, load_environment, np, sha
+from nominal_baseline import ROOT, PROJECT, load_environment, np, sha
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--run', default='results/nominal_baseline_20261104')
+    parser.add_argument('--run', default='results/nominal_local_20261104')
     args = parser.parse_args()
     run = ROOT / args.run
     protocol = json.loads((run / 'protocol.json').read_text())
     for path, expected in protocol['source_sha256'].items():
-        assert sha(path) == expected, f'Source changed: {path}'
+        source = Path(path) if Path(path).is_absolute() else PROJECT / path
+        assert sha(source) == expected, f'Source changed: {path}'
     env = load_environment('maze2d-large-v1')
     results = json.loads((run / 'results.json').read_text())
     checks = []

@@ -1,9 +1,0 @@
-{
-  "GPU_self_fixture_margin": -0.0063338838316043256,
-  "GPU_elbow_margin": -0.060000000000000005,
-  "controller_command_overspeed_rejected": true,
-  "controller_executed_overspeed_rejected": true,
-  "paired64_256_noise_prefix_flags_equal": true,
-  "paired5ms_2_5ms_changed_executions": 0,
-  "pass": true
-}

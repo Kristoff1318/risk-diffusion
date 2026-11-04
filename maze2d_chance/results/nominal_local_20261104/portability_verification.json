@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "relocated_copy": true,
+  "no_old_project_or_archive_access": true,
+  "local_diffuser_path": "src/diffuser/__init__.py",
+  "seed0_reference_exact": true,
+  "seed0_actions_exact": true,
+  "seed0_execution_exact": true,
+  "seed0_contacts_exact": true,
+  "experimental_chance_gradient_relative_error": 2.3471502722967234e-08,
+  "chance_model_scope": "direct actions only; not yet qualified for state tracking"
+}

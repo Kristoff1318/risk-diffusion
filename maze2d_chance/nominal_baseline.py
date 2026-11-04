@@ -2,23 +2,18 @@
 import argparse
 import hashlib
 import json
-import pickle
 import random
-import sys
 import time
 from pathlib import Path
 
 import numpy as np
 
-LEGACY = Path('/home/kristoff/Documents/rb-diffuser')
-sys.path.insert(0, str(LEGACY))
+from runtime import PROJECT, ASSETS, load_policy
 import torch
 from diffuser.datasets import load_environment
-from diffuser.datasets.normalization import DatasetNormalizer, LimitsNormalizer
-from diffuser.guides.policies import Policy
 
 ROOT = Path(__file__).resolve().parent
-CHECKPOINT = LEGACY / 'logs/maze2d-large-v1/diffusion/H384_T256'
+CHECKPOINT = ASSETS
 EPOCH = 1960000
 
 
@@ -28,26 +23,6 @@ def sha(path):
 
 def save_json(path, value):
     path.write_text(json.dumps(value, indent=2, allow_nan=False) + '\n')
-
-
-def load_policy():
-    def config(name):
-        with (CHECKPOINT / (name + '_config.pkl')).open('rb') as stream:
-            return pickle.load(stream)
-    model = config('model')()
-    diffusion = config('diffusion')(model)
-    diffusion.load_state_dict(torch.load(CHECKPOINT / f'state_{EPOCH}.pt')['ema'])
-    diffusion.eval()
-    # Restore the original normalizer classes from previously cached dataset limits.
-    # LimitsNormalizer depends only on these extrema; no dataset load or download.
-    normalizer = object.__new__(DatasetNormalizer)
-    normalizer.action_dim, normalizer.observation_dim = 2, 4
-    limits = np.load(ROOT / 'normalization.npz')
-    normalizer.normalizers = {
-        key: LimitsNormalizer(np.stack([limits[key + '_mins'], limits[key + '_maxs']]))
-        for key in ('actions', 'observations')
-    }
-    return Policy(diffusion, normalizer)
 
 
 def set_seed(seed):
@@ -185,17 +160,17 @@ def report(out, env, rows):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--out', default='results/nominal_baseline_20261104')
+    parser.add_argument('--out', default='results/nominal_local_20261104')
     args = parser.parse_args()
     out = ROOT / args.out
     out.mkdir(parents=True, exist_ok=False)
     protocol = dict(environment='maze2d-large-v1', epoch=EPOCH, seeds=list(range(10)),
                     execution='original state-reference feedback, 800 steps', guidance=False,
                     added_noise=False, added_obstacles=False, goal_threshold=.5,
-                    source_sha256={str(p): sha(p) for p in [
-                        Path(__file__), ROOT / 'normalization.npz',
-                        LEGACY / 'scripts/plan_maze2d.py', LEGACY / 'diffuser/guides/policies.py',
-                        LEGACY / 'diffuser/models/diffusion.py',
+                    source_sha256={str(p.resolve().relative_to(PROJECT)): sha(p) for p in [
+                        Path(__file__), ROOT / 'runtime.py', ASSETS / 'normalization.npz',
+                        ASSETS / 'config.json', PROJECT / 'src/diffuser/guides/policies.py',
+                        PROJECT / 'src/diffuser/models/diffusion.py',
                         CHECKPOINT / f'state_{EPOCH}.pt']})
     save_json(out / 'protocol.json', protocol)
     torch.set_num_threads(2)

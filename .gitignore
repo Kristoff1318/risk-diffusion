@@ -1,24 +1,14 @@
-# Preserved artifacts remain in place; hashes are tracked in preservation/.
+# Historical studies stay on disk, outside the active repository contents.
+/archive/
+/maze2d_chance/archive/
+
+# Python caches, environments, and packaging output.
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
 .env
 .env.*
-outputs/
-inspection_20260926/*.npz
-inspection_20260926/*.png
-inspection_20260926/*.pdf
-phase1_outputs/
-
-phase2_outputs/
-
-phase3_outputs/
-
-phase4_outputs/
-
-# Previously ignored artifacts remain archived locally without adding caches
-# or regenerated historical inspection outputs to version control.
-archive/prior_studies/inspection_20260926/*.npz
-archive/prior_studies/inspection_20260926/*.png
-archive/prior_studies/inspection_20260926/*.pdf
+*.egg-info/
+/build/
+/dist/

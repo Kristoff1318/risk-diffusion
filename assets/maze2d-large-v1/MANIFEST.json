@@ -1,0 +1,9 @@
+{
+  "checkpoint_source": "RB Diffuser maze2d-large-v1 diffusion/H384_T256 EMA epoch1960000",
+  "checkpoint_sha256": "316e7e0449d36ed605e7d42d7d6a12fe3803b01b80037c5a268ff537aede8555",
+  "files": {
+    "normalization.npz": "a2a3b5d66a9d23b9d3e2aa6dda6d7b0ac7d1f7d5ef6ad4a6f51ac3d7d91a148f",
+    "state_1960000.pt": "316e7e0449d36ed605e7d42d7d6a12fe3803b01b80037c5a268ff537aede8555",
+    "config.json": "525bc7f4c365d0dc73bc22026a6240ed0bd332ac7f731f8f5bb49622858470cb"
+  }
+}

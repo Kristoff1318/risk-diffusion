@@ -1,0 +1,15 @@
+{
+  "source_repository": "https://github.com/jannerm/diffuser",
+  "source_copy": "existing RB Diffuser checkout; original model/sampler/policy files retained byte-for-byte",
+  "files": {
+    "src/diffuser/models/__init__.py": "a6cc5e67b266e17efd775884164d344fd99fc8f06b7208e75925aa8d6f3db152",
+    "src/diffuser/models/temporal.py": "4690d39fc11c5bd3bb022895aabea680dd1e9e592d7c57a604632ae285a6aa57",
+    "src/diffuser/models/diffusion.py": "e4cb234e280b88dae5d6dbb6b79a38e9d6a1dea36c48a01b1b5385e7afcf9aac",
+    "src/diffuser/models/helpers.py": "b02f5e3703f8a706b375bdf075a1745a213403a44c6308512401a7a5ed6b938e",
+    "src/diffuser/guides/policies.py": "850c3f4da40c1ec403ac10bb9753ebcab4d62944c2a7cf6faafcbb13c86d23f4",
+    "src/diffuser/datasets/normalization.py": "9d32ee071c5fcef109e128bad90e2ee62be2ab856cc28d736b1f5cedfbaae160",
+    "src/diffuser/datasets/d4rl.py": "f6865e85f271b282025fe6e59df9de76afa79dbff08f5fa76a9bf60360703dd1",
+    "src/diffuser/utils/arrays.py": "a1fa16b70d073e2924e35d2980832f965cae4a4bfa43789edf255457e350a86b",
+    "src/diffuser/utils/progress.py": "12182a253dbf0d578e071a1f426daec3fa14d2fa16ce3ae76cb0d46f02357ec3"
+  }
+}

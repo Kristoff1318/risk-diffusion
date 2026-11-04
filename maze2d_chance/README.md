@@ -1,85 +1,80 @@
 # Maze2D Chance
 
-## Current baseline
+The active source and assets are entirely repository-local. No script depends
+on an RB Diffuser checkout, historical archive, or cached dataset download.
+Installed Python/D4RL/MuJoCo runtime dependencies remain necessary; see the
+root environment specification.
 
-Start with the [nominal reproduction report](results/nominal_baseline_20261104/REPORT.md)
-and [trajectories](results/nominal_baseline_20261104/trajectories.png).
+## Source
 
-The first priority is reproducing the older RB Diffuser's unguided planning
-pipeline. `nominal_baseline.py` reuses its unchanged `Policy`, diffusion sampler,
-EMA checkpoint, and normalization classes. It samples a 384-state position and
-velocity reference once, then runs the original feedback controller for the
-full 800-step native episode, including final-position tracking after the
-reference ends. It does not execute the generated action sequence directly.
+- `nominal_baseline.py`: original state-reference feedback execution for a
+  full 800-step native episode. Calls the unchanged local Diffuser Policy and
+  sampler; no custom nominal sampler, guidance, added noise or added obstacles.
+- `runtime.py`: verifies and loads `../assets/maze2d-large-v1/`; imports only
+  `../src/diffuser/`. Configuration is plain JSON, not external pickle configs.
+- `chance_guidance.py`: experimental direct-action Gaussian covariance,
+  native box/goal linearization, CDF event probabilities, union sum, literal
+  softplus energy, and gradient correction during denoising. It is retained
+  locally for review and further development; nominal execution does not use it.
+- `verify_nominal.py`: independent saved-command/controller replay and active
+  MuJoCo contact checks. Only `[:env.sim.data.ncon]` contact entries are active.
+- `verify_portability.py`: copies the active repo to a temporary location,
+  excludes archives, blocks access to the old project, and checks exact
+  reference/action/execution/contact reproduction. Also checks a nonzero
+  direct-action chance-energy derivative against finite differences.
+- `../src/diffuser/`: locally maintained inference subset. Nine original
+  source files are byte-identical to the previously used implementation;
+  package initializers expose only the needed modules.
 
-The ten predetermined environment/sampling seeds 0–9 reached the goal in 9/10
-cases and finished in the goal in the same 9/10. Six episodes touched walls;
-four were collision-free goal-reaching episodes. These are fixed-seed,
-no-added-noise observations, not a measured stochastic risk guarantee.
+## Current baseline results
 
-`verification.json` confirms exact sample equality between the reused original
-Policy and original sampler under the same random seed. Source/checkpoint
-hashes and the protocol precede outcomes. Every sampled reference, generated
-action sequence, executed trajectory, controller command, and per-step contact
-flag is retained. Plots use the reference screenshot's orientation, complete
-boundary, and equal physical proportions.
+See [report](results/nominal_local_20261104/REPORT.md) and
+[trajectories](results/nominal_local_20261104/trajectories.png).
 
-`replay_verification.json` independently confirms all ten recorded controller
-command sequences, native trajectories, and active-contact flags exactly.
-It also demonstrates the stale-contact-buffer bug on real saved episodes.
+Ten fixed environment/sampling seeds 0–9 reached and finished in the goal in
+9/10 cases. Six episodes touched walls; four were collision-free goal-reaching
+episodes. These are deterministic nominal checks, not a stochastic risk bound.
+The 384-state reference is sampled once; the controller tracks its endpoint
+with zero target velocity for the rest of the 800-step episode.
 
-## Reproduce
+The local run reproduces every saved array from all ten previous baseline
+episodes exactly (`localization_parity.json`). Its provenance uses portable
+repository-relative paths. `verification.json` checks original sampler/Policy
+parity; `replay_verification.json` checks all ten executions;
+`portability_verification.json` checks a relocated run with old paths blocked.
 
-Run from `/home/kristoff/Documents/risk_diffusion` with a fresh output directory:
+## Run and verify
+
+Activate the documented Python/CUDA/MuJoCo environment, then run from repo root:
 
 ```bash
-OPENBLAS_NUM_THREADS=1 /home/kristoff/miniconda3/envs/diffuser/bin/python maze2d_chance/nominal_baseline.py --out results/nominal_reproduction
+python maze2d_chance/nominal_baseline.py --out results/my_nominal_run
+python maze2d_chance/verify_nominal.py
+python maze2d_chance/verify_portability.py
 ```
 
-To verify the saved current run without generating new plans:
+The nominal runner refuses to overwrite an existing run. The verifier defaults
+to `results/nominal_local_20261104`; select another with `--run results/NAME`.
+Assets are tracked locally, including the unchanged approximately 29 MB
+checkpoint. No absolute interpreter or old-project path is required by source.
 
-```bash
-OPENBLAS_NUM_THREADS=1 /home/kristoff/miniconda3/envs/diffuser/bin/python maze2d_chance/verify_nominal.py
-```
+## Research scope
 
-The existing CUDA environment and local pretrained checkpoint are required.
-There is no training, dataset rebuild, download, guidance, added noise, added
-obstacle, or replanning. The old repository
-`/home/kristoff/Documents/rb-diffuser` is read-only. `normalization.npz` contains
-the previously cached checkpoint-dataset extrema, used with the original
-normalization classes.
+The required mechanism is slides 13–14 of [the deck](../main.pptx): mean rollout,
+local dynamics linearization, covariance propagation, constraint linearization,
+Gaussian violation probabilities, union sum, softplus energy, and autodiff
+guidance during denoising. No CVaR, arms, projection or risk-conditioned training.
 
-## Scope and next question
+The direct-action chance model is **not** yet qualified for the nominal
+reference-tracking controller. That dynamics/representation mapping must be
+explicit before another guided comparison. Its successful finite-difference
+check validates a mathematical derivative, not obstacle safety or risk-budget
+compliance. The nominal runner intentionally does not invoke it.
 
-The intended risk mechanism remains exactly the chance formulation and
-diffusion guidance in slides 13–14 of [the deck](../main.pptx). No CVaR, arms,
-projection, or risk-conditioned training is part of current work.
+## Local history
 
-Restoring reference tracking does not itself resolve the slides' control-based
-representation: the risk model and guidance gradient must describe the actual
-executed controller/dynamics. That mapping must be explicit before another
-risk comparison. Nominal goal success is also distinct from collision-free
-goal success; neither can be substituted for whole-execution risk compliance.
-
-## Historical attempts
-
-- `archive/direct_action_20261104/`: the initial custom-sampler, direct-action,
-  383-step experiment and its pilots, plots, tests, and reports. It is not the
-  nominal reproduction. Its collision checker iterated the full MuJoCo contact
-  buffer, including stale entries; its collision/risk figures require
-  reevaluation and must not support conclusions about this restored baseline.
-- `archive/nominal_contact_buffer_attempt/`: first reproduction with correct
-  sampling/tracking but the same contact-buffer accounting bug. It has the
-  same aggregate 9/10 goal and 6/10 contact counts as the corrected run, but
-  overcounts contact durations. Preserved for transparency.
-- `archive/nominal_baseline_20261104_setup_attempt/`: setup stopped before
-  episode outcomes because the environment returned a tuple goal; repaired
-  by converting the goal to a NumPy array.
-- `slide_evidence/`: inspected equations extracted from the source PowerPoint.
-
-Only the first `env.sim.data.ncon` contacts are active. The current reproduction
-checks that active prefix, not all 100 allocated contact slots.
-
-Two prior comparison images had already been locally deleted before cleanup;
-their deletion is preserved. Historical move hashes are recorded in
-`archive/direct_action_20261104/MOVE_MANIFEST.json`.
+`archive/` here and `../archive/` hold optional historical attempts on this
+computer. Both are ignored and removed from the Git index. Nothing imports them.
+Old commits retain their history; removing index entries does not rewrite Git
+history. The former 97.39% result used a different execution pipeline and a
+faulty contact-buffer check and does not describe the current nominal baseline.

@@ -1,0 +1,81 @@
+pybullet build time: Jan 29 2025 23:19:57
+{
+  "passed": true,
+  "protocol_source_hashes_unchanged": true,
+  "exact_original_controller_replay": true,
+  "exact_native_trajectory_replay": true,
+  "active_contacts_match": true,
+  "stale_buffer_regression_demonstrated": true,
+  "episodes": [
+    {
+      "seed": 0,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 17,
+      "stale_buffer_extra_steps": 629
+    },
+    {
+      "seed": 1,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 0,
+      "stale_buffer_extra_steps": 0
+    },
+    {
+      "seed": 2,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 24,
+      "stale_buffer_extra_steps": 649
+    },
+    {
+      "seed": 3,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 12,
+      "stale_buffer_extra_steps": 654
+    },
+    {
+      "seed": 4,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 0,
+      "stale_buffer_extra_steps": 0
+    },
+    {
+      "seed": 5,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 0,
+      "stale_buffer_extra_steps": 0
+    },
+    {
+      "seed": 6,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 5,
+      "stale_buffer_extra_steps": 482
+    },
+    {
+      "seed": 7,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 0,
+      "stale_buffer_extra_steps": 0
+    },
+    {
+      "seed": 8,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 513,
+      "stale_buffer_extra_steps": 208
+    },
+    {
+      "seed": 9,
+      "trajectory_max_error": 0.0,
+      "controller_max_error": 0.0,
+      "active_wall_steps": 18,
+      "stale_buffer_extra_steps": 710
+    }
+  ]
+}
