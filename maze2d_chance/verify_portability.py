@@ -27,7 +27,7 @@ def worker():
     import diffuser
     from chance_guidance import DirectActionChanceModel
     torch.set_num_threads(2)
-    run = root / 'maze2d_chance/results/nominal_local_20261104'
+    run = root / 'maze2d_chance/results/nominal_baseline'
     row = json.loads((run / 'results.json').read_text())[0]
     saved = np.load(run / 'episode_0.npz')
     env = load_environment('maze2d-large-v1')
@@ -44,11 +44,14 @@ def worker():
     assert metrics['goal_reached'] == row['goal_reached']
     model = DirectActionChanceModel(env, np.load(root / 'assets/maze2d-large-v1/normalization.npz'))
     z = torch.zeros((1, 8, 6), dtype=torch.float64, requires_grad=True)
-    start_tensor = torch.tensor([[1., 1., 0., 0.]], dtype=torch.float64)
-    goal_tensor = torch.tensor([[1.5, 1.]], dtype=torch.float64)
+    # Active wall and goal probabilities exercise the complete slide energy.
+    start_tensor = torch.tensor([[.402, 1., 0., 0.]], dtype=torch.float64)
+    goal_tensor = torch.tensor([[.902, 1.]], dtype=torch.float64)
     energy = model.energy(z, start_tensor, goal_tensor, .05).sum()
     gradient = torch.autograd.grad(energy, z)[0][0, 0, 0].item()
-    step = 1.e-5
+    # The wall's small propagated standard deviation makes its CDF steep.
+    # Use a small float64 perturbation to resolve the local derivative.
+    step = 1.e-7
     plus, minus = z.detach().clone(), z.detach().clone()
     plus[0, 0, 0] += step
     minus[0, 0, 0] -= step
@@ -61,8 +64,8 @@ def worker():
                   local_diffuser_path=str(Path(diffuser.__file__).relative_to(root)),
                   seed0_reference_exact=True, seed0_actions_exact=True,
                   seed0_execution_exact=True, seed0_contacts_exact=True,
-                  experimental_chance_gradient_relative_error=error,
-                  chance_model_scope='direct actions only; not yet qualified for state tracking')
+                  chance_energy_gradient_relative_error=error,
+                  chance_model_scope='not yet connected to nominal state-tracking controller')
     (root / 'portability_worker.json').write_text(json.dumps(result, indent=2) + '\n')
 
 
@@ -84,7 +87,7 @@ def main():
         if completed.returncode:
             raise RuntimeError(completed.stdout + completed.stderr)
         result = json.loads((copy / 'portability_worker.json').read_text())
-    out = root / 'maze2d_chance/results/nominal_local_20261104/portability_verification.json'
+    out = root / 'maze2d_chance/results/nominal_baseline/portability_verification.json'
     out.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result, indent=2))
 

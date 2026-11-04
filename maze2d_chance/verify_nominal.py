@@ -8,7 +8,7 @@ from nominal_baseline import ROOT, PROJECT, load_environment, np, sha
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--run', default='results/nominal_local_20261104')
+    parser.add_argument('--run', default='results/nominal_baseline')
     args = parser.parse_args()
     run = ROOT / args.run
     protocol = json.loads((run / 'protocol.json').read_text())

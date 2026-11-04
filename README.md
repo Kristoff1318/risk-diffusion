@@ -1,8 +1,8 @@
 # Maze2D Risk Diffusion
 
 This repository contains its own Diffuser inference source, pretrained model,
-normalization/configuration, nominal execution code, and experimental chance
-guidance. It does **not** import or load files from another project folder.
+normalization/configuration, nominal execution code, and chance-guidance
+equations. It does **not** import or load files from another project folder.
 
 The research target is the chance formulation in slides 13–14 of
 [main.pptx](main.pptx), evaluated on native D4RL `maze2d-large-v1`.
@@ -13,8 +13,8 @@ The research target is the chance formulation in slides 13–14 of
 |---|---|
 | `src/diffuser/` | Local temporal model, diffusion sampler, Policy, normalizers, environment loader and utilities |
 | `assets/maze2d-large-v1/` | Local pretrained checkpoint, JSON configuration, normalization and asset hashes |
-| `maze2d_chance/` | Nominal runner, local asset loader, experimental chance guidance and verification scripts |
-| `maze2d_chance/results/nominal_local_20261104/` | Current report, plans, native executions, plots and verification evidence |
+| `maze2d_chance/` | Nominal runner, local asset loader, slide-referenced chance guidance and verification scripts |
+| `maze2d_chance/results/nominal_baseline/` | Current report, plans, native executions, plots and verification evidence |
 | `third_party/diffuser/` | Upstream MIT license, source provenance and copied-file hashes |
 | `main.pptx`, `maze2d_chance/slide_evidence/` | Research specification |
 
@@ -45,7 +45,7 @@ execution and relocation were checked in the existing documented runtime.
 
 ## Current evidence
 
-The [nominal baseline report](maze2d_chance/results/nominal_local_20261104/REPORT.md)
+The [nominal baseline report](maze2d_chance/results/nominal_baseline/REPORT.md)
 uses the original Diffuser sampler and state-reference feedback controller for
 800 steps, with no guidance, added noise, added obstacles, or retraining.
 It reaches the goal in **9/10** fixed-seed cases, with **4/10** collision-free
@@ -53,10 +53,19 @@ goal-reaching cases. Every saved array matches the previous external-source
 reproduction exactly. A relocated-copy test blocks all old-project/archive
 access and reproduces a saved episode exactly.
 
-`maze2d_chance/chance_guidance.py` contains the Gaussian moment propagation,
-wall/goal probabilities, union sum, softplus energy and denoising gradient from
-the earlier direct-action attempt. **It remains experimental:** it describes
-direct actions, not the restored state-tracking controller, and is not enabled
-by the nominal runner. No new budget-compliant risk result is claimed.
+`maze2d_chance/chance_guidance.py` follows the numbered equations in slides
+13–14: mean/covariance, linearized constraints, Gaussian probabilities, union
+sum, softplus energy and autodiff score correction. Its current direct-action
+execution model is **not yet connected to the nominal state-tracking
+controller**. The nominal runner does not invoke it; this is the unfinished
+integration previously called "experimental". No new risk result is claimed.
 
-See [the experiment guide](maze2d_chance/README.md) for scope and verification.
+There is one nominal method: `nominal_baseline.py`, with its saved results
+under `results/nominal_baseline/`. "Nominal local" was an earlier location-based
+name for the same method, not an additional baseline.
+
+`assets/maze2d-large-v1/normalization.npz` holds the original checkpoint's
+position, velocity, and action min/max scaling. It is needed to translate
+between physical coordinates and the network's normalized coordinates.
+
+See [the experiment guide](maze2d_chance/README.md) for the slide-to-code map.

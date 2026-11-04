@@ -160,7 +160,7 @@ def report(out, env, rows):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--out', default='results/nominal_local_20261104')
+    parser.add_argument('--out', default='results/nominal_baseline')
     args = parser.parse_args()
     out = ROOT / args.out
     out.mkdir(parents=True, exist_ok=False)

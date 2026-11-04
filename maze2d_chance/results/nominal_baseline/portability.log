@@ -7,6 +7,6 @@
   "seed0_actions_exact": true,
   "seed0_execution_exact": true,
   "seed0_contacts_exact": true,
-  "experimental_chance_gradient_relative_error": 2.3471502722967234e-08,
-  "chance_model_scope": "direct actions only; not yet qualified for state tracking"
+  "chance_energy_gradient_relative_error": 8.050306923397698e-08,
+  "chance_model_scope": "not yet connected to nominal state-tracking controller"
 }

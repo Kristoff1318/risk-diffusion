@@ -40,6 +40,10 @@ def load_policy():
     diffusion.eval()
     normalizer = object.__new__(DatasetNormalizer)
     normalizer.action_dim, normalizer.observation_dim = 2, 4
+    # The checkpoint was trained in normalized coordinates, approximately
+    # [-1, 1] per channel. These saved dataset minima/maxima restore exactly
+    # that scaling for [x, y, vx, vy] and [action_x, action_y]. They are not
+    # risk parameters, covariance, rollout results, or a second trained model.
     with np.load(ASSETS / 'normalization.npz') as limits:
         normalizer.normalizers = {
             key: LimitsNormalizer(np.stack([limits[key + '_mins'], limits[key + '_maxs']]))

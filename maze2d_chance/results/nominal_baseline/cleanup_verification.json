@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "max_abs_errors": {
+    "risk": 0.0,
+    "walls": 0.0,
+    "goalrisk": 0.0,
+    "mean": 0.0,
+    "position_variance": 2.6469779601696886e-23,
+    "energy": 0.0,
+    "gradient": 0.0
+  },
+  "all_ten_nominal_episodes_exactly_unchanged": true
+}

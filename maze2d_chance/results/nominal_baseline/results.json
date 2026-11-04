@@ -11,7 +11,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5725096220003252,
+    "sampling_seconds": 0.574495523999758,
     "goal_reached": true,
     "first_success_step": 361,
     "final_goal_success": true,
@@ -36,7 +36,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5703269910000017,
+    "sampling_seconds": 0.5712358410000888,
     "goal_reached": true,
     "first_success_step": 361,
     "final_goal_success": true,
@@ -61,7 +61,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5761284199998045,
+    "sampling_seconds": 0.5688123859999905,
     "goal_reached": true,
     "first_success_step": 355,
     "final_goal_success": true,
@@ -86,7 +86,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5683979350005757,
+    "sampling_seconds": 0.5714861409996956,
     "goal_reached": true,
     "first_success_step": 364,
     "final_goal_success": true,
@@ -111,7 +111,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5698012229995584,
+    "sampling_seconds": 0.5691841609996118,
     "goal_reached": true,
     "first_success_step": 361,
     "final_goal_success": true,
@@ -136,7 +136,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5695142380000107,
+    "sampling_seconds": 0.5695055790001788,
     "goal_reached": true,
     "first_success_step": 363,
     "final_goal_success": true,
@@ -161,7 +161,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.572613848000401,
+    "sampling_seconds": 0.5695164560002013,
     "goal_reached": true,
     "first_success_step": 365,
     "final_goal_success": true,
@@ -186,7 +186,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5706122259998665,
+    "sampling_seconds": 0.5687990460000947,
     "goal_reached": true,
     "first_success_step": 370,
     "final_goal_success": true,
@@ -211,7 +211,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.573524075000023,
+    "sampling_seconds": 0.5704544740001438,
     "goal_reached": false,
     "first_success_step": null,
     "final_goal_success": false,
@@ -236,7 +236,7 @@
       7.0,
       9.0
     ],
-    "sampling_seconds": 0.5690120010003739,
+    "sampling_seconds": 0.5694811920002394,
     "goal_reached": true,
     "first_success_step": 369,
     "final_goal_success": true,
