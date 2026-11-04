@@ -1,0 +1,36 @@
+pybullet build time: Jan 29 2025 23:19:57
+Warning: Flow failed to import. Set the environment variable D4RL_SUPPRESS_IMPORT_ERROR=1 to suppress this message.
+No module named 'flow'
+Warning: CARLA failed to import. Set the environment variable D4RL_SUPPRESS_IMPORT_ERROR=1 to suppress this message.
+No module named 'carla'
+RuntimeError: module compiled against API version 0x10 but this version of numpy is 0xe . Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem .
+[ utils/colab ] Warning: not importing colab dependencies
+MISMATCHES [] wallcounts 62 62
+Warning: GymBullet failed to import. Set the environment variable D4RL_SUPPRESS_IMPORT_ERROR=1 to suppress this message.
+numpy.core.multiarray failed to import
+{
+  "reference_path": "/home/kristoff/.codex/attachments/4f5c88fb-c916-4e9b-955c-999491bdbd48/codex-clipboard-30f5365b-9417-48d9-b973-e18f778b9d55.png",
+  "reference_sha256": "f002fa8f6e1128a25c8bfb1ae0857eb007317f4aa9447ee5f016a470498abc7a",
+  "field_pixel_bounds": [
+    77,
+    72,
+    539,
+    535
+  ],
+  "excluded_legend_pixel_bounds": [
+    399,
+    79,
+    536,
+    145
+  ],
+  "threshold": "flat gray RGB 120..135, channel range<=2; cell wall if >50% eligible interior pixels",
+  "detected_wall_count": 62,
+  "native_wall_count": 62,
+  "compared_cells": 108,
+  "mismatch_cells": [],
+  "all_108_cells_match": true,
+  "cell_width_pixels": 38.5,
+  "cell_height_pixels": 51.44444444444444,
+  "reference_cell_aspect": "cell height is approximately 4/3 cell width; normalized square field stretches 9 physical rows vs12 columns",
+  "added_obstacles": "Three red added obstacles appear in reference only; absent from current experiment and not overlaid as evaluated obstacles."
+}
