@@ -6,6 +6,12 @@
 
 The source is slides 13–14 of `main.pptx`, inspected as the six extracted embedded PNGs in `slide_evidence/`.
 
+## Map verification
+
+The experiment and older RB Diffuser load the **exact same 9×12 LARGE_MAZE array**, verified against the installed D4RL registration, checkpoint dataset config, legacy loader and renderer, and every native wall geometry. It is not LARGE_MAZE_EVAL. Only the original image viewport cropped the outer walls; the native simulator, risk calculation, and hard execution audit included the full boundary throughout. The original figure made qpos_x horizontal and qpos_y vertical, with a cropped boundary; RB Diffuser instead plots qpos_y horizontally, qpos_x downward and normalizes both to a square. The corrected figure restores the familiar orientation and full boundary, while keeping equal physical aspect so circular goal regions remain circular. No trajectories or outcomes were regenerated. See `map_verification.json` and `map_verification.png`; the original is preserved as `trajectories_original_raw_axes.png`. The legacy bitmap adds +0.5 to normalized path coordinates; actual native wall centers in qpos coordinates are maze indices−0.2, which the corrected physical plot preserves.
+
+![Exact map comparison](map_verification.png)
+
 ## Frozen execution and protocol
 
 Checkpoint: `/home/kristoff/Documents/rb-diffuser/logs/maze2d-large-v1/diffusion/H384_T256/state_1960000.pt` (EMA, epoch 1960000); SHA-256 `316e7e0449d36ed605e7d42d7d6a12fe3803b01b80037c5a268ff537aede8555`. Native D4RL `maze2d-large-v1`, MuJoCo contacts and walls retained. Direct generated actions are executed for 383 steps, once per full-trip plan; no tracker, replanning, retries or added obstacles.

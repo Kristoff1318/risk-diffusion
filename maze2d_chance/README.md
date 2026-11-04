@@ -43,3 +43,9 @@ Native MuJoCo contact dynamics remain authoritative during evaluation. The free
 local Gaussian model and its CDF constraints are approximations, so a surrogate
 union sum is not a universal safety bound. Rejection is distinct from generation
 quality; no accepted sample means the false-safe fraction is undefined.
+
+Map verification: `verify_map.py` checks exact array equality against the legacy
+loader/renderer, native registration and LARGE_MAZE, and every physical wall.
+See `results/map_verification.png` and `.json`. The corrected trajectory figure
+uses the familiar legacy orientation and complete boundary at equal physical
+aspect; only the original image viewport cropped walls, never the simulation.

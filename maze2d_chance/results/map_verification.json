@@ -1,0 +1,28 @@
+{
+  "registration_id": "maze2d-large-v1",
+  "entry_point": "d4rl.pointmaze:MazeEnv",
+  "registration_is_large_maze": true,
+  "checkpoint_dataset": "maze2d-large-v1",
+  "checkpoint_renderer_config": {
+    "env": "maze2d-large-v1"
+  },
+  "array_shape": [
+    9,
+    12
+  ],
+  "wall_count": 62,
+  "array_sha256": "e994d4eb5cecec53484e660f7bf2455711cdc0c3f30a14d65203117a91a5ff0d",
+  "legacy_loader_exact_match": true,
+  "legacy_renderer_exact_match": true,
+  "is_LARGE_MAZE": true,
+  "is_LARGE_MAZE_EVAL": false,
+  "all_native_wall_geometries_match": true,
+  "native_body_offset": [
+    1.2,
+    1.2
+  ],
+  "physical_qpos_wall_centers": "maze_indices - 0.2",
+  "original_display": "horizontal qpos_x; vertical qpos_y increasing upward; boundary crop",
+  "corrected_display": "horizontal qpos_y; vertical qpos_x increasing downward; full boundaries; equal physical aspect",
+  "legacy_display": "horizontal (qpos_y+0.5)/12; vertical (qpos_x+0.5)/9 increasing downward; square normalized aspect"
+}
