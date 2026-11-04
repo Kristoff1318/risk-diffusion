@@ -1,32 +1,28 @@
-# Risk-bounded control diffusion
+# Risk Diffusion: Maze2D Chance
 
-The current implementation and evidence follow the [original user plan](ORIGINAL_PLAN.txt), with a [stage-by-stage status](PLAN_STATUS.md).
+Current work tests the chance-guidance formulation in slides 13–14 of
+[main.pptx](main.pptx) on native D4RL `maze2d-large-v1`.
 
-Start with [RESULTS.md](RESULTS.md), [DESIGN.md](DESIGN.md), and [VERDICT.md](VERDICT.md). The corrected implementation is in `revision/`; original pilot code and outputs remain available, with its former reports archived in `legacy_20260922/`.
+**First priority: reproduce the original nominal Diffuser baseline before
+interpreting risk-guidance comparisons.**
 
-## Reproduce
+- [Active experiment and instructions](maze2d_chance/README.md)
+- [Nominal reproduction report](maze2d_chance/results/nominal_baseline_20261104/REPORT.md)
+- [Nominal trajectories](maze2d_chance/results/nominal_baseline_20261104/trajectories.png)
+- [Archived studies and preservation details](archive/README.md)
 
-From `/home/kristoff/Documents/experiments/research`:
+The current baseline uses the original pretrained model, original Diffuser
+sampler, and original feedback controller tracking sampled positions and
+velocities for 800 steps. It has no risk guidance, added execution noise,
+added obstacles, or new training.
 
-```bash
-bash risk_diffusion/revision/reproduce.sh
-```
+Ten fixed seed cases reached the goal in 9/10 episodes; 4/10 reached it without
+wall contact. Goal reaching and obstacle avoidance are reported separately.
+This is a deterministic nominal reproduction, not evidence of a stochastic
+risk bound. Chance guidance remains to be evaluated against this restored
+execution pipeline while explicitly maintaining fidelity to the slides.
 
-The script uses `/home/kristoff/miniconda3/envs/diffuser/bin/python`; override `PYTHON_BIN` for another compatible environment. Recorded environment: Python scientific stack with PyTorch 1.9.1+cu111, NumPy 1.21.6, SciPy 1.10.1, Matplotlib 3.3.4, CUDA on an RTX 4090. Training scripts currently require CUDA. Timings depend on hardware; stochastic training can vary across software/hardware versions. The script regenerates outputs in place.
-
-For focused checks using the saved nominal checkpoint:
-
-```bash
-/home/kristoff/miniconda3/envs/diffuser/bin/python -m risk_diffusion.revision.checks
-```
-
-## Outputs
-
-- `revision/outputs/summary/trajectories.png`: selected difficult examples, including rejected proposals.
-- `revision/outputs/summary/{requested_risk,calibration,safety_cost,runtime}.png`: research plots.
-- `revision/outputs/{guidance,projection,conditional,conditional_ordinary}/results.json`: per-plan measurements.
-- `revision/outputs/boundary_audit.json`: independently confirmed Gaussian false-safe case.
-- `revision/outputs/diversity.json`: repeated samples at identical conditions.
-- `revision/outputs/manifest.json`: source/artifact hashes and runtime versions for this revision.
-
-The public `revision.planner.plan` samples a fixed batch, applies independently evaluated confidence bounds with a batch correction, selects the lowest-cost accepted candidate, or returns an explicit failure. It does not claim robustness to unmodeled noise or continuous-time collision safety.
+Work is on branch `codex/maze2d-chance-baseline` in this Documents folder.
+Earlier reports, arms, inspections, and numbered phases are preserved under
+`archive/prior_studies/`. The earlier direct-action Maze2D experiment is under
+`maze2d_chance/archive/`; its 97.39% figure does not describe this baseline.

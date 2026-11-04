@@ -1,0 +1,7 @@
+{
+  "goal_reached": 9,
+  "final_goal_success": 9,
+  "wall_contact": 6,
+  "collision_free_goal_reached": 4,
+  "episodes": 10
+}
