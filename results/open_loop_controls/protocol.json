@@ -1,0 +1,33 @@
+{
+  "noise_std": 0.005,
+  "gamma": 10.0,
+  "guidance_steps": 32,
+  "steps": 383,
+  "goal_radius": 0.5,
+  "validation_draws": 256,
+  "audit_draws": 256,
+  "validation_seed_base": 2026110500,
+  "audit_seed_base": 2026119500,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "budgets": [
+    0.05,
+    0.1
+  ],
+  "strength": 0.02,
+  "scene": "walls only",
+  "execution": "controls played open loop for 383 native steps",
+  "risk_event": "any wall contact at x_0..x_N OR goal distance >= 0.5 at x_N",
+  "acceptance": "one-sided exact 95% upper bound of validation failures <= budget",
+  "comparison": "each nominal sample also executed by the original tracking controller (800 steps)",
+  "device": "cpu, one thread",
+  "source_sha256": {
+    "open_loop_controls.py": "4a4b9d95b0b842bf12800033e241458501c14b1d78c0470b03b783a285b2fc39",
+    "chance_guidance.py": "9f474609547e570dc76a6b0cd5cd0f1cbc8bf715be0d1d09d5724edcfadba279",
+    "evaluate_tracking.py": "071ada79573f5b319fd697a60d0495956cc00b1bed72c57bda1e527ea2cf871e",
+    "runtime.py": "de738947518f5441a252c44e447ca73636424511ff0baddbd9d1fd1d472c64fc"
+  }
+}

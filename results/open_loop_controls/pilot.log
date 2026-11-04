@@ -1,0 +1,11 @@
+17:09:35 PILOT 0.0 risk sum 71.66 zero-noise failure True first contact 212 4.7s
+17:09:40 PILOT 2e-05 risk sum 71.58 zero-noise failure True first contact 212 5.2s
+17:09:44 PILOT 0.0002 risk sum 70.89 zero-noise failure True first contact 212 3.8s
+17:09:50 PILOT 0.002 risk sum 66.65 zero-noise failure True first contact 212 5.6s
+17:09:54 PILOT 0.02 risk sum 37.37 zero-noise failure True first contact 338 4.1s
+17:09:59 PILOT 0.2 risk sum 102.7 zero-noise failure True first contact 204 5.3s
+17:10:04 PILOT 0.6 risk sum 145.5 zero-noise failure True first contact 163 4.3s
+17:10:08 PILOT 2.0 risk sum 147.2 zero-noise failure True first contact 34 4.9s
+17:10:14 PILOT 6.0 risk sum 233.5 zero-noise failure True first contact 30 5.1s
+17:10:18 PILOT 20.0 risk sum 56.39 zero-noise failure True first contact 50 4.3s
+17:10:18 DECISION {'selected_strength': 0.02, 'scores': [(1, -338, 37.371280567859024, 0.02), (1, -212, 66.65049796563382, 0.002), (1, -212, 70.89323988990218, 0.0002), (1, -212, 71.57836315026805, 2e-05), (1, -204, 102.6784430395908, 0.2), (1, -163, 145.4613213296419, 0.6), (1, -50, 56.39233314428099, 20.0), (1, -34, 147.16851060694157, 2.0), (1, -30, 233.54487261567718, 6.0)], 'score_fields': '(zero-noise failure, -first wall touch, risk sum, strength)', 'scope': 'pilot seed 10 only; no audits'}

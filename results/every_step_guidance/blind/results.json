@@ -1,0 +1,1079 @@
+[
+  {
+    "name": "s0_nominal",
+    "seed": 0,
+    "budget": null,
+    "start": [
+      3.093078187448464,
+      1.0265381891168206,
+      -0.057663079698441436,
+      -0.030459791474532066
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 2.828874235972762,
+    "surrogate_risk": 101.66081140270579,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 0.5975166029830344,
+      "first_contact_step": 149
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 201
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 183
+      }
+    },
+    "trace": []
+  },
+  {
+    "name": "s0_guided_d0.05",
+    "seed": 0,
+    "budget": 0.05,
+    "start": [
+      3.093078187448464,
+      1.0265381891168206,
+      -0.057663079698441436,
+      -0.030459791474532066
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 18.500696300063282,
+    "surrogate_risk": 66.2979079326466,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 5.550082081938932,
+      "first_contact_step": 234
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 2089.3207310916655,
+        "gradient_norm": 5525.791015625
+      },
+      {
+        "step": 224,
+        "energy": 1800.5676441034004,
+        "gradient_norm": 6219.84619140625
+      },
+      {
+        "step": 208,
+        "energy": 1709.4487488547704,
+        "gradient_norm": 8681.7822265625
+      },
+      {
+        "step": 192,
+        "energy": 1612.4986711692102,
+        "gradient_norm": 24640.439453125
+      },
+      {
+        "step": 176,
+        "energy": 1272.6184124277045,
+        "gradient_norm": 16122.330078125
+      },
+      {
+        "step": 160,
+        "energy": 804.8085358648848,
+        "gradient_norm": 13669.1513671875
+      },
+      {
+        "step": 144,
+        "energy": 696.1701266891205,
+        "gradient_norm": 5200.33056640625
+      },
+      {
+        "step": 128,
+        "energy": 666.2155745447437,
+        "gradient_norm": 2333.777587890625
+      },
+      {
+        "step": 112,
+        "energy": 655.0451383726802,
+        "gradient_norm": 1796.8798828125
+      },
+      {
+        "step": 96,
+        "energy": 787.0662468282063,
+        "gradient_norm": 6413.53173828125
+      },
+      {
+        "step": 80,
+        "energy": 809.0241794946537,
+        "gradient_norm": 9202.76171875
+      },
+      {
+        "step": 64,
+        "energy": 653.7527141508003,
+        "gradient_norm": 3978.855224609375
+      },
+      {
+        "step": 48,
+        "energy": 668.1355946760336,
+        "gradient_norm": 4422.68798828125
+      },
+      {
+        "step": 32,
+        "energy": 632.7577874266549,
+        "gradient_norm": 968.358642578125
+      },
+      {
+        "step": 16,
+        "energy": 651.2708297748725,
+        "gradient_norm": 2711.36181640625
+      },
+      {
+        "step": 3,
+        "energy": 672.8299222371237,
+        "gradient_norm": 3975.354736328125
+      },
+      {
+        "step": 2,
+        "energy": 640.72692131159,
+        "gradient_norm": 570.4971923828125
+      },
+      {
+        "step": 1,
+        "energy": 641.5273724396316,
+        "gradient_norm": 1923.040283203125
+      },
+      {
+        "step": 0,
+        "energy": 662.4838647865272,
+        "gradient_norm": 4059.706298828125
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "name": "s0_guided_d0.1",
+    "seed": 0,
+    "budget": 0.1,
+    "start": [
+      3.093078187448464,
+      1.0265381891168206,
+      -0.057663079698441436,
+      -0.030459791474532066
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 17.3074275450781,
+    "surrogate_risk": 66.2979079326466,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 5.550082081938932,
+      "first_contact_step": 234
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 2088.820731091666,
+        "gradient_norm": 5525.791015625
+      },
+      {
+        "step": 224,
+        "energy": 1800.0676441034007,
+        "gradient_norm": 6219.84619140625
+      },
+      {
+        "step": 208,
+        "energy": 1708.9487488547707,
+        "gradient_norm": 8681.7822265625
+      },
+      {
+        "step": 192,
+        "energy": 1611.9986711692104,
+        "gradient_norm": 24640.439453125
+      },
+      {
+        "step": 176,
+        "energy": 1272.1184124277045,
+        "gradient_norm": 16122.330078125
+      },
+      {
+        "step": 160,
+        "energy": 804.3085358648848,
+        "gradient_norm": 13669.1513671875
+      },
+      {
+        "step": 144,
+        "energy": 695.6701266891206,
+        "gradient_norm": 5200.33056640625
+      },
+      {
+        "step": 128,
+        "energy": 665.7155745447437,
+        "gradient_norm": 2333.777587890625
+      },
+      {
+        "step": 112,
+        "energy": 654.5451383726802,
+        "gradient_norm": 1796.8798828125
+      },
+      {
+        "step": 96,
+        "energy": 786.5662468282063,
+        "gradient_norm": 6413.53173828125
+      },
+      {
+        "step": 80,
+        "energy": 808.5241794946537,
+        "gradient_norm": 9202.76171875
+      },
+      {
+        "step": 64,
+        "energy": 653.2527141508003,
+        "gradient_norm": 3978.855224609375
+      },
+      {
+        "step": 48,
+        "energy": 667.6355946760337,
+        "gradient_norm": 4422.68798828125
+      },
+      {
+        "step": 32,
+        "energy": 632.2577874266549,
+        "gradient_norm": 968.358642578125
+      },
+      {
+        "step": 16,
+        "energy": 650.7708297748725,
+        "gradient_norm": 2711.36181640625
+      },
+      {
+        "step": 3,
+        "energy": 672.3299222371237,
+        "gradient_norm": 3975.354736328125
+      },
+      {
+        "step": 2,
+        "energy": 640.2269213115901,
+        "gradient_norm": 570.4971923828125
+      },
+      {
+        "step": 1,
+        "energy": 641.0273724396316,
+        "gradient_norm": 1923.040283203125
+      },
+      {
+        "step": 0,
+        "energy": 661.9838647865272,
+        "gradient_norm": 4059.706298828125
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "name": "s1_nominal",
+    "seed": 1,
+    "budget": null,
+    "start": [
+      3.0029000143971856,
+      2.9382236302311675,
+      0.05663744335966008,
+      -0.06507597725434915
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 3.6584609700366855,
+    "surrogate_risk": 235.74942672583785,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 10.130585809772056,
+      "first_contact_step": 95
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": []
+  },
+  {
+    "name": "s1_guided_d0.05",
+    "seed": 1,
+    "budget": 0.05,
+    "start": [
+      3.0029000143971856,
+      2.9382236302311675,
+      0.05663744335966008,
+      -0.06507597725434915
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 15.965465272776783,
+    "surrogate_risk": 129.8564679309971,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 2.65671596025842,
+      "first_contact_step": 203
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 1013.409305228039,
+        "gradient_norm": 89781.2578125
+      },
+      {
+        "step": 224,
+        "energy": 1838.0675630195785,
+        "gradient_norm": 7236.12451171875
+      },
+      {
+        "step": 208,
+        "energy": 1828.3838393796195,
+        "gradient_norm": 3866.806884765625
+      },
+      {
+        "step": 192,
+        "energy": 1857.7168877474676,
+        "gradient_norm": 6754.98583984375
+      },
+      {
+        "step": 176,
+        "energy": 1774.870690569996,
+        "gradient_norm": 512.3253173828125
+      },
+      {
+        "step": 160,
+        "energy": 2056.87364044411,
+        "gradient_norm": 10191.9296875
+      },
+      {
+        "step": 144,
+        "energy": 1878.8744049322395,
+        "gradient_norm": 2769.241455078125
+      },
+      {
+        "step": 128,
+        "energy": 1928.2784443542653,
+        "gradient_norm": 1470.810546875
+      },
+      {
+        "step": 112,
+        "energy": 2001.1900850108557,
+        "gradient_norm": 2892.6328125
+      },
+      {
+        "step": 96,
+        "energy": 1829.803408489151,
+        "gradient_norm": 341.99578857421875
+      },
+      {
+        "step": 80,
+        "energy": 1854.1622682821394,
+        "gradient_norm": 1461.0552978515625
+      },
+      {
+        "step": 64,
+        "energy": 1823.5009242813976,
+        "gradient_norm": 706.7482299804688
+      },
+      {
+        "step": 48,
+        "energy": 1876.88023653538,
+        "gradient_norm": 2051.251220703125
+      },
+      {
+        "step": 32,
+        "energy": 1837.8857579994954,
+        "gradient_norm": 969.0717163085938
+      },
+      {
+        "step": 16,
+        "energy": 1565.5636567467186,
+        "gradient_norm": 585.0235595703125
+      },
+      {
+        "step": 3,
+        "energy": 1289.5453142111046,
+        "gradient_norm": 3467.676513671875
+      },
+      {
+        "step": 2,
+        "energy": 1289.1792082700056,
+        "gradient_norm": 3197.9228515625
+      },
+      {
+        "step": 1,
+        "energy": 1280.8699720978848,
+        "gradient_norm": 2841.77734375
+      },
+      {
+        "step": 0,
+        "energy": 1298.0680401657528,
+        "gradient_norm": 3996.12744140625
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "name": "s1_guided_d0.1",
+    "seed": 1,
+    "budget": 0.1,
+    "start": [
+      3.0029000143971856,
+      2.9382236302311675,
+      0.05663744335966008,
+      -0.06507597725434915
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 13.561354355886579,
+    "surrogate_risk": 129.8564679309971,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 2.65671596025842,
+      "first_contact_step": 203
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 1012.9093052280391,
+        "gradient_norm": 89781.2578125
+      },
+      {
+        "step": 224,
+        "energy": 1837.5675630195788,
+        "gradient_norm": 7236.12451171875
+      },
+      {
+        "step": 208,
+        "energy": 1827.8838393796198,
+        "gradient_norm": 3866.806884765625
+      },
+      {
+        "step": 192,
+        "energy": 1857.2168877474678,
+        "gradient_norm": 6754.98583984375
+      },
+      {
+        "step": 176,
+        "energy": 1774.370690569996,
+        "gradient_norm": 512.3253173828125
+      },
+      {
+        "step": 160,
+        "energy": 2056.3736404441106,
+        "gradient_norm": 10191.9296875
+      },
+      {
+        "step": 144,
+        "energy": 1878.3744049322397,
+        "gradient_norm": 2769.241455078125
+      },
+      {
+        "step": 128,
+        "energy": 1927.7784443542655,
+        "gradient_norm": 1470.810546875
+      },
+      {
+        "step": 112,
+        "energy": 2000.690085010856,
+        "gradient_norm": 2892.6328125
+      },
+      {
+        "step": 96,
+        "energy": 1829.303408489151,
+        "gradient_norm": 341.99578857421875
+      },
+      {
+        "step": 80,
+        "energy": 1853.6622682821396,
+        "gradient_norm": 1461.0552978515625
+      },
+      {
+        "step": 64,
+        "energy": 1823.0009242813978,
+        "gradient_norm": 706.7482299804688
+      },
+      {
+        "step": 48,
+        "energy": 1876.38023653538,
+        "gradient_norm": 2051.251220703125
+      },
+      {
+        "step": 32,
+        "energy": 1837.3857579994956,
+        "gradient_norm": 969.0717163085938
+      },
+      {
+        "step": 16,
+        "energy": 1565.0636567467188,
+        "gradient_norm": 585.0235595703125
+      },
+      {
+        "step": 3,
+        "energy": 1289.0453142111048,
+        "gradient_norm": 3467.676513671875
+      },
+      {
+        "step": 2,
+        "energy": 1288.6792082700058,
+        "gradient_norm": 3197.9228515625
+      },
+      {
+        "step": 1,
+        "energy": 1280.369972097885,
+        "gradient_norm": 2841.77734375
+      },
+      {
+        "step": 0,
+        "energy": 1297.568040165753,
+        "gradient_norm": 3996.12744140625
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "name": "s2_nominal",
+    "seed": 2,
+    "budget": null,
+    "start": [
+      1.04904392011467,
+      5.915674510036455,
+      0.24444817954403295,
+      0.000950198342935763
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 2.445881966035813,
+    "surrogate_risk": 269.70421378594295,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 4.084574531255156,
+      "first_contact_step": 74
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": []
+  },
+  {
+    "name": "s2_guided_d0.05",
+    "seed": 2,
+    "budget": 0.05,
+    "start": [
+      1.04904392011467,
+      5.915674510036455,
+      0.24444817954403295,
+      0.000950198342935763
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 16.551958231255412,
+    "surrogate_risk": 111.28453890008447,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 10.105332325413714,
+      "first_contact_step": 99
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 429.1405466472333,
+        "gradient_norm": 4555.01953125
+      },
+      {
+        "step": 224,
+        "energy": 2067.022252807729,
+        "gradient_norm": 10449.55078125
+      },
+      {
+        "step": 208,
+        "energy": 1827.5569331518411,
+        "gradient_norm": 3767.468994140625
+      },
+      {
+        "step": 192,
+        "energy": 1534.1950709197868,
+        "gradient_norm": 11626.9970703125
+      },
+      {
+        "step": 176,
+        "energy": 1047.9527988717907,
+        "gradient_norm": 6816.9208984375
+      },
+      {
+        "step": 160,
+        "energy": 998.8931108828637,
+        "gradient_norm": 1773.3160400390625
+      },
+      {
+        "step": 144,
+        "energy": 995.3783807735047,
+        "gradient_norm": 1555.2225341796875
+      },
+      {
+        "step": 128,
+        "energy": 969.3951787376603,
+        "gradient_norm": 414.3192138671875
+      },
+      {
+        "step": 112,
+        "energy": 965.2201601195625,
+        "gradient_norm": 4188.50244140625
+      },
+      {
+        "step": 96,
+        "energy": 938.7658324841314,
+        "gradient_norm": 1479.9664306640625
+      },
+      {
+        "step": 80,
+        "energy": 947.639310716957,
+        "gradient_norm": 330.8297119140625
+      },
+      {
+        "step": 64,
+        "energy": 955.8787155350419,
+        "gradient_norm": 795.8954467773438
+      },
+      {
+        "step": 48,
+        "energy": 1024.3953041643445,
+        "gradient_norm": 6618.31103515625
+      },
+      {
+        "step": 32,
+        "energy": 946.3535904781484,
+        "gradient_norm": 1137.5350341796875
+      },
+      {
+        "step": 16,
+        "energy": 947.0290264066192,
+        "gradient_norm": 1089.5657958984375
+      },
+      {
+        "step": 3,
+        "energy": 986.2917475729007,
+        "gradient_norm": 3862.39208984375
+      },
+      {
+        "step": 2,
+        "energy": 1036.213501421968,
+        "gradient_norm": 5533.072265625
+      },
+      {
+        "step": 1,
+        "energy": 1094.6285585360622,
+        "gradient_norm": 7546.2802734375
+      },
+      {
+        "step": 0,
+        "energy": 1112.3577148872696,
+        "gradient_norm": 8044.974609375
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "name": "s2_guided_d0.1",
+    "seed": 2,
+    "budget": 0.1,
+    "start": [
+      1.04904392011467,
+      5.915674510036455,
+      0.24444817954403295,
+      0.000950198342935763
+    ],
+    "goal": [
+      7.0,
+      9.0
+    ],
+    "generation_seconds": 16.850394441746175,
+    "surrogate_risk": 111.28453890008447,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "final_distance": 10.105332325413714,
+      "first_contact_step": 99
+    },
+    "validation": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "audit": {
+      "draws": 256,
+      "failures": 256,
+      "failure_rate": 1.0,
+      "CI95": [
+        0.9856936372709606,
+        1.0
+      ],
+      "upper95": 1.0,
+      "counts": {
+        "wall": 256,
+        "added_obstacle": 0,
+        "goal_failure": 256
+      }
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 428.64054664723324,
+        "gradient_norm": 4555.01953125
+      },
+      {
+        "step": 224,
+        "energy": 2066.522252807729,
+        "gradient_norm": 10449.55078125
+      },
+      {
+        "step": 208,
+        "energy": 1827.0569331518413,
+        "gradient_norm": 3767.468994140625
+      },
+      {
+        "step": 192,
+        "energy": 1533.695070919787,
+        "gradient_norm": 11626.9970703125
+      },
+      {
+        "step": 176,
+        "energy": 1047.4527988717907,
+        "gradient_norm": 6816.9208984375
+      },
+      {
+        "step": 160,
+        "energy": 998.3931108828637,
+        "gradient_norm": 1773.3160400390625
+      },
+      {
+        "step": 144,
+        "energy": 994.8783807735048,
+        "gradient_norm": 1555.2225341796875
+      },
+      {
+        "step": 128,
+        "energy": 968.8951787376604,
+        "gradient_norm": 414.3192138671875
+      },
+      {
+        "step": 112,
+        "energy": 964.7201601195626,
+        "gradient_norm": 4188.50244140625
+      },
+      {
+        "step": 96,
+        "energy": 938.2658324841315,
+        "gradient_norm": 1479.9664306640625
+      },
+      {
+        "step": 80,
+        "energy": 947.139310716957,
+        "gradient_norm": 330.8297119140625
+      },
+      {
+        "step": 64,
+        "energy": 955.3787155350419,
+        "gradient_norm": 795.8954467773438
+      },
+      {
+        "step": 48,
+        "energy": 1023.8953041643445,
+        "gradient_norm": 6618.31103515625
+      },
+      {
+        "step": 32,
+        "energy": 945.8535904781484,
+        "gradient_norm": 1137.5350341796875
+      },
+      {
+        "step": 16,
+        "energy": 946.5290264066192,
+        "gradient_norm": 1089.5657958984375
+      },
+      {
+        "step": 3,
+        "energy": 985.7917475729007,
+        "gradient_norm": 3862.39208984375
+      },
+      {
+        "step": 2,
+        "energy": 1035.713501421968,
+        "gradient_norm": 5533.072265625
+      },
+      {
+        "step": 1,
+        "energy": 1094.1285585360624,
+        "gradient_norm": 7546.2802734375
+      },
+      {
+        "step": 0,
+        "energy": 1111.8577148872696,
+        "gradient_norm": 8044.974609375
+      }
+    ],
+    "accepted": false
+  }
+]

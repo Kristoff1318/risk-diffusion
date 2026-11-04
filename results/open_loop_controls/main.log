@@ -1,0 +1,10 @@
+17:10:50 DONE s0_nominal risk sum 101.7 zero-noise fail True audit 256/256 tracking audit 256/256 5.4s
+17:11:11 DONE s0_chance_d0.05 risk sum 34.3 zero-noise fail True audit 246/256 accepted False 10.2s
+17:11:26 DONE s0_chance_d0.1 risk sum 34.31 zero-noise fail True audit 246/256 accepted False 6.4s
+17:11:53 DONE s1_nominal risk sum 235.7 zero-noise fail True audit 256/256 tracking audit 256/256 6.5s
+17:12:09 DONE s1_chance_d0.05 risk sum 211.3 zero-noise fail True audit 256/256 accepted False 7.8s
+17:12:32 DONE s1_chance_d0.1 risk sum 211.3 zero-noise fail True audit 256/256 accepted False 8.1s
+17:13:02 DONE s2_nominal risk sum 269.7 zero-noise fail True audit 256/256 tracking audit 256/256 2.4s
+17:13:17 DONE s2_chance_d0.05 risk sum 129.2 zero-noise fail True audit 256/256 accepted False 6.7s
+17:13:35 DONE s2_chance_d0.1 risk sum 129.2 zero-noise fail True audit 256/256 accepted False 9.3s
+17:13:35 COMPLETE

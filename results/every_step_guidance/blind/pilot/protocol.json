@@ -1,0 +1,31 @@
+{
+  "noise_std": 0.005,
+  "gamma": 10.0,
+  "guidance_steps": 256,
+  "budgets": [
+    0.05,
+    0.1
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "pilot_seed": 10,
+  "pilot_budget": 0.1,
+  "pilot_strengths": [
+    2e-06,
+    2e-05,
+    0.0002,
+    0.002,
+    0.02
+  ],
+  "pilot_selection": "fewest zero-noise failures, then latest first wall touch, then smallest risk sum; tie -> smaller strength",
+  "validation_draws": 256,
+  "audit_draws": 256,
+  "validation_seed_base": 2026110600,
+  "audit_seed_base": 2026119600,
+  "goal_radius": 0.5,
+  "setup": "blind",
+  "ticks": 383
+}

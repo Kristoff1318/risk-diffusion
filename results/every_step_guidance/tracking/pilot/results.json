@@ -1,0 +1,560 @@
+[
+  {
+    "strength": 0.0,
+    "surrogate_risk": 42.107839012924146,
+    "generation_seconds": 5.201472206041217,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": false,
+      "failure": true,
+      "final_distance": 0.0005801185163447759,
+      "first_contact_step": 208
+    },
+    "trace": []
+  },
+  {
+    "strength": 2e-06,
+    "surrogate_risk": 42.21419201973374,
+    "generation_seconds": 41.03598105488345,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": false,
+      "failure": true,
+      "final_distance": 0.0005738394800413297,
+      "first_contact_step": 208
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 1568.4321165820213,
+        "gradient_norm": 14071.072265625
+      },
+      {
+        "step": 224,
+        "energy": 398.3002353021004,
+        "gradient_norm": 6222.7021484375
+      },
+      {
+        "step": 208,
+        "energy": 169.03299242226225,
+        "gradient_norm": 61.124576568603516
+      },
+      {
+        "step": 192,
+        "energy": 549.2256849339967,
+        "gradient_norm": 5194.5537109375
+      },
+      {
+        "step": 176,
+        "energy": 478.7288097077404,
+        "gradient_norm": 2896.811767578125
+      },
+      {
+        "step": 160,
+        "energy": 199.25721092503878,
+        "gradient_norm": 1195.9794921875
+      },
+      {
+        "step": 144,
+        "energy": 98.94725978189129,
+        "gradient_norm": 34.01168441772461
+      },
+      {
+        "step": 128,
+        "energy": 138.44814779483724,
+        "gradient_norm": 215.60968017578125
+      },
+      {
+        "step": 112,
+        "energy": 109.09122712118497,
+        "gradient_norm": 113.66959381103516
+      },
+      {
+        "step": 96,
+        "energy": 118.99999999999966,
+        "gradient_norm": 1.1469843963496373e-09
+      },
+      {
+        "step": 80,
+        "energy": 99.00000571487593,
+        "gradient_norm": 0.01289320643991232
+      },
+      {
+        "step": 64,
+        "energy": 319.5812455171997,
+        "gradient_norm": 2225.88134765625
+      },
+      {
+        "step": 48,
+        "energy": 408.7930171129353,
+        "gradient_norm": 313.3862609863281
+      },
+      {
+        "step": 32,
+        "energy": 429.0078454667856,
+        "gradient_norm": 16.674190521240234
+      },
+      {
+        "step": 16,
+        "energy": 357.9483617009344,
+        "gradient_norm": 2107.4052734375
+      },
+      {
+        "step": 3,
+        "energy": 411.53931922265724,
+        "gradient_norm": 1930.1783447265625
+      },
+      {
+        "step": 2,
+        "energy": 415.6577868305185,
+        "gradient_norm": 1058.7548828125
+      },
+      {
+        "step": 1,
+        "energy": 423.3008023568788,
+        "gradient_norm": 2274.864501953125
+      },
+      {
+        "step": 0,
+        "energy": 421.1835006205366,
+        "gradient_norm": 1584.6611328125
+      }
+    ]
+  },
+  {
+    "strength": 2e-05,
+    "surrogate_risk": 42.15288590814184,
+    "generation_seconds": 40.826120513956994,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": false,
+      "failure": true,
+      "final_distance": 0.0005401119976242653,
+      "first_contact_step": 208
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 1558.619202275454,
+        "gradient_norm": 12684.384765625
+      },
+      {
+        "step": 224,
+        "energy": 380.58944721112834,
+        "gradient_norm": 8211.25390625
+      },
+      {
+        "step": 208,
+        "energy": 178.28183455848148,
+        "gradient_norm": 828.7488403320312
+      },
+      {
+        "step": 192,
+        "energy": 562.9676851780478,
+        "gradient_norm": 8126.822265625
+      },
+      {
+        "step": 176,
+        "energy": 475.6801691863455,
+        "gradient_norm": 4731.49169921875
+      },
+      {
+        "step": 160,
+        "energy": 190.68162867257433,
+        "gradient_norm": 1466.555419921875
+      },
+      {
+        "step": 144,
+        "energy": 98.96682049324299,
+        "gradient_norm": 22.59903907775879
+      },
+      {
+        "step": 128,
+        "energy": 138.99995227673827,
+        "gradient_norm": 0.042667511850595474
+      },
+      {
+        "step": 112,
+        "energy": 109.00156981127085,
+        "gradient_norm": 2.759335994720459
+      },
+      {
+        "step": 96,
+        "energy": 118.9999999992815,
+        "gradient_norm": 2.101122390740784e-06
+      },
+      {
+        "step": 80,
+        "energy": 99.00011360556091,
+        "gradient_norm": 0.14723289012908936
+      },
+      {
+        "step": 64,
+        "energy": 313.85805406905934,
+        "gradient_norm": 2041.10009765625
+      },
+      {
+        "step": 48,
+        "energy": 406.78767386456224,
+        "gradient_norm": 1437.83544921875
+      },
+      {
+        "step": 32,
+        "energy": 430.29902226523296,
+        "gradient_norm": 974.5811157226562
+      },
+      {
+        "step": 16,
+        "energy": 354.77820201498224,
+        "gradient_norm": 2234.197998046875
+      },
+      {
+        "step": 3,
+        "energy": 411.75401608985237,
+        "gradient_norm": 1705.1673583984375
+      },
+      {
+        "step": 2,
+        "energy": 414.800099934373,
+        "gradient_norm": 2406.121337890625
+      },
+      {
+        "step": 1,
+        "energy": 422.65190450411785,
+        "gradient_norm": 3196.125244140625
+      },
+      {
+        "step": 0,
+        "energy": 420.5732607436894,
+        "gradient_norm": 1747.2333984375
+      }
+    ]
+  },
+  {
+    "strength": 0.0002,
+    "surrogate_risk": 42.238649921541196,
+    "generation_seconds": 45.63086408469826,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": false,
+      "failure": true,
+      "final_distance": 0.0005506953259615391,
+      "first_contact_step": 207
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 1539.4111787628099,
+        "gradient_norm": 16074.107421875
+      },
+      {
+        "step": 224,
+        "energy": 319.0,
+        "gradient_norm": 0.0
+      },
+      {
+        "step": 208,
+        "energy": 233.41320293480698,
+        "gradient_norm": 2021.5399169921875
+      },
+      {
+        "step": 192,
+        "energy": 628.6316329532154,
+        "gradient_norm": 1763.7454833984375
+      },
+      {
+        "step": 176,
+        "energy": 434.3694793848417,
+        "gradient_norm": 3852.32373046875
+      },
+      {
+        "step": 160,
+        "energy": 163.2979101322838,
+        "gradient_norm": 936.0247802734375
+      },
+      {
+        "step": 144,
+        "energy": 98.79415109606116,
+        "gradient_norm": 119.1641845703125
+      },
+      {
+        "step": 128,
+        "energy": 134.0415202593614,
+        "gradient_norm": 1663.5030517578125
+      },
+      {
+        "step": 112,
+        "energy": 109.14899732241226,
+        "gradient_norm": 78.75067901611328
+      },
+      {
+        "step": 96,
+        "energy": 128.46514788559395,
+        "gradient_norm": 478.57843017578125
+      },
+      {
+        "step": 80,
+        "energy": 108.96951345846378,
+        "gradient_norm": 37.636940002441406
+      },
+      {
+        "step": 64,
+        "energy": 317.6475985737454,
+        "gradient_norm": 1465.779052734375
+      },
+      {
+        "step": 48,
+        "energy": 389.35107158865463,
+        "gradient_norm": 388.7051086425781
+      },
+      {
+        "step": 32,
+        "energy": 426.34901676192374,
+        "gradient_norm": 2301.352294921875
+      },
+      {
+        "step": 16,
+        "energy": 340.0614966884749,
+        "gradient_norm": 3609.3154296875
+      },
+      {
+        "step": 3,
+        "energy": 412.0991790079248,
+        "gradient_norm": 3901.046630859375
+      },
+      {
+        "step": 2,
+        "energy": 408.21733411734925,
+        "gradient_norm": 743.9175415039062
+      },
+      {
+        "step": 1,
+        "energy": 425.0729118938725,
+        "gradient_norm": 2070.265380859375
+      },
+      {
+        "step": 0,
+        "energy": 421.42878690234676,
+        "gradient_norm": 1637.7266845703125
+      }
+    ]
+  },
+  {
+    "strength": 0.002,
+    "surrogate_risk": 40.067949302697194,
+    "generation_seconds": 37.992799980100244,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": false,
+      "failure": true,
+      "final_distance": 0.0007110934295811009,
+      "first_contact_step": 207
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 265.3437360970832,
+        "gradient_norm": 23589.810546875
+      },
+      {
+        "step": 224,
+        "energy": 4.901300717939912,
+        "gradient_norm": 5698.56982421875
+      },
+      {
+        "step": 208,
+        "energy": 233.570907886254,
+        "gradient_norm": 1612.0093994140625
+      },
+      {
+        "step": 192,
+        "energy": 523.5295919707286,
+        "gradient_norm": 10636.34765625
+      },
+      {
+        "step": 176,
+        "energy": 267.0470796713871,
+        "gradient_norm": 3482.446533203125
+      },
+      {
+        "step": 160,
+        "energy": 85.79126871160425,
+        "gradient_norm": 847.90966796875
+      },
+      {
+        "step": 144,
+        "energy": 108.96023446294178,
+        "gradient_norm": 28.031278610229492
+      },
+      {
+        "step": 128,
+        "energy": 129.00017964455574,
+        "gradient_norm": 0.1488308310508728
+      },
+      {
+        "step": 112,
+        "energy": 118.99956731199545,
+        "gradient_norm": 0.3761083483695984
+      },
+      {
+        "step": 96,
+        "energy": 119.00000001321273,
+        "gradient_norm": 3.5021741496166214e-05
+      },
+      {
+        "step": 80,
+        "energy": 98.64961141054339,
+        "gradient_norm": 302.180908203125
+      },
+      {
+        "step": 64,
+        "energy": 280.4602721883847,
+        "gradient_norm": 1426.981201171875
+      },
+      {
+        "step": 48,
+        "energy": 377.8242976381609,
+        "gradient_norm": 1219.1634521484375
+      },
+      {
+        "step": 32,
+        "energy": 396.27462818953353,
+        "gradient_norm": 1479.800048828125
+      },
+      {
+        "step": 16,
+        "energy": 282.19635256291053,
+        "gradient_norm": 2000.3623046875
+      },
+      {
+        "step": 3,
+        "energy": 378.37523622946514,
+        "gradient_norm": 2692.18701171875
+      },
+      {
+        "step": 2,
+        "energy": 382.60921268673405,
+        "gradient_norm": 2064.63671875
+      },
+      {
+        "step": 1,
+        "energy": 397.52222417806394,
+        "gradient_norm": 3006.553955078125
+      },
+      {
+        "step": 0,
+        "energy": 399.6978634189072,
+        "gradient_norm": 698.528076171875
+      }
+    ]
+  },
+  {
+    "strength": 0.02,
+    "surrogate_risk": 0.011205564084799627,
+    "generation_seconds": 55.434307794086635,
+    "zero_noise": {
+      "wall": false,
+      "goal_failure": false,
+      "failure": false,
+      "final_distance": 0.0022561371417950033,
+      "first_contact_step": null
+    },
+    "trace": [
+      {
+        "step": 240,
+        "energy": 272.72771661402504,
+        "gradient_norm": 3932.134521484375
+      },
+      {
+        "step": 224,
+        "energy": 119.04157544410418,
+        "gradient_norm": 118.37957763671875
+      },
+      {
+        "step": 208,
+        "energy": 0.31326168751822286,
+        "gradient_norm": 0.0
+      },
+      {
+        "step": 192,
+        "energy": 49.04052942279545,
+        "gradient_norm": 118.04901123046875
+      },
+      {
+        "step": 176,
+        "energy": 0.31326173596349466,
+        "gradient_norm": 7.770609954604879e-05
+      },
+      {
+        "step": 160,
+        "energy": 0.31326168751822286,
+        "gradient_norm": 0.0
+      },
+      {
+        "step": 144,
+        "energy": 0.31326168751822286,
+        "gradient_norm": 0.0
+      },
+      {
+        "step": 128,
+        "energy": 0.31326168751822286,
+        "gradient_norm": 0.0
+      },
+      {
+        "step": 112,
+        "energy": 0.31326168751822286,
+        "gradient_norm": 0.0
+      },
+      {
+        "step": 96,
+        "energy": 0.31326168751822286,
+        "gradient_norm": 0.0
+      },
+      {
+        "step": 80,
+        "energy": 17.971217510558677,
+        "gradient_norm": 5598.01953125
+      },
+      {
+        "step": 64,
+        "energy": 33.10615906897661,
+        "gradient_norm": 7830.3544921875
+      },
+      {
+        "step": 48,
+        "energy": 18.79799696529954,
+        "gradient_norm": 4172.18505859375
+      },
+      {
+        "step": 32,
+        "energy": 0.31326168751838157,
+        "gradient_norm": 4.2785228138164655e-10
+      },
+      {
+        "step": 16,
+        "energy": 0.3133294633060259,
+        "gradient_norm": 0.09649871289730072
+      },
+      {
+        "step": 3,
+        "energy": 0.31326168824729583,
+        "gradient_norm": 1.8709980622588773e-06
+      },
+      {
+        "step": 2,
+        "energy": 0.31329693994220886,
+        "gradient_norm": 0.06658387184143066
+      },
+      {
+        "step": 1,
+        "energy": 2.0526611123253686,
+        "gradient_norm": 2111.612548828125
+      },
+      {
+        "step": 0,
+        "energy": 0.34603611779198384,
+        "gradient_norm": 41.82979965209961
+      }
+    ]
+  }
+]

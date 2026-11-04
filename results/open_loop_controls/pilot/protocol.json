@@ -1,0 +1,26 @@
+{
+  "noise_std": 0.005,
+  "gamma": 10.0,
+  "guidance_steps": 32,
+  "steps": 383,
+  "goal_radius": 0.5,
+  "validation_draws": 256,
+  "audit_draws": 256,
+  "validation_seed_base": 2026110500,
+  "audit_seed_base": 2026119500,
+  "seed": 10,
+  "budget": 0.1,
+  "strengths": [
+    2e-05,
+    0.0002,
+    0.002,
+    0.02,
+    0.2,
+    0.6,
+    2.0,
+    6.0,
+    20.0
+  ],
+  "selection": "fewest zero-noise failures, then latest first wall touch, then smallest surrogate sum; tie -> smaller strength",
+  "stochastic_executions": 0
+}

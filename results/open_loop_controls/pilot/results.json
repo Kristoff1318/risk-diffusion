@@ -1,0 +1,142 @@
+[
+  {
+    "strength": 0.0,
+    "surrogate_risk": 71.65854310846609,
+    "generation_seconds": 4.686991782858968,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 3.697392957855498,
+      "first_contact_step": 212
+    },
+    "max_gradient_norm": 0.0
+  },
+  {
+    "strength": 2e-05,
+    "surrogate_risk": 71.57836315026805,
+    "generation_seconds": 5.179091452155262,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 3.5959693709565403,
+      "first_contact_step": 212
+    },
+    "max_gradient_norm": 11219.44140625
+  },
+  {
+    "strength": 0.0002,
+    "surrogate_risk": 70.89323988990218,
+    "generation_seconds": 3.768133819103241,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 3.5915863848823566,
+      "first_contact_step": 212
+    },
+    "max_gradient_norm": 11264.2890625
+  },
+  {
+    "strength": 0.002,
+    "surrogate_risk": 66.65049796563382,
+    "generation_seconds": 5.63594906590879,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 3.9375788818181583,
+      "first_contact_step": 212
+    },
+    "max_gradient_norm": 12191.75390625
+  },
+  {
+    "strength": 0.02,
+    "surrogate_risk": 37.371280567859024,
+    "generation_seconds": 4.109145358670503,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": false,
+      "failure": true,
+      "reached_goal": true,
+      "final_distance": 0.493122074271945,
+      "first_contact_step": 338
+    },
+    "max_gradient_norm": 10677.166015625
+  },
+  {
+    "strength": 0.2,
+    "surrogate_risk": 102.6784430395908,
+    "generation_seconds": 5.288213746622205,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 4.121767127240943,
+      "first_contact_step": 204
+    },
+    "max_gradient_norm": 14764.4072265625
+  },
+  {
+    "strength": 0.6,
+    "surrogate_risk": 145.4613213296419,
+    "generation_seconds": 4.305358133744448,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 3.8139734908683423,
+      "first_contact_step": 163
+    },
+    "max_gradient_norm": 10677.166015625
+  },
+  {
+    "strength": 2.0,
+    "surrogate_risk": 147.16851060694157,
+    "generation_seconds": 4.937059517018497,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": false,
+      "failure": true,
+      "reached_goal": true,
+      "final_distance": 0.24582939563240114,
+      "first_contact_step": 34
+    },
+    "max_gradient_norm": 10677.166015625
+  },
+  {
+    "strength": 6.0,
+    "surrogate_risk": 233.54487261567718,
+    "generation_seconds": 5.087463818024844,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 8.543010253952895,
+      "first_contact_step": 30
+    },
+    "max_gradient_norm": 10677.166015625
+  },
+  {
+    "strength": 20.0,
+    "surrogate_risk": 56.39233314428099,
+    "generation_seconds": 4.33652761997655,
+    "zero_noise": {
+      "wall": true,
+      "goal_failure": true,
+      "failure": true,
+      "reached_goal": false,
+      "final_distance": 7.975004831560902,
+      "first_contact_step": 50
+    },
+    "max_gradient_norm": 10677.166015625
+  }
+]

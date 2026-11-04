@@ -1,0 +1,17 @@
+17:22:57 blind PILOT 0.0 risk sum 71.66 zero-noise failure True first touch 212 end distance 3.70 4s
+17:23:17 blind PILOT 2e-06 risk sum 71.6 zero-noise failure True first touch 212 end distance 3.68 20s
+17:23:38 blind PILOT 2e-05 risk sum 71.09 zero-noise failure True first touch 212 end distance 3.59 22s
+17:23:55 blind PILOT 0.0002 risk sum 70.14 zero-noise failure True first touch 205 end distance 2.92 16s
+17:24:12 blind PILOT 0.002 risk sum 177.3 zero-noise failure True first touch 142 end distance 0.50 17s
+17:24:28 blind PILOT 0.02 risk sum 17.91 zero-noise failure True first touch 343 end distance 0.41 16s
+17:24:28 blind DECISION {'selected_strength': 0.02, 'scores': [(1, -343, 17.912477002993796, 0.02), (1, -212, 71.0872571064622, 2e-05), (1, -212, 71.59921849647884, 2e-06), (1, -205, 70.14102269905749, 0.0002), (1, -142, 177.3296906923045, 0.002)], 'score_fields': '(zero-noise failure, -first wall touch, risk sum, strength)'}
+17:24:41 blind DONE s0_nominal risk sum 101.7 zero-noise fail True first touch 149 audit 256/256 accepted None 3s
+17:25:10 blind DONE s0_guided_d0.05 risk sum 66.3 zero-noise fail True first touch 234 audit 256/256 accepted False 19s
+17:25:35 blind DONE s0_guided_d0.1 risk sum 66.3 zero-noise fail True first touch 234 audit 256/256 accepted False 17s
+17:25:46 blind DONE s1_nominal risk sum 235.7 zero-noise fail True first touch 95 audit 256/256 accepted None 4s
+17:26:08 blind DONE s1_guided_d0.05 risk sum 129.9 zero-noise fail True first touch 203 audit 256/256 accepted False 16s
+17:26:28 blind DONE s1_guided_d0.1 risk sum 129.9 zero-noise fail True first touch 203 audit 256/256 accepted False 14s
+17:26:38 blind DONE s2_nominal risk sum 269.7 zero-noise fail True first touch 74 audit 256/256 accepted None 2s
+17:27:01 blind DONE s2_guided_d0.05 risk sum 111.3 zero-noise fail True first touch 99 audit 256/256 accepted False 17s
+17:27:25 blind DONE s2_guided_d0.1 risk sum 111.3 zero-noise fail True first touch 99 audit 256/256 accepted False 17s
+17:27:25 blind COMPLETE

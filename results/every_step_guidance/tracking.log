@@ -1,0 +1,17 @@
+17:22:58 tracking PILOT 0.0 risk sum 42.11 zero-noise failure True first touch 208 end distance 0.00 5s
+17:23:39 tracking PILOT 2e-06 risk sum 42.21 zero-noise failure True first touch 208 end distance 0.00 41s
+17:24:20 tracking PILOT 2e-05 risk sum 42.15 zero-noise failure True first touch 208 end distance 0.00 41s
+17:25:05 tracking PILOT 0.0002 risk sum 42.24 zero-noise failure True first touch 207 end distance 0.00 46s
+17:25:44 tracking PILOT 0.002 risk sum 40.07 zero-noise failure True first touch 207 end distance 0.00 38s
+17:26:39 tracking PILOT 0.02 risk sum 0.01121 zero-noise failure False first touch None end distance 0.00 55s
+17:26:39 tracking DECISION {'selected_strength': 0.02, 'scores': [(0, -1000000, 0.011205564084799627, 0.02), (1, -208, 42.15288590814184, 2e-05), (1, -208, 42.21419201973374, 2e-06), (1, -207, 40.067949302697194, 0.002), (1, -207, 42.238649921541196, 0.0002)], 'score_fields': '(zero-noise failure, -first wall touch, risk sum, strength)'}
+17:27:03 tracking DONE s0_nominal risk sum 52.33 zero-noise fail True first touch 152 audit 256/256 accepted None 2s
+17:28:19 tracking DONE s0_guided_d0.05 risk sum 42.05 zero-noise fail True first touch 290 audit 256/256 accepted False 57s
+17:29:07 tracking DONE s0_guided_d0.1 risk sum 45.21 zero-noise fail True first touch 289 audit 256/256 accepted False 31s
+17:29:30 tracking DONE s1_nominal risk sum 149 zero-noise fail True first touch 109 audit 256/256 accepted None 4s
+17:30:27 tracking DONE s1_guided_d0.05 risk sum 73.06 zero-noise fail True first touch 109 audit 256/256 accepted False 43s
+17:31:20 tracking DONE s1_guided_d0.1 risk sum 62.53 zero-noise fail True first touch 109 audit 256/256 accepted False 37s
+17:31:40 tracking DONE s2_nominal risk sum 73.31 zero-noise fail True first touch 89 audit 256/256 accepted None 4s
+17:32:25 tracking DONE s2_guided_d0.05 risk sum 43.59 zero-noise fail True first touch 92 audit 256/256 accepted False 29s
+17:33:13 tracking DONE s2_guided_d0.1 risk sum 43.59 zero-noise fail True first touch 92 audit 256/256 accepted False 33s
+17:33:13 tracking COMPLETE

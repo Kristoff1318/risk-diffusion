@@ -1,0 +1,41 @@
+{
+  "noise_std": 0.005,
+  "gamma": 10.0,
+  "guidance_steps": 256,
+  "budgets": [
+    0.05,
+    0.1
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "pilot_seed": 10,
+  "pilot_budget": 0.1,
+  "pilot_strengths": [
+    2e-06,
+    2e-05,
+    0.0002,
+    0.002,
+    0.02
+  ],
+  "pilot_selection": "fewest zero-noise failures, then latest first wall touch, then smallest risk sum; tie -> smaller strength",
+  "validation_draws": 256,
+  "audit_draws": 256,
+  "validation_seed_base": 2026110600,
+  "audit_seed_base": 2026119600,
+  "goal_radius": 0.5,
+  "setup": "blind",
+  "ticks": 383,
+  "strength": 0.02,
+  "risk_event": "any wall contact OR final goal distance >= 0.5",
+  "acceptance": "one-sided exact 95% upper bound of validation failures <= budget",
+  "source_sha256": {
+    "every_step_guidance.py": "ef63d7c32c371db1ef7a6e57b6fcf0b91e048b212acedc71cf68571219a8c709",
+    "open_loop_controls.py": "4a4b9d95b0b842bf12800033e241458501c14b1d78c0470b03b783a285b2fc39",
+    "chance_guidance.py": "9f474609547e570dc76a6b0cd5cd0f1cbc8bf715be0d1d09d5724edcfadba279",
+    "tracking_dynamics.py": "f5d44365f29c1c4c1678d588e6ee9cf964266f38381f479b4a0d9847049154f8",
+    "evaluate_tracking.py": "071ada79573f5b319fd697a60d0495956cc00b1bed72c57bda1e527ea2cf871e"
+  }
+}
